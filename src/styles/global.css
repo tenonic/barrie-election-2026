@@ -1,0 +1,129 @@
+/* Neutral palette on purpose: no colours tied to a political party. */
+:root {
+  --bg: #fafaf8;
+  --surface: #ffffff;
+  --ink: #1d1d1b;
+  --muted: #5c5c57;
+  --line: #deddd8;
+  --accent: #6b5a2e;
+  --accent-soft: #f3efe4;
+  --note-bg: #f4f4f1;
+  --mock-bg: #fff4c2;
+  --mock-ink: #4a3b00;
+  --radius: 8px;
+  --max: 72rem;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #161615;
+    --surface: #1f1f1d;
+    --ink: #ecebe6;
+    --muted: #a8a7a0;
+    --line: #363632;
+    --accent: #d6c08a;
+    --accent-soft: #2a2720;
+    --note-bg: #262624;
+    --mock-bg: #4a3b00;
+    --mock-ink: #fff4c2;
+    color-scheme: dark;
+  }
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+a { color: var(--accent); }
+a:hover { text-decoration-thickness: 2px; }
+h1, h2, h3 { line-height: 1.25; }
+h1 { font-size: clamp(1.6rem, 4vw, 2.2rem); margin: 0 0 .5rem; }
+h2 { font-size: 1.35rem; margin: 2.5rem 0 1rem; }
+h3 { font-size: 1.1rem; margin: 0; }
+
+.wrap { max-width: var(--max); margin: 0 auto; padding: 0 16px; }
+.muted { color: var(--muted); }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.small { font-size: .875rem; }
+
+.mock-banner {
+  background: var(--mock-bg); color: var(--mock-ink);
+  padding: .6rem 16px; text-align: center; font-weight: 600; font-size: .9rem;
+}
+
+.site-header { border-bottom: 1px solid var(--line); background: var(--surface); }
+.site-header .wrap { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .5rem 1.5rem; padding-block: .9rem; }
+.site-title { font-weight: 700; color: var(--ink); text-decoration: none; }
+.site-nav { display: flex; flex-wrap: wrap; gap: .25rem 1.25rem; }
+.site-nav a { color: var(--ink); text-decoration: none; }
+.site-nav a:hover { text-decoration: underline; }
+
+main { padding-block: 2rem 3rem; }
+
+.site-footer { border-top: 1px solid var(--line); padding-block: 1.5rem; font-size: .875rem; color: var(--muted); }
+.site-footer p { margin: .25rem 0; }
+
+.box {
+  background: var(--accent-soft); border-left: 4px solid var(--accent);
+  border-radius: var(--radius); padding: 1rem 1.25rem; margin: 1.5rem 0;
+}
+.box h2 { margin-top: 0; font-size: 1.1rem; }
+.box > p:only-child { margin: 0; }
+.box ol, .box ul { margin: .5rem 0 0; padding-left: 1.25rem; }
+
+/* Home: race picker */
+.race-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr)); gap: .75rem; padding: 0; list-style: none; }
+.race-grid a {
+  display: block; height: 100%; padding: .9rem 1rem; text-decoration: none; color: var(--ink);
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+}
+.race-grid a:hover { border-color: var(--accent); }
+.race-grid strong { display: block; }
+.race-mayor { margin-bottom: 1.5rem; }
+.race-mayor a { display: inline-block; padding: 1rem 1.5rem; }
+
+/* Race page: candidate cards */
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr)); gap: 1rem; }
+.card {
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 1.25rem; display: flex; flex-direction: column; gap: .75rem;
+}
+.card h3 { font-size: 1.2rem; }
+.card dl { margin: 0; }
+.card dt { font-weight: 600; font-size: .875rem; color: var(--muted); margin-top: .5rem; }
+.card dd { margin: .15rem 0 0; }
+.card ul { margin: .15rem 0 0; padding-left: 1.1rem; }
+.tag { display: inline-block; font-size: .75rem; font-weight: 600; padding: .1rem .5rem; border: 1px solid var(--line); border-radius: 999px; color: var(--muted); margin-top: .35rem; }
+
+.empty { color: var(--muted); font-style: italic; }
+.sources { font-size: .8rem; color: var(--muted); margin-top: .35rem; }
+.sources a { color: var(--muted); }
+.note {
+  background: var(--note-bg); border-radius: 6px; padding: .45rem .6rem; margin-top: .5rem;
+  font-size: .85rem; color: var(--muted);
+}
+.note strong { color: var(--ink); }
+
+/* Race page: comparison table */
+.table-scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+table.compare { border-collapse: collapse; width: 100%; font-size: .9rem; }
+.compare th, .compare td { border-bottom: 1px solid var(--line); padding: .75rem; text-align: left; vertical-align: top; }
+.compare thead th { background: var(--accent-soft); position: sticky; top: 0; }
+.compare td { min-width: 14rem; }
+.compare tbody th { min-width: 9rem; width: 11rem; font-weight: 600; }
+.compare tr:last-child > * { border-bottom: 0; }
+
+/* Sources page */
+.source-list { list-style: none; padding: 0; }
+.source-list li { padding: .75rem 0; border-bottom: 1px solid var(--line); }
+.source-list li:target { background: var(--accent-soft); }
+.source-id { font-family: ui-monospace, Consolas, monospace; font-size: .8rem; color: var(--muted); margin-right: .5rem; }
+
+/* Markdown content (Standards page) */
+.prose { max-width: 46rem; }
+.prose h1 { display: none; }
+.prose h2 { margin-top: 2rem; }

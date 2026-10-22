@@ -1,0 +1,13 @@
+source_id,title,outlet,url,date_accessed,access_note
+M001,Mock source 1,Example Campaign Site,https://example.com/mock-source-1,2026-10-22,Mock data for preview only
+M002,Mock source 2,Example City Records,https://example.com/mock-source-2,2026-10-22,Mock data for preview only
+M003,Mock source 3,Example News,https://example.com/mock-source-3,2026-10-22,Mock data for preview only
+M004,Mock source 4,Example Campaign Site,https://example.com/mock-source-4,2026-10-22,Mock data for preview only
+M005,Mock source 5,Example City Records,https://example.com/mock-source-5,2026-10-22,Mock data for preview only
+M006,Mock source 6,Example News,https://example.com/mock-source-6,2026-10-22,Mock data for preview only
+M007,Mock source 7,Example Campaign Site,https://example.com/mock-source-7,2026-10-22,Mock data for preview only
+M008,Mock source 8,Example City Records,https://example.com/mock-source-8,2026-10-22,Mock data for preview only
+M009,Mock source 9,Example News,https://example.com/mock-source-9,2026-10-22,Mock data for preview only
+M010,Mock source 10,Example Campaign Site,https://example.com/mock-source-10,2026-10-22,Mock data for preview only
+M011,Mock source 11,Example City Records,https://example.com/mock-source-11,2026-10-22,Mock data for preview only
+M012,Mock source 12,Example News,https://example.com/mock-source-12,2026-10-22,Mock data for preview only

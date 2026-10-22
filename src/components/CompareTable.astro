@@ -1,0 +1,36 @@
+---
+import type { Candidate } from '../lib/data';
+import { issues } from '../lib/data';
+import SourceLinks from './SourceLinks.astro';
+
+interface Props { candidates: Candidate[] }
+const { candidates } = Astro.props;
+---
+<div class="table-scroll">
+  <table class="compare">
+    <caption class="sr-only">Candidate positions by issue</caption>
+    <thead>
+      <tr>
+        <th scope="col">Issue</th>
+        {candidates.map((c) => <th scope="col">{c.name}</th>)}
+      </tr>
+    </thead>
+    <tbody>
+      {issues.map((issue, i) => (
+        <tr>
+          <th scope="row">{issue.name}</th>
+          {candidates.map((c) => {
+            const p = c.positions[i];
+            return (
+              <td>
+                {p.stated ? p.summary : <span class="empty">No stated position found.</span>}
+                {p.note && <div class="note"><strong>Context:</strong> {p.note}</div>}
+                <SourceLinks sources={p.sources} />
+              </td>
+            );
+          })}
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>

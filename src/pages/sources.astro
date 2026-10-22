@@ -1,0 +1,18 @@
+---
+import Base from '../layouts/Base.astro';
+import { sources } from '../lib/data';
+---
+<Base title="Sources" description="Every source cited in this guide, with the date it was accessed.">
+  <h1>Sources</h1>
+  <p>Every source cited in this guide, with the date we accessed it.</p>
+  <ul class="source-list">
+    {sources.map((s) => (
+      <li id={s.source_id}>
+        <span class="source-id">{s.source_id}</span>
+        <a href={s.url} rel="noopener">{s.title}</a>
+        <span class="muted"> · {s.outlet} · accessed {s.date_accessed}</span>
+        {s.access_note && <div class="muted small">{s.access_note}</div>}
+      </li>
+    ))}
+  </ul>
+</Base>

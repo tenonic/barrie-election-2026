@@ -1,0 +1,50 @@
+---
+import type { Candidate } from '../lib/data';
+import SourceLinks from './SourceLinks.astro';
+
+interface Props { candidate: Candidate; raceType: 'mayor' | 'ward' }
+const { candidate: c, raceType } = Astro.props;
+const prioritiesLabel = raceType === 'ward' ? 'Ward-specific priorities' : 'Other stated priorities';
+---
+<article class="card" id={c.id}>
+  <header>
+    <h3>{c.name}</h3>
+    {c.incumbent && <span class="tag">Incumbent</span>}
+  </header>
+  <dl>
+    <dt>Background</dt>
+    <dd>{c.background || <span class="empty">No information found.</span>}</dd>
+
+    <dt>{prioritiesLabel}</dt>
+    <dd>{c.priorities || <span class="empty">No stated priorities found.</span>}</dd>
+
+    <dt>Public record</dt>
+    <dd>
+      {c.record.length === 0 ? (
+        <span class="empty">No items found.</span>
+      ) : (
+        <ul>
+          {c.record.map((r) => (
+            <li>
+              <strong>{r.date}:</strong> {r.summary}
+              {r.candidate_response && <div class="note"><strong>Candidate’s response:</strong> {r.candidate_response}</div>}
+              <SourceLinks sources={r.sources} />
+            </li>
+          ))}
+        </ul>
+      )}
+    </dd>
+
+    <dt>Contact</dt>
+    <dd>
+      <ul>
+        {c.website && <li><a href={c.website} rel="noopener">Website</a></li>}
+        {c.facebook && <li>Facebook: {c.facebook}</li>}
+        {c.instagram && <li>Instagram: {c.instagram}</li>}
+        {c.email && <li><a href={`mailto:${c.email}`}>{c.email}</a></li>}
+        {!c.website && !c.facebook && !c.instagram && !c.email && <li class="empty">No contact details found.</li>}
+      </ul>
+    </dd>
+  </dl>
+  <SourceLinks sources={c.sources} label="Profile source" />
+</article>

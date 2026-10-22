@@ -1,0 +1,43 @@
+---
+import Base from '../layouts/Base.astro';
+import { races, url } from '../lib/data';
+
+const mayor = races.find((r) => r.type === 'mayor')!;
+const wards = races.filter((r) => r.type === 'ward');
+const status = (n: number, acclaimed: boolean) =>
+  acclaimed ? 'Acclaimed' : n === 0 ? 'Candidate information coming soon' : `${n} candidates`;
+---
+<Base title="Home">
+  <h1>Barrie Election 2026: Candidate Guide</h1>
+  <p>Compare the candidates for mayor and ward councillor before election day, <strong>Monday, October 26, 2026</strong>. Every position is paraphrased from the candidate’s own words and linked to a source.</p>
+
+  <h2>Mayor</h2>
+  <ul class="race-grid race-mayor">
+    <li><a href={url('mayor/')}><strong>Mayor</strong><span class="muted small">{status(mayor.candidates.length, mayor.acclaimed)}</span></a></li>
+  </ul>
+
+  <h2 id="wards">Ward councillor</h2>
+  <p class="muted small">New ward boundaries are in effect for 2026. <a href="https://www.barrie.ca/government-news/2026-municipal-election" rel="noopener">Find your ward on the City of Barrie website</a>.</p>
+  <ul class="race-grid">
+    {wards.map((w) => (
+      <li>
+        <a href={url(`${w.id}/`)}>
+          <strong>{w.name.replace(' Councillor', '')}</strong>
+          <span class="muted small">{status(w.candidates.length, w.acclaimed)}</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+
+  <section class="box" aria-labelledby="neutral">
+    <h2 id="neutral">How we stay neutral</h2>
+    <ul>
+      <li>Every candidate is researched the same way, to the same depth.</li>
+      <li>Candidates are listed alphabetically by last name, with identical layouts.</li>
+      <li>Positions are paraphrased from the candidate’s own words, always with a source.</li>
+      <li>No endorsements, ratings or pro/con labels.</li>
+      <li>Errors are corrected quickly and logged publicly.</li>
+    </ul>
+    <p><a href={url('standards/')}>Read our full standards</a></p>
+  </section>
+</Base>

@@ -1,0 +1,42 @@
+---
+import Base from '../layouts/Base.astro';
+import CandidateCard from '../components/CandidateCard.astro';
+import CompareTable from '../components/CompareTable.astro';
+import { races, url, type Race } from '../lib/data';
+
+export function getStaticPaths() {
+  return races.map((race) => ({ params: { race: race.id }, props: { race } }));
+}
+
+const { race } = Astro.props as { race: Race };
+const n = race.candidates.length;
+---
+<Base title={race.name} description={`Candidates for ${race.name} in Barrie's 2026 municipal election.`}>
+  <p class="small"><a href={url()}>All races</a></p>
+  <h1>{race.name}</h1>
+
+  {race.acclaimed ? (
+    <p><strong>Acclaimed.</strong> Only one candidate was certified for this race, so they are elected without a vote and this race will not appear on the ballot.</p>
+  ) : n > 0 && (
+    <p>{n} certified candidates, listed alphabetically by last name.</p>
+  )}
+
+  <aside class="box" aria-label="Fairness">
+    <p>Every candidate is researched the same way and shown with the same layout. Positions are paraphrased from the candidate’s own words and always sourced. Where we found nothing, we say so. A longer public record does not mean a candidate has done anything wrong. <a href={url('standards/')}>Our standards</a></p>
+  </aside>
+
+  {n === 0 ? (
+    <p class="empty">Candidate information for this ward is coming soon.</p>
+  ) : (
+    <>
+      <h2>Candidates</h2>
+      <div class="cards">
+        {race.candidates.map((c) => <CandidateCard candidate={c} raceType={race.type} />)}
+      </div>
+
+      <h2>{n > 1 ? 'Compare positions' : 'Positions'}</h2>
+      {n > 1 && <p class="muted small">On a phone, scroll sideways to see every candidate.</p>}
+      <CompareTable candidates={race.candidates} />
+    </>
+  )}
+</Base>

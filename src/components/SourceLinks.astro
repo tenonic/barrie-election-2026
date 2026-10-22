@@ -1,0 +1,19 @@
+---
+import type { Source } from '../lib/data';
+import { url } from '../lib/data';
+
+interface Props { sources: Source[]; label?: string }
+const { sources, label = 'Source' } = Astro.props;
+---
+{sources.length > 0 && (
+  <div class="sources">
+    {label}{sources.length > 1 ? 's' : ''}:{' '}
+    {sources.map((s, i) => (
+      <>
+        {i > 0 && '; '}
+        <a href={s.url} rel="noopener" title={s.title}>{s.outlet}</a>
+        {' '}<a href={url(`sources/#${s.source_id}`)} aria-label={`Details for source ${s.source_id}`}>[{s.source_id}]</a>
+      </>
+    ))}
+  </div>
+)}

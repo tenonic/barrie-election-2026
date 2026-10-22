@@ -1,0 +1,45 @@
+---
+import '../styles/global.css';
+import { USE_MOCK, lastUpdated, url } from '../lib/data';
+
+interface Props { title: string; description?: string }
+const { title, description = 'A neutral, sourced guide to the candidates in Barrie’s 2026 municipal election.' } = Astro.props;
+const fullTitle = title === 'Home' ? 'Barrie Election 2026: Candidate Guide' : `${title} · Barrie Election 2026`;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    {USE_MOCK && <meta name="robots" content="noindex" />}
+  </head>
+  <body>
+    {USE_MOCK && (
+      <div class="mock-banner" role="note">
+        Mock data preview: wards 1–6 and 8–10 show fictional candidates. Not for publication.
+      </div>
+    )}
+    <header class="site-header">
+      <div class="wrap">
+        <a class="site-title" href={url()}>Barrie Election 2026</a>
+        <nav class="site-nav" aria-label="Main">
+          <a href={url('mayor/')}>Mayor</a>
+          <a href={url('#wards')}>Wards</a>
+          <a href={url('standards/')}>Our standards</a>
+          <a href={url('sources/')}>Sources</a>
+        </nav>
+      </div>
+    </header>
+    <main class="wrap">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>Election day: Monday, October 26, 2026. Last updated {lastUpdated}.</p>
+        <p>Not affiliated with the City of Barrie or any candidate or campaign. No endorsements or ratings. <a href={url('standards/')}>How we stay neutral</a>.</p>
+      </div>
+    </footer>
+  </body>
+</html>
