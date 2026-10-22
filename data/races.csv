@@ -1,0 +1,12 @@
+race_id,name,type,display_order,acclaimed
+mayor,Mayor,mayor,0,
+ward-1,Ward 1 Councillor,ward,1,
+ward-2,Ward 2 Councillor,ward,2,
+ward-3,Ward 3 Councillor,ward,3,
+ward-4,Ward 4 Councillor,ward,4,
+ward-5,Ward 5 Councillor,ward,5,
+ward-6,Ward 6 Councillor,ward,6,
+ward-7,Ward 7 Councillor,ward,7,no
+ward-8,Ward 8 Councillor,ward,8,
+ward-9,Ward 9 Councillor,ward,9,
+ward-10,Ward 10 Councillor,ward,10,

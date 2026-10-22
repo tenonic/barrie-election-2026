@@ -1,0 +1,12 @@
+issue_id,name,display_order
+taxes,Property taxes and budget,1
+housing,Housing affordability,2
+homelessness,Homelessness and encampments,3
+safety,Public safety and policing,4
+transit,Transit and roads,5
+strong-mayor,Strong-mayor powers,6
+growth,Growth and development,7
+addiction,Addiction and public drug use,8
+jobs,Jobs and economic development,9
+ebikes,E-bikes and e-scooters,10
+transparency,Transparency and council accountability,11
