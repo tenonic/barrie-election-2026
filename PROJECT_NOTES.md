@@ -39,6 +39,7 @@ A public, neutral website that helps Barrie voters compare candidates before the
 | 2026-10-22 | Git workflow: short-lived branches per piece of work (for example `site-build`), merged into `main` after owner review, then deleted. Small fixes go straight to `main`. After go-live only `main` deploys |
 | 2026-10-22 | Astro 7. The owner turned off Windows Smart App Control, which blocked Astro's native compiler; the WebAssembly workaround was removed |
 | 2026-10-22 | Site palette is neutral (charcoal and muted brown); no colours associated with a political party |
+| 2026-10-22 | Owner requirement: every claim, fact and quote shown on the site links to its source (see `TASKS.md`) |
 | 2026-10-22 | Race pages: candidate cards hold the profile (background, priorities, public record, contact); issue positions, sources and fact-check notes are in the comparison table |
 
 ## Data model (CSV)

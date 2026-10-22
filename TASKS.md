@@ -43,6 +43,16 @@ Built per the list below. Preview: `npm run dev:mock`, then open http://localhos
 
 - [x] Add a data check to the build that fails if any ID doesn't match its table: `race_id`, `candidate_id`, `issue_id`, and every entry in `source_ids`. Also flag duplicate IDs and candidates missing any of the 11 issue rows in `positions`.
 
+### Every claim sourced (owner requirement, 2026-10-22)
+
+Every claim, fact and quote on the site must link to its source. Gaps found in the audit:
+
+- [ ] Fact-check notes (`positions.note`) have no sources of their own. Four notes cite city housing figures, tax-increase figures and Statistics Canada figures that aren't in `sources.csv`. Add a `note_source_ids` column and find the sources.
+- [ ] Candidate background and priorities share one source list for the whole card. Split them into separate statements, each with its own sources (for example a `candidate_facts` table: candidate_id, field, text, source_ids).
+- [ ] Incumbent tag, contact details and nomination status: source to the City's certified list (S001) or the campaign site.
+- [ ] Race facts (candidate count, "Acclaimed") and home-page facts (election date, new ward boundaries): source to City of Barrie pages.
+- [ ] Extend the data check so the build fails on any statement shown without a source.
+
 ### Next
 
 - [ ] Owner reviews the mock preview; collect layout changes.
