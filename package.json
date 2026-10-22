@@ -5,11 +5,8 @@
   "description": "Neutral, sourced guide to Barrie's 2026 mayor and ward councillor candidates",
   "type": "module",
   "scripts": {
-    "predev": "node scripts/ensure-wasm-compiler.mjs",
     "dev": "astro dev",
-    "predev:mock": "node scripts/ensure-wasm-compiler.mjs",
     "dev:mock": "cross-env USE_MOCK=1 astro dev",
-    "prebuild": "node scripts/ensure-wasm-compiler.mjs",
     "build": "npm run check:data && astro build",
     "preview": "astro preview",
     "check:data": "node scripts/check-data.mjs",
