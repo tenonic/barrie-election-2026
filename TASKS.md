@@ -19,3 +19,9 @@ BarrieToday asked every candidate for a self-written profile. Collect one for ea
 | Ward 7 | Gary Harvey | To do |
 | Ward 7 | Michael Lewis | Done 2026-10-22 (S015) |
 | Wards 1-6, 8-10 | Added once those wards are researched | To do |
+
+## Claude
+
+### Site build (step 3)
+
+- [ ] Add a data check to the build that fails if any ID doesn't match its table: `race_id`, `candidate_id`, `issue_id`, and every entry in `source_ids`. Also flag duplicate IDs and candidates missing any of the 11 issue rows in `positions`.
