@@ -102,7 +102,8 @@ Councillors also get a "Ward-specific priorities" field.
 
 - **Corrections channel:** probably email plus a GitHub issue; not decided yet
 - **Public record:** not researched yet. It needs one dedicated pass applied equally to all candidates (fairness rule 1).
-- **Uneven depth:** the Michael Lewis entry relies on one BarrieToday article that couldn't be opened directly. Verify it manually and look for more sources.
+- **Uneven depth:** the Michael Lewis entry relies on one BarrieToday article (S015). The owner verified its full text on 2026-10-22 and the entry was updated from it. Still worth looking for a second source.
+- **Candidate profiles:** BarrieToday is publishing a candidate-submitted profile for each candidate. These are a consistent source for every race, but the owner has to paste them in because the site blocks automated access.
 
 ## Existing research
 
