@@ -34,6 +34,7 @@ A public, neutral website that helps Barrie voters compare candidates before the
 | 2026-10-22 | Candidate field `other_priorities` holds ward-specific priorities (councillors) and other stated priorities (mayor) |
 | 2026-10-22 | Positions use `status` (`stated` / `none_found`); fact-check context goes in a separate `note` column |
 | 2026-10-22 | Internal notes (`PROJECT_NOTES.md`, `CLAUDE.md`) may be visible in the public repo, but must not appear on the site |
+| 2026-10-22 | Public repo `tenonic/barrie-election-2026`, branch `main`; commits use the GitHub no-reply email |
 
 ## Data model (CSV)
 
@@ -92,7 +93,7 @@ Councillors also get a "Ward-specific priorities" field.
 
 | # | Step | Status |
 | --- | --- | --- |
-| 1 | Repo setup, data structure, migrate the mayor and Ward 7 research | Files done 2026-10-22; git init and GitHub repo pending tool installs |
+| 1 | Repo setup, data structure, migrate the mayor and Ward 7 research | Done 2026-10-22: https://github.com/tenonic/barrie-election-2026 |
 | 2 | Research wards 1-6 and 8-10 | Not started (check in before starting) |
 | 3 | Build the Astro site | Not started |
 | 4 | Owner reviews, then the site goes live on GitHub Pages | Not started |
@@ -100,7 +101,6 @@ Councillors also get a "Ward-specific priorities" field.
 ## Open questions
 
 - **Corrections channel:** probably email plus a GitHub issue; not decided yet
-- **Tools missing on this PC (2026-10-22):** Git, Node.js and the GitHub CLI are not installed. The owner installs them.
 - **Public record:** not researched yet. It needs one dedicated pass applied equally to all candidates (fairness rule 1).
 - **Uneven depth:** the Michael Lewis entry relies on one BarrieToday article that couldn't be opened directly. Verify it manually and look for more sources.
 
