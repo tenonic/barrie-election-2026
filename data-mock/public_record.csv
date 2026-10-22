@@ -1,4 +1,4 @@
 record_id,candidate_id,date,summary,candidate_response,source_ids
 MR-3,mock-w3-a,2025-06-15,"Sample public record item: a made-up council vote, reported by two sources.",,M007;M002
 MR-6,mock-w6-a,2025-06-15,"Sample public record item: a made-up council vote, reported by two sources.",,M003;M002
-MR-9,mock-w9-a,2025-06-15,"Sample public record item: a made-up council vote, reported by two sources.",,M011;M005
+MR-9,mock-w9-a,2025-06-15,"Sample public record item: a made-up council vote, reported by two sources.",,M006;M007

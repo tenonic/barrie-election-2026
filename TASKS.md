@@ -20,6 +20,16 @@ BarrieToday asked every candidate for a self-written profile. Collect one for ea
 | Ward 7 | Michael Lewis | Done 2026-10-22 (S015) |
 | Wards 1-6, 8-10 | Added once those wards are researched | To do |
 
+### BarrieToday budget articles (tax fact-check note)
+
+These back the property-tax figures in Alex Nuttall's tax note. Check that each article gives the figure shown. The 2024 figure has no other source yet.
+
+| Source | Figure to check | Status |
+| --- | --- | --- |
+| S020 | 4.82% total increase, 2024 | To do |
+| S021 | 4.31% total increase, 2025 | To do |
+| S022 | 3.95% total increase, 2026 | To do |
+
 ## Claude
 
 ### Site build with mock-data preview (step 3): done 2026-10-22 on branch `site-build`
@@ -47,7 +57,7 @@ Built per the list below. Preview: `npm run dev:mock`, then open http://localhos
 
 Every claim, fact and quote on the site must link to its source. Gaps found in the audit:
 
-- [ ] Fact-check notes (`positions.note`) have no sources of their own. Four notes cite city housing figures, tax-increase figures and Statistics Canada figures that aren't in `sources.csv`. Add a `note_source_ids` column and find the sources.
+- [x] Fact-check notes (`positions.note`) have no sources of their own. Four notes cite city housing figures, tax-increase figures and Statistics Canada figures that aren't in `sources.csv`. Add a `note_source_ids` column and find the sources. Done 2026-10-22: added `note_source_ids` and sources S016-S023; the build fails if a note has no source. Research found the tax note was wrong (see the corrections item below), and the jobs note now uses the latest Statistics Canada month.
 - [ ] Candidate background and priorities share one source list for the whole card. Split them into separate statements, each with its own sources (for example a `candidate_facts` table: candidate_id, field, text, source_ids).
 - [ ] Incumbent tag, contact details and nomination status: source to the City's certified list (S001) or the campaign site.
 - [ ] Race facts (candidate count, "Acclaimed") and home-page facts (election date, new ward boundaries): source to City of Barrie pages.
@@ -59,3 +69,6 @@ Every claim, fact and quote on the site must link to its source. Gaps found in t
 - [x] Merged `site-build` into `main` and deleted the branch (2026-10-22).
 - [x] GitHub Actions deploys `main` to GitHub Pages (2026-10-22). Live: https://tenonic.github.io/barrie-election-2026/
 - [ ] Corrections page and channel, once the owner decides on it (see Open questions in `PROJECT_NOTES.md`).
+- [ ] First entries for the public corrections log (fairness rule 7), both from 2026-10-22:
+    - Alex Nuttall, property taxes, fact-check note: said total increases were 4.85% (2024), 4.28% (2025) and 4.80% (2026). Corrected to 4.82%, 4.31% and 3.95%; 4.80% was the proposed 2026 figure before council cuts. The note had no source of its own; sources added.
+    - Gary Harvey, jobs, fact-check note: said unemployment eased to 7.0% by July 2026. Updated to the latest Statistics Canada figure, 6.4% for September 2026.

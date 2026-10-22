@@ -49,7 +49,7 @@ A public, neutral website that helps Barrie voters compare candidates before the
 | `races` | 11 rows: mayor + wards 1-10 | race_id, name, type (mayor/ward), acclaimed |
 | `candidates` | One row per candidate | candidate_id, race_id, name, incumbent, background, ward_priorities, website, social links |
 | `issues` | The fixed issue list | issue_id, name |
-| `positions` | One row per candidate per issue | candidate_id, issue_id, summary, source_ids |
+| `positions` | One row per candidate per issue | candidate_id, issue_id, status, summary, note, note_source_ids, source_ids |
 | `public_record` | Verifiable record items | candidate_id, date, summary, candidate_response, source_ids |
 | `sources` | Everything cited | source_id, title, outlet, url, date_accessed |
 

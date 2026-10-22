@@ -24,8 +24,13 @@ const { candidates } = Astro.props;
             return (
               <td>
                 {p.stated ? p.summary : <span class="empty">No stated position found.</span>}
-                {p.note && <div class="note"><strong>Context:</strong> {p.note}</div>}
                 <SourceLinks sources={p.sources} />
+                {p.note && (
+                  <div class="note">
+                    <strong>Context:</strong> {p.note}
+                    <SourceLinks sources={p.noteSources} />
+                  </div>
+                )}
               </td>
             );
           })}

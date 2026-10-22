@@ -10,7 +10,7 @@ if (errors.length) throw new Error(`Data check failed:\n${errors.join('\n')}`);
 
 export type Source = { source_id: string; title: string; outlet: string; url: string; date_accessed: string; access_note: string };
 export type Issue = { issue_id: string; name: string };
-export type Position = { issue: Issue; stated: boolean; summary: string; note: string; sources: Source[] };
+export type Position = { issue: Issue; stated: boolean; summary: string; note: string; noteSources: Source[]; sources: Source[] };
 export type RecordItem = { date: string; summary: string; candidate_response: string; sources: Source[] };
 export type Candidate = {
   id: string; name: string; incumbent: boolean; background: string; priorities: string;
@@ -41,7 +41,7 @@ function buildCandidate(c: any): Candidate {
     sources: toSources(c.source_ids),
     positions: issues.map((issue) => {
       const p = raw.positions.find((x: any) => x.candidate_id === c.candidate_id && x.issue_id === issue.issue_id);
-      return { issue, stated: p.status === 'stated', summary: p.summary, note: p.note, sources: toSources(p.source_ids) };
+      return { issue, stated: p.status === 'stated', summary: p.summary, note: p.note, noteSources: toSources(p.note_source_ids), sources: toSources(p.source_ids) };
     }),
     record: raw.public_record
       .filter((r: any) => r.candidate_id === c.candidate_id)

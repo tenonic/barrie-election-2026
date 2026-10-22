@@ -71,6 +71,8 @@ export function checkData(d) {
       errors.push(`${where}: status must be "stated" or "none_found", got "${p.status}"`);
     }
     checkSources(where, p.source_ids);
+    if (p.note && !splitIds(p.note_source_ids).length) errors.push(`${where}: note but no note_source_ids`);
+    checkSources(`${where} (note)`, p.note_source_ids);
   }
 
   for (const c of d.candidates) {

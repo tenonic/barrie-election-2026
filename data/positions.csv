@@ -1,67 +1,67 @@
-candidate_id,issue_id,status,summary,note,source_ids
-alex-nuttall,taxes,stated,"Keep the city operating budget at 0%, as for the past four years, and pay down city debt (says 25% paid down so far).","Total property-tax increases were 4.85% (2024), 4.28% (2025) and 4.80% (2026); the 0% applies to city operations only.",S003;S009
-alex-nuttall,housing,stated,Committed to 800 affordable housing units.,City figures show its affordable-housing program supported 248 units since 2020.,S003
-alex-nuttall,homelessness,stated,"Continue clearing encampments under the state of emergency, and create a 'compassionate intervention team'.",,S003
-alex-nuttall,safety,stated,"Says he added 44 frontline police officers and that the police budget is where it needs to be.",,S003;S009
-alex-nuttall,transit,stated,Invest $3M in traffic calming.,,S003
-alex-nuttall,strong-mayor,stated,Says every use of his strong-mayor powers has had majority council support.,,S003
-alex-nuttall,growth,stated,"Complete planned recreation centres and libraries; says he cut the performing arts centre budget from $167.5M to $90M.",,S003;S009
-alex-nuttall,addiction,stated,"Petition the province to treat public drug intoxication like public alcohol intoxication; opposes a supervised consumption site; partner on the HART Hub.",,S003;S009
-alex-nuttall,jobs,stated,Attract 2000 defence-related manufacturing jobs and position Barrie as a defence hub.,,S003
-alex-nuttall,ebikes,stated,Ban e-bikes and e-scooters from city walking paths and sidewalks.,,S003
-alex-nuttall,transparency,none_found,,,
-kay-sayer,taxes,stated,"Create a real-time 'taxes tab' tracking spending on hospitals, fire, police and schools.",,S005
-kay-sayer,housing,none_found,,,
-kay-sayer,homelessness,stated,"Opposes the proposed compassionate intervention team as a temporary fix; wants mayors to press the province together on homelessness and drugs.",,S005
-kay-sayer,safety,stated,"Says police, fire and paramedics already have the tools they need under the Mental Health Act.",,S005
-kay-sayer,transit,none_found,,,
-kay-sayer,strong-mayor,stated,Objects to one mayor overriding council; says strong mayors should be held accountable locally.,,S005
-kay-sayer,growth,stated,Put each major project to a 24-hour public vote.,,S005
-kay-sayer,addiction,stated,"Supports community programs and recovery meetings; argues the system funds 'sickness, not healing'.",,S005
-kay-sayer,jobs,none_found,,,
-kay-sayer,ebikes,stated,Regulate e-bikes and e-scooters using data rather than banning them.,,S005
-kay-sayer,transparency,stated,"Her central theme: publish shelter, police and outreach budgets, and create an open budget dashboard.",,S005
-russell-tighe,taxes,stated,"Hold the tax rate steady through efficiencies; reduce reliance on residential taxes by attracting commercial and industrial investment; higher development charges on large projects.",,S006
-russell-tighe,housing,stated,"Affordable housing is his top priority: increase supply, reduce barriers, protect dignity.",,S006
-russell-tighe,homelessness,stated,Dismantle encampments one at a time with outreach workers who already know the residents; involve people in encampments in solutions.,,S006
-russell-tighe,safety,stated,Outreach and stabilization teams working alongside police.,,S006
-russell-tighe,transit,none_found,,,
-russell-tighe,strong-mayor,stated,"Would use them only for public safety, supporting vulnerable residents and meeting legal obligations.",,S006
-russell-tighe,growth,stated,"Supportive of planned facilities but cautious about their number, timing and location; data centres would not be a priority.",,S006
-russell-tighe,addiction,stated,Open to oversight of public drug intoxication by trained and certified responders.,,S006
-russell-tighe,jobs,stated,Attract commercial and industrial investment; keep or defer development charges for small businesses.,,S006
-russell-tighe,ebikes,stated,Public and youth safety education; open to penalties for reckless riding.,,S006
-russell-tighe,transparency,none_found,,,
-tanya-saari,taxes,stated,"Line-by-line review of the 2027 budget; keep increases as low as possible, with no promise of a freeze or cut. Criticizes the 'headline tax freeze'.",,S004;S010
-tanya-saari,housing,stated,"More supportive and permanent housing; faster zoning approvals; public cost-benefit analysis before further development charge cuts.",,S004
-tanya-saari,homelessness,stated,"Housing-first approach; homelessness task force within 90 days; wants to see results of the state of emergency before deciding whether to continue it.",,S004
-tanya-saari,safety,stated,Backs police; wants police budget growth reviewed rather than cut; pairs safety with prevention and supportive housing.,,S004;S010
-tanya-saari,transit,stated,"$1 transit fare and $25 monthly pass once a financial plan is published; better roads and snow clearing.",,S004;S010
-tanya-saari,strong-mayor,stated,Prefers to work through council and use the powers only when required; would publish a strong-mayor powers policy within 90 days.,,S004
-tanya-saari,growth,stated,"Growth matched with roads, transit, parks and services; 'not yet' on the new recreation centre; supports a data-centre moratorium.",,S004;S010
-tanya-saari,addiction,stated,No firm position yet on supervised consumption sites.,,S004
-tanya-saari,jobs,none_found,,,
-tanya-saari,ebikes,stated,Wants more information on the problems before deciding whether to ban or restrict them.,,S004
-tanya-saari,transparency,stated,"Full-picture budgets; decisions made with all of council; restore online access to advisory committee meetings.",,S004;S010
-gary-harvey,taxes,stated,"Points to four straight 0% operating budgets and Barrie's first AAA credit rating; says tax-bill increases came mainly from service partners.",,S008
-gary-harvey,housing,stated,Cites $80M in development charge waivers and 779 affordable homes approved.,City figures show 248 units supported since 2020 and no published count of units approved.,S008;S011
-gary-harvey,homelessness,stated,Has called for accountability on the Redwood Park supportive housing project and its unpaid $3M city loan.,,S008
-gary-harvey,safety,stated,Supports added police and special constables downtown and says more are needed.,,S008
-gary-harvey,transit,stated,"Cites expanded Transit On Demand in Ward 7, free Tuesday and Thursday transit for seniors, and the Essa Road widening (2028).",,S008
-gary-harvey,strong-mayor,none_found,,,
-gary-harvey,growth,none_found,,,
-gary-harvey,addiction,stated,Says Barrie needs more psychiatric and addiction beds.,,S008
-gary-harvey,jobs,stated,Says more than 3000 jobs have been created since 2022.,"Statistics Canada put Barrie's unemployment at 9.2% in April 2026, easing to 7.0% by July.",S008
-gary-harvey,ebikes,none_found,,,
-gary-harvey,transparency,none_found,,,
-michael-lewis,taxes,stated,"Concerned about ever-increasing property taxes and a lack of the municipal services those taxes should fund.",,S015
-michael-lewis,housing,stated,"Concerned about a lack of affordable housing; says the city cannot provide it while it cannot choose the lots to build on.",,S015
-michael-lewis,homelessness,stated,"Homelessness is a main issue; his biggest concern is bringing social services back under city control from the County of Simcoe.",,S015
-michael-lewis,safety,none_found,,,
-michael-lewis,transit,none_found,,,
-michael-lewis,strong-mayor,none_found,,,
-michael-lewis,growth,stated,"Expects Barrie to pass 300,000 people within one to two decades; says the city, not the County of Simcoe, should have full control over its own services.",,S015
-michael-lewis,addiction,none_found,,,
-michael-lewis,jobs,none_found,,,
-michael-lewis,ebikes,none_found,,,
-michael-lewis,transparency,none_found,,,
+candidate_id,issue_id,status,summary,note,note_source_ids,source_ids
+alex-nuttall,taxes,stated,"Keep the city operating budget at 0%, as for the past four years, and pay down city debt (says 25% paid down so far).","Total property-tax increases, which include service partners such as police and the County of Simcoe, were 4.82% (2024), 4.31% (2025) and 3.95% (2026). The 0% applies to the City operating budget only; the City also kept a 2% infrastructure levy.",S020;S021;S018;S019;S022;S023,S003;S009
+alex-nuttall,housing,stated,Committed to 800 affordable housing units.,The City reports its Housing Community Improvement Plan has supported 248 affordable housing units since 2020.,S016,S003
+alex-nuttall,homelessness,stated,"Continue clearing encampments under the state of emergency, and create a 'compassionate intervention team'.",,,S003
+alex-nuttall,safety,stated,Says he added 44 frontline police officers and that the police budget is where it needs to be.,,,S003;S009
+alex-nuttall,transit,stated,Invest $3M in traffic calming.,,,S003
+alex-nuttall,strong-mayor,stated,Says every use of his strong-mayor powers has had majority council support.,,,S003
+alex-nuttall,growth,stated,Complete planned recreation centres and libraries; says he cut the performing arts centre budget from $167.5M to $90M.,,,S003;S009
+alex-nuttall,addiction,stated,Petition the province to treat public drug intoxication like public alcohol intoxication; opposes a supervised consumption site; partner on the HART Hub.,,,S003;S009
+alex-nuttall,jobs,stated,Attract 2000 defence-related manufacturing jobs and position Barrie as a defence hub.,,,S003
+alex-nuttall,ebikes,stated,Ban e-bikes and e-scooters from city walking paths and sidewalks.,,,S003
+alex-nuttall,transparency,none_found,,,,
+kay-sayer,taxes,stated,"Create a real-time 'taxes tab' tracking spending on hospitals, fire, police and schools.",,,S005
+kay-sayer,housing,none_found,,,,
+kay-sayer,homelessness,stated,Opposes the proposed compassionate intervention team as a temporary fix; wants mayors to press the province together on homelessness and drugs.,,,S005
+kay-sayer,safety,stated,"Says police, fire and paramedics already have the tools they need under the Mental Health Act.",,,S005
+kay-sayer,transit,none_found,,,,
+kay-sayer,strong-mayor,stated,Objects to one mayor overriding council; says strong mayors should be held accountable locally.,,,S005
+kay-sayer,growth,stated,Put each major project to a 24-hour public vote.,,,S005
+kay-sayer,addiction,stated,"Supports community programs and recovery meetings; argues the system funds 'sickness, not healing'.",,,S005
+kay-sayer,jobs,none_found,,,,
+kay-sayer,ebikes,stated,Regulate e-bikes and e-scooters using data rather than banning them.,,,S005
+kay-sayer,transparency,stated,"Her central theme: publish shelter, police and outreach budgets, and create an open budget dashboard.",,,S005
+russell-tighe,taxes,stated,Hold the tax rate steady through efficiencies; reduce reliance on residential taxes by attracting commercial and industrial investment; higher development charges on large projects.,,,S006
+russell-tighe,housing,stated,"Affordable housing is his top priority: increase supply, reduce barriers, protect dignity.",,,S006
+russell-tighe,homelessness,stated,Dismantle encampments one at a time with outreach workers who already know the residents; involve people in encampments in solutions.,,,S006
+russell-tighe,safety,stated,Outreach and stabilization teams working alongside police.,,,S006
+russell-tighe,transit,none_found,,,,
+russell-tighe,strong-mayor,stated,"Would use them only for public safety, supporting vulnerable residents and meeting legal obligations.",,,S006
+russell-tighe,growth,stated,"Supportive of planned facilities but cautious about their number, timing and location; data centres would not be a priority.",,,S006
+russell-tighe,addiction,stated,Open to oversight of public drug intoxication by trained and certified responders.,,,S006
+russell-tighe,jobs,stated,Attract commercial and industrial investment; keep or defer development charges for small businesses.,,,S006
+russell-tighe,ebikes,stated,Public and youth safety education; open to penalties for reckless riding.,,,S006
+russell-tighe,transparency,none_found,,,,
+tanya-saari,taxes,stated,"Line-by-line review of the 2027 budget; keep increases as low as possible, with no promise of a freeze or cut. Criticizes the 'headline tax freeze'.",,,S004;S010
+tanya-saari,housing,stated,More supportive and permanent housing; faster zoning approvals; public cost-benefit analysis before further development charge cuts.,,,S004
+tanya-saari,homelessness,stated,Housing-first approach; homelessness task force within 90 days; wants to see results of the state of emergency before deciding whether to continue it.,,,S004
+tanya-saari,safety,stated,Backs police; wants police budget growth reviewed rather than cut; pairs safety with prevention and supportive housing.,,,S004;S010
+tanya-saari,transit,stated,$1 transit fare and $25 monthly pass once a financial plan is published; better roads and snow clearing.,,,S004;S010
+tanya-saari,strong-mayor,stated,Prefers to work through council and use the powers only when required; would publish a strong-mayor powers policy within 90 days.,,,S004
+tanya-saari,growth,stated,"Growth matched with roads, transit, parks and services; 'not yet' on the new recreation centre; supports a data-centre moratorium.",,,S004;S010
+tanya-saari,addiction,stated,No firm position yet on supervised consumption sites.,,,S004
+tanya-saari,jobs,none_found,,,,
+tanya-saari,ebikes,stated,Wants more information on the problems before deciding whether to ban or restrict them.,,,S004
+tanya-saari,transparency,stated,Full-picture budgets; decisions made with all of council; restore online access to advisory committee meetings.,,,S004;S010
+gary-harvey,taxes,stated,Points to four straight 0% operating budgets and Barrie's first AAA credit rating; says tax-bill increases came mainly from service partners.,,,S008
+gary-harvey,housing,stated,Cites $80M in development charge waivers and 779 affordable homes approved.,The City reports its Housing Community Improvement Plan has supported 248 affordable housing units since 2020. We found no City count of affordable units approved.,S016,S008;S011
+gary-harvey,homelessness,stated,Has called for accountability on the Redwood Park supportive housing project and its unpaid $3M city loan.,,,S008
+gary-harvey,safety,stated,Supports added police and special constables downtown and says more are needed.,,,S008
+gary-harvey,transit,stated,"Cites expanded Transit On Demand in Ward 7, free Tuesday and Thursday transit for seniors, and the Essa Road widening (2028).",,,S008
+gary-harvey,strong-mayor,none_found,,,,
+gary-harvey,growth,none_found,,,,
+gary-harvey,addiction,stated,Says Barrie needs more psychiatric and addiction beds.,,,S008
+gary-harvey,jobs,stated,Says more than 3000 jobs have been created since 2022.,"Statistics Canada put Barrie's unemployment rate at 9.2% in April 2026, easing to 6.4% by September (seasonally adjusted, three-month moving average).",S017,S008
+gary-harvey,ebikes,none_found,,,,
+gary-harvey,transparency,none_found,,,,
+michael-lewis,taxes,stated,Concerned about ever-increasing property taxes and a lack of the municipal services those taxes should fund.,,,S015
+michael-lewis,housing,stated,Concerned about a lack of affordable housing; says the city cannot provide it while it cannot choose the lots to build on.,,,S015
+michael-lewis,homelessness,stated,Homelessness is a main issue; his biggest concern is bringing social services back under city control from the County of Simcoe.,,,S015
+michael-lewis,safety,none_found,,,,
+michael-lewis,transit,none_found,,,,
+michael-lewis,strong-mayor,none_found,,,,
+michael-lewis,growth,stated,"Expects Barrie to pass 300,000 people within one to two decades; says the city, not the County of Simcoe, should have full control over its own services.",,,S015
+michael-lewis,addiction,none_found,,,,
+michael-lewis,jobs,none_found,,,,
+michael-lewis,ebikes,none_found,,,,
+michael-lewis,transparency,none_found,,,,

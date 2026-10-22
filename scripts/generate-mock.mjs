@@ -66,12 +66,14 @@ for (const [ward, count] of Object.entries(WARDS)) {
       if (r < 0.3) {
         positions.push({ candidate_id: id, issue_id: issue, status: 'none_found' });
       } else {
+        const hasNote = rand() < 0.1;
         positions.push({
           candidate_id: id,
           issue_id: issue,
           status: 'stated',
           summary: r < 0.6 ? SHORT : r < 0.9 ? MEDIUM : LONG,
-          note: rand() < 0.1 ? 'Sample fact-check context: made-up city figures differ from the figure the candidate gave.' : '',
+          note: hasNote ? 'Sample fact-check context: made-up city figures differ from the figure the candidate gave.' : '',
+          note_source_ids: hasNote ? pickSources(1) : '',
           source_ids: pickSources(1 + Math.floor(rand() * 2)),
         });
       }
@@ -92,7 +94,7 @@ for (const [ward, count] of Object.entries(WARDS)) {
 mkdirSync(OUT, { recursive: true });
 writeFileSync(join(OUT, 'races.csv'), toCsv(['race_id', 'acclaimed'], races));
 writeFileSync(join(OUT, 'candidates.csv'), toCsv(['candidate_id', 'race_id', 'name', 'incumbent', 'background', 'other_priorities', 'website', 'facebook', 'instagram', 'email', 'nomination_filed', 'status', 'source_ids'], candidates));
-writeFileSync(join(OUT, 'positions.csv'), toCsv(['candidate_id', 'issue_id', 'status', 'summary', 'note', 'source_ids'], positions));
+writeFileSync(join(OUT, 'positions.csv'), toCsv(['candidate_id', 'issue_id', 'status', 'summary', 'note', 'note_source_ids', 'source_ids'], positions));
 writeFileSync(join(OUT, 'public_record.csv'), toCsv(['record_id', 'candidate_id', 'date', 'summary', 'candidate_response', 'source_ids'], publicRecord));
 writeFileSync(join(OUT, 'sources.csv'), toCsv(['source_id', 'title', 'outlet', 'url', 'date_accessed', 'access_note'], sources));
 console.log(`Wrote ${candidates.length} mock candidates in ${races.length} wards to ${OUT}/`);

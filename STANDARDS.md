@@ -39,4 +39,4 @@ Items are written in a factual tone, with a date and a source.
 ## Data entry
 
 - Positions record `status` as `stated` or `none_found`.
-- Fact-check context (for example, city figures that differ from a candidate's claim) goes in the `note` column, never in the candidate's summary.
+- Fact-check context (for example, city figures that differ from a candidate's claim) goes in the `note` column, never in the candidate's summary. Each note has its own sources, separate from the sources for the candidate's position.

@@ -1,232 +1,232 @@
-candidate_id,issue_id,status,summary,note,source_ids
-mock-w1-a,taxes,none_found,,,
-mock-w1-a,housing,none_found,,,
-mock-w1-a,homelessness,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M010
-mock-w1-a,safety,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M008;M010
-mock-w1-a,transit,none_found,,,
-mock-w1-a,strong-mayor,stated,Sample position for layout testing.,,M001;M009
-mock-w1-a,growth,stated,Sample position for layout testing.,,M002;M007
-mock-w1-a,addiction,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,M007;M011
-mock-w1-a,jobs,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,M011
-mock-w1-a,ebikes,stated,Sample position for layout testing.,,M006
-mock-w1-a,transparency,none_found,,,
-mock-w1-b,taxes,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M004
-mock-w1-b,housing,stated,Sample position for layout testing.,,M003
-mock-w1-b,homelessness,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,Sample fact-check context: made-up city figures differ from the figure the candidate gave.,M005
-mock-w1-b,safety,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M002;M005
-mock-w1-b,transit,none_found,,,
-mock-w1-b,strong-mayor,stated,Sample position for layout testing.,,M007
-mock-w1-b,growth,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M006;M011
-mock-w1-b,addiction,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M007;M009
-mock-w1-b,jobs,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,M004;M008
-mock-w1-b,ebikes,stated,Sample position for layout testing.,,M010
-mock-w1-b,transparency,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M001;M005
-mock-w2-a,taxes,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,M002;M006
-mock-w2-a,housing,stated,Sample position for layout testing.,,M011;M010
-mock-w2-a,homelessness,none_found,,,
-mock-w2-a,safety,none_found,,,
-mock-w2-a,transit,none_found,,,
-mock-w2-a,strong-mayor,none_found,,,
-mock-w2-a,growth,none_found,,,
-mock-w2-a,addiction,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M006;M009
-mock-w2-a,jobs,none_found,,,
-mock-w2-a,ebikes,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M011
-mock-w2-a,transparency,none_found,,,
-mock-w2-b,taxes,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,M001;M011
-mock-w2-b,housing,none_found,,,
-mock-w2-b,homelessness,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,M004;M003
-mock-w2-b,safety,none_found,,,
-mock-w2-b,transit,stated,Sample position for layout testing.,Sample fact-check context: made-up city figures differ from the figure the candidate gave.,M009;M006
-mock-w2-b,strong-mayor,none_found,,,
-mock-w2-b,growth,none_found,,,
-mock-w2-b,addiction,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,M011;M001
-mock-w2-b,jobs,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M012;M010
-mock-w2-b,ebikes,stated,Sample position for layout testing.,,M011;M005
-mock-w2-b,transparency,none_found,,,
-mock-w2-c,taxes,stated,Sample position for layout testing.,,M009;M005
-mock-w2-c,housing,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M004
-mock-w2-c,homelessness,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,M011;M012
-mock-w2-c,safety,none_found,,,
-mock-w2-c,transit,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M007
-mock-w2-c,strong-mayor,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M003
-mock-w2-c,growth,stated,Sample position for layout testing.,,M007;M010
-mock-w2-c,addiction,stated,Sample position for layout testing.,,M004
-mock-w2-c,jobs,stated,Sample position for layout testing.,,M004;M003
-mock-w2-c,ebikes,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M010
-mock-w2-c,transparency,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M009;M012
-mock-w3-a,taxes,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M001;M002
-mock-w3-a,housing,none_found,,,
-mock-w3-a,homelessness,none_found,,,
-mock-w3-a,safety,none_found,,,
-mock-w3-a,transit,none_found,,,
-mock-w3-a,strong-mayor,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M002
-mock-w3-a,growth,none_found,,,
-mock-w3-a,addiction,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M012
-mock-w3-a,jobs,stated,Sample position for layout testing.,,M005;M001
-mock-w3-a,ebikes,none_found,,,
-mock-w3-a,transparency,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M012
-mock-w3-b,taxes,none_found,,,
-mock-w3-b,housing,none_found,,,
-mock-w3-b,homelessness,none_found,,,
-mock-w3-b,safety,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M012
-mock-w3-b,transit,none_found,,,
-mock-w3-b,strong-mayor,stated,Sample position for layout testing.,,M001
-mock-w3-b,growth,stated,Sample position for layout testing.,Sample fact-check context: made-up city figures differ from the figure the candidate gave.,M012
-mock-w3-b,addiction,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M011
-mock-w3-b,jobs,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,M007;M005
-mock-w3-b,ebikes,stated,Sample position for layout testing.,,M007
-mock-w3-b,transparency,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M009;M011
-mock-w4-a,taxes,stated,Sample position for layout testing.,,M012;M005
-mock-w4-a,housing,none_found,,,
-mock-w4-a,homelessness,stated,Sample position for layout testing.,,M009;M012
-mock-w4-a,safety,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M010
-mock-w4-a,transit,none_found,,,
-mock-w4-a,strong-mayor,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,M009;M007
-mock-w4-a,growth,stated,Sample position for layout testing.,,M011;M004
-mock-w4-a,addiction,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M003
-mock-w4-a,jobs,stated,Sample position for layout testing.,,M010;M005
-mock-w4-a,ebikes,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M004
-mock-w4-a,transparency,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,Sample fact-check context: made-up city figures differ from the figure the candidate gave.,M005
-mock-w5-a,taxes,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M012
-mock-w5-a,housing,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M008
-mock-w5-a,homelessness,none_found,,,
-mock-w5-a,safety,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M002;M004
-mock-w5-a,transit,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M008;M010
-mock-w5-a,strong-mayor,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M002;M001
-mock-w5-a,growth,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M004;M003
-mock-w5-a,addiction,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M003;M011
-mock-w5-a,jobs,none_found,,,
-mock-w5-a,ebikes,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M008;M010
-mock-w5-a,transparency,none_found,,,
-mock-w5-b,taxes,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M010;M009
-mock-w5-b,housing,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,M009
-mock-w5-b,homelessness,none_found,,,
-mock-w5-b,safety,none_found,,,
-mock-w5-b,transit,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,M001
-mock-w5-b,strong-mayor,none_found,,,
-mock-w5-b,growth,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,M004;M003
-mock-w5-b,addiction,none_found,,,
-mock-w5-b,jobs,stated,Sample position for layout testing.,,M004
-mock-w5-b,ebikes,stated,Sample position for layout testing.,,M001
-mock-w5-b,transparency,none_found,,,
-mock-w5-c,taxes,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M009;M005
-mock-w5-c,housing,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M012;M009
-mock-w5-c,homelessness,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M001
-mock-w5-c,safety,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M007
-mock-w5-c,transit,stated,Sample position for layout testing.,,M001
-mock-w5-c,strong-mayor,none_found,,,
-mock-w5-c,growth,stated,Sample position for layout testing.,,M008
-mock-w5-c,addiction,none_found,,,
-mock-w5-c,jobs,none_found,,,
-mock-w5-c,ebikes,none_found,,,
-mock-w5-c,transparency,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M010
-mock-w5-d,taxes,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,M012
-mock-w5-d,housing,none_found,,,
-mock-w5-d,homelessness,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M003
-mock-w5-d,safety,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M011
-mock-w5-d,transit,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M004
-mock-w5-d,strong-mayor,none_found,,,
-mock-w5-d,growth,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M006;M011
-mock-w5-d,addiction,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M012;M009
-mock-w5-d,jobs,none_found,,,
-mock-w5-d,ebikes,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M002;M011
-mock-w5-d,transparency,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M010
-mock-w6-a,taxes,none_found,,,
-mock-w6-a,housing,none_found,,,
-mock-w6-a,homelessness,none_found,,,
-mock-w6-a,safety,stated,Sample position for layout testing.,,M011;M010
-mock-w6-a,transit,none_found,,,
-mock-w6-a,strong-mayor,stated,Sample position for layout testing.,,M007
-mock-w6-a,growth,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M006
-mock-w6-a,addiction,none_found,,,
-mock-w6-a,jobs,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M004
-mock-w6-a,ebikes,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M007;M004
-mock-w6-a,transparency,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M007;M002
-mock-w6-b,taxes,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M005
-mock-w6-b,housing,stated,Sample position for layout testing.,,M001
-mock-w6-b,homelessness,stated,Sample position for layout testing.,,M008
-mock-w6-b,safety,stated,Sample position for layout testing.,,M011
-mock-w6-b,transit,none_found,,,
-mock-w6-b,strong-mayor,stated,Sample position for layout testing.,,M006
-mock-w6-b,growth,none_found,,,
-mock-w6-b,addiction,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M010;M006
-mock-w6-b,jobs,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M008
-mock-w6-b,ebikes,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M012;M004
-mock-w6-b,transparency,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,Sample fact-check context: made-up city figures differ from the figure the candidate gave.,M004
-mock-w8-a,taxes,stated,Sample position for layout testing.,,M010;M003
-mock-w8-a,housing,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M012;M004
-mock-w8-a,homelessness,none_found,,,
-mock-w8-a,safety,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M009;M001
-mock-w8-a,transit,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M009;M007
-mock-w8-a,strong-mayor,none_found,,,
-mock-w8-a,growth,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M001
-mock-w8-a,addiction,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M004;M009
-mock-w8-a,jobs,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,M003;M006
-mock-w8-a,ebikes,stated,Sample position for layout testing.,Sample fact-check context: made-up city figures differ from the figure the candidate gave.,M010;M011
-mock-w8-a,transparency,none_found,,,
-mock-w8-b,taxes,stated,Sample position for layout testing.,,M001
-mock-w8-b,housing,stated,Sample position for layout testing.,,M007;M006
-mock-w8-b,homelessness,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M006;M010
-mock-w8-b,safety,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,M008
-mock-w8-b,transit,none_found,,,
-mock-w8-b,strong-mayor,none_found,,,
-mock-w8-b,growth,none_found,,,
-mock-w8-b,addiction,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M008
-mock-w8-b,jobs,none_found,,,
-mock-w8-b,ebikes,none_found,,,
-mock-w8-b,transparency,none_found,,,
-mock-w9-a,taxes,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M010
-mock-w9-a,housing,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,M001;M003
-mock-w9-a,homelessness,none_found,,,
-mock-w9-a,safety,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,M007
-mock-w9-a,transit,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M001;M002
-mock-w9-a,strong-mayor,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M004
-mock-w9-a,growth,stated,Sample position for layout testing.,,M008;M002
-mock-w9-a,addiction,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,M009;M002
-mock-w9-a,jobs,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M009
-mock-w9-a,ebikes,stated,Sample position for layout testing.,,M006;M007
-mock-w9-a,transparency,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M003
-mock-w9-b,taxes,none_found,,,
-mock-w9-b,housing,stated,Sample position for layout testing.,,M007
-mock-w9-b,homelessness,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M001
-mock-w9-b,safety,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M010
-mock-w9-b,transit,none_found,,,
-mock-w9-b,strong-mayor,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,M009;M011
-mock-w9-b,growth,none_found,,,
-mock-w9-b,addiction,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M002
-mock-w9-b,jobs,none_found,,,
-mock-w9-b,ebikes,none_found,,,
-mock-w9-b,transparency,stated,Sample position for layout testing.,,M005
-mock-w9-c,taxes,none_found,,,
-mock-w9-c,housing,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M011;M003
-mock-w9-c,homelessness,none_found,,,
-mock-w9-c,safety,stated,Sample position for layout testing.,,M005;M007
-mock-w9-c,transit,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M005
-mock-w9-c,strong-mayor,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,M003;M012
-mock-w9-c,growth,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,M008;M011
-mock-w9-c,addiction,none_found,,,
-mock-w9-c,jobs,stated,Sample position for layout testing.,,M009;M008
-mock-w9-c,ebikes,none_found,,,
-mock-w9-c,transparency,none_found,,,
-mock-w10-a,taxes,none_found,,,
-mock-w10-a,housing,stated,Sample position for layout testing.,,M012
-mock-w10-a,homelessness,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M011;M012
-mock-w10-a,safety,none_found,,,
-mock-w10-a,transit,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M002;M005
-mock-w10-a,strong-mayor,none_found,,,
-mock-w10-a,growth,stated,Sample position for layout testing.,,M005
-mock-w10-a,addiction,none_found,,,
-mock-w10-a,jobs,stated,Sample position for layout testing.,,M010;M001
-mock-w10-a,ebikes,stated,Sample position for layout testing.,,M002;M005
-mock-w10-a,transparency,none_found,,,
-mock-w10-b,taxes,none_found,,,
-mock-w10-b,housing,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,M002;M006
-mock-w10-b,homelessness,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M004
-mock-w10-b,safety,stated,Sample position for layout testing.,,M003
-mock-w10-b,transit,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M012
-mock-w10-b,strong-mayor,none_found,,,
-mock-w10-b,growth,none_found,,,
-mock-w10-b,addiction,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,M007;M012
-mock-w10-b,jobs,none_found,,,
-mock-w10-b,ebikes,none_found,,,
-mock-w10-b,transparency,none_found,,,
+candidate_id,issue_id,status,summary,note,note_source_ids,source_ids
+mock-w1-a,taxes,none_found,,,,
+mock-w1-a,housing,none_found,,,,
+mock-w1-a,homelessness,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M010
+mock-w1-a,safety,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M008;M010
+mock-w1-a,transit,none_found,,,,
+mock-w1-a,strong-mayor,stated,Sample position for layout testing.,,,M001;M009
+mock-w1-a,growth,stated,Sample position for layout testing.,,,M002;M007
+mock-w1-a,addiction,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,,M007;M011
+mock-w1-a,jobs,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,,M011
+mock-w1-a,ebikes,stated,Sample position for layout testing.,,,M006
+mock-w1-a,transparency,none_found,,,,
+mock-w1-b,taxes,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M004
+mock-w1-b,housing,stated,Sample position for layout testing.,,,M003
+mock-w1-b,homelessness,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,Sample fact-check context: made-up city figures differ from the figure the candidate gave.,M005,M008
+mock-w1-b,safety,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,,M005
+mock-w1-b,transit,none_found,,,,
+mock-w1-b,strong-mayor,stated,Sample position for layout testing.,,,M007
+mock-w1-b,growth,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M006;M011
+mock-w1-b,addiction,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M007;M009
+mock-w1-b,jobs,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,,M004;M008
+mock-w1-b,ebikes,stated,Sample position for layout testing.,,,M010
+mock-w1-b,transparency,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M001;M005
+mock-w2-a,taxes,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,,M002;M006
+mock-w2-a,housing,stated,Sample position for layout testing.,,,M011;M010
+mock-w2-a,homelessness,none_found,,,,
+mock-w2-a,safety,none_found,,,,
+mock-w2-a,transit,none_found,,,,
+mock-w2-a,strong-mayor,none_found,,,,
+mock-w2-a,growth,none_found,,,,
+mock-w2-a,addiction,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M006;M009
+mock-w2-a,jobs,none_found,,,,
+mock-w2-a,ebikes,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M011
+mock-w2-a,transparency,none_found,,,,
+mock-w2-b,taxes,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,,M001;M011
+mock-w2-b,housing,none_found,,,,
+mock-w2-b,homelessness,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,,M004;M003
+mock-w2-b,safety,none_found,,,,
+mock-w2-b,transit,stated,Sample position for layout testing.,Sample fact-check context: made-up city figures differ from the figure the candidate gave.,M010,M009;M006
+mock-w2-b,strong-mayor,none_found,,,,
+mock-w2-b,growth,none_found,,,,
+mock-w2-b,addiction,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,,M011;M001
+mock-w2-b,jobs,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M012;M010
+mock-w2-b,ebikes,stated,Sample position for layout testing.,,,M011;M005
+mock-w2-b,transparency,none_found,,,,
+mock-w2-c,taxes,stated,Sample position for layout testing.,,,M009;M005
+mock-w2-c,housing,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M004
+mock-w2-c,homelessness,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,,M011;M012
+mock-w2-c,safety,none_found,,,,
+mock-w2-c,transit,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M007
+mock-w2-c,strong-mayor,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M003
+mock-w2-c,growth,stated,Sample position for layout testing.,,,M007;M010
+mock-w2-c,addiction,stated,Sample position for layout testing.,,,M004
+mock-w2-c,jobs,stated,Sample position for layout testing.,,,M004;M003
+mock-w2-c,ebikes,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M010
+mock-w2-c,transparency,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M009;M012
+mock-w3-a,taxes,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M001;M002
+mock-w3-a,housing,none_found,,,,
+mock-w3-a,homelessness,none_found,,,,
+mock-w3-a,safety,none_found,,,,
+mock-w3-a,transit,none_found,,,,
+mock-w3-a,strong-mayor,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M002
+mock-w3-a,growth,none_found,,,,
+mock-w3-a,addiction,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M012
+mock-w3-a,jobs,stated,Sample position for layout testing.,,,M005;M001
+mock-w3-a,ebikes,none_found,,,,
+mock-w3-a,transparency,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M012
+mock-w3-b,taxes,none_found,,,,
+mock-w3-b,housing,none_found,,,,
+mock-w3-b,homelessness,none_found,,,,
+mock-w3-b,safety,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M012
+mock-w3-b,transit,none_found,,,,
+mock-w3-b,strong-mayor,stated,Sample position for layout testing.,,,M001
+mock-w3-b,growth,stated,Sample position for layout testing.,Sample fact-check context: made-up city figures differ from the figure the candidate gave.,M003,M010;M006
+mock-w3-b,addiction,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M008;M007
+mock-w3-b,jobs,stated,Sample position for layout testing.,,,M006
+mock-w3-b,ebikes,stated,Sample position for layout testing.,,,M008;M009
+mock-w3-b,transparency,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M006;M012
+mock-w4-a,taxes,none_found,,,,
+mock-w4-a,housing,stated,Sample position for layout testing.,,,M009;M012
+mock-w4-a,homelessness,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M010
+mock-w4-a,safety,none_found,,,,
+mock-w4-a,transit,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,,M009;M007
+mock-w4-a,strong-mayor,stated,Sample position for layout testing.,,,M011;M004
+mock-w4-a,growth,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M003
+mock-w4-a,addiction,stated,Sample position for layout testing.,,,M010;M005
+mock-w4-a,jobs,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M004
+mock-w4-a,ebikes,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,Sample fact-check context: made-up city figures differ from the figure the candidate gave.,M002,M001
+mock-w4-a,transparency,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M003
+mock-w5-a,taxes,none_found,,,,
+mock-w5-a,housing,none_found,,,,
+mock-w5-a,homelessness,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",Sample fact-check context: made-up city figures differ from the figure the candidate gave.,M010,M010;M002
+mock-w5-a,safety,stated,Sample position for layout testing.,,,M007;M008
+mock-w5-a,transit,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M008;M002
+mock-w5-a,strong-mayor,none_found,,,,
+mock-w5-a,growth,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M004;M003
+mock-w5-a,addiction,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M003;M011
+mock-w5-a,jobs,none_found,,,,
+mock-w5-a,ebikes,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M008;M010
+mock-w5-a,transparency,none_found,,,,
+mock-w5-b,taxes,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M010;M009
+mock-w5-b,housing,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,,M009
+mock-w5-b,homelessness,none_found,,,,
+mock-w5-b,safety,none_found,,,,
+mock-w5-b,transit,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,,M001
+mock-w5-b,strong-mayor,none_found,,,,
+mock-w5-b,growth,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,,M004;M003
+mock-w5-b,addiction,none_found,,,,
+mock-w5-b,jobs,stated,Sample position for layout testing.,,,M004
+mock-w5-b,ebikes,stated,Sample position for layout testing.,,,M001
+mock-w5-b,transparency,none_found,,,,
+mock-w5-c,taxes,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M009;M005
+mock-w5-c,housing,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M012;M009
+mock-w5-c,homelessness,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M001
+mock-w5-c,safety,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M007
+mock-w5-c,transit,stated,Sample position for layout testing.,,,M001
+mock-w5-c,strong-mayor,none_found,,,,
+mock-w5-c,growth,stated,Sample position for layout testing.,,,M008
+mock-w5-c,addiction,none_found,,,,
+mock-w5-c,jobs,none_found,,,,
+mock-w5-c,ebikes,none_found,,,,
+mock-w5-c,transparency,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M010
+mock-w5-d,taxes,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,,M012
+mock-w5-d,housing,none_found,,,,
+mock-w5-d,homelessness,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M003
+mock-w5-d,safety,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M011
+mock-w5-d,transit,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M004
+mock-w5-d,strong-mayor,none_found,,,,
+mock-w5-d,growth,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M006;M011
+mock-w5-d,addiction,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M012;M009
+mock-w5-d,jobs,none_found,,,,
+mock-w5-d,ebikes,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M002;M011
+mock-w5-d,transparency,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M010
+mock-w6-a,taxes,none_found,,,,
+mock-w6-a,housing,none_found,,,,
+mock-w6-a,homelessness,none_found,,,,
+mock-w6-a,safety,stated,Sample position for layout testing.,,,M011;M010
+mock-w6-a,transit,none_found,,,,
+mock-w6-a,strong-mayor,stated,Sample position for layout testing.,,,M007
+mock-w6-a,growth,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M006
+mock-w6-a,addiction,none_found,,,,
+mock-w6-a,jobs,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M004
+mock-w6-a,ebikes,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M007;M004
+mock-w6-a,transparency,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M007;M002
+mock-w6-b,taxes,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M005
+mock-w6-b,housing,stated,Sample position for layout testing.,,,M001
+mock-w6-b,homelessness,stated,Sample position for layout testing.,,,M008
+mock-w6-b,safety,stated,Sample position for layout testing.,,,M011
+mock-w6-b,transit,none_found,,,,
+mock-w6-b,strong-mayor,stated,Sample position for layout testing.,,,M006
+mock-w6-b,growth,none_found,,,,
+mock-w6-b,addiction,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M010;M006
+mock-w6-b,jobs,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M008
+mock-w6-b,ebikes,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M012;M004
+mock-w6-b,transparency,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,Sample fact-check context: made-up city figures differ from the figure the candidate gave.,M002,M011
+mock-w8-a,taxes,stated,Sample position for layout testing.,,,M010;M003
+mock-w8-a,housing,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M012;M004
+mock-w8-a,homelessness,none_found,,,,
+mock-w8-a,safety,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M009;M001
+mock-w8-a,transit,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M009;M007
+mock-w8-a,strong-mayor,none_found,,,,
+mock-w8-a,growth,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M001
+mock-w8-a,addiction,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M004;M009
+mock-w8-a,jobs,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,,M003;M006
+mock-w8-a,ebikes,stated,Sample position for layout testing.,Sample fact-check context: made-up city figures differ from the figure the candidate gave.,M007,M011;M002
+mock-w8-a,transparency,stated,Sample position for layout testing.,,,M004
+mock-w8-b,taxes,stated,Sample position for layout testing.,,,M007;M006
+mock-w8-b,housing,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M006;M010
+mock-w8-b,homelessness,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,,M008
+mock-w8-b,safety,none_found,,,,
+mock-w8-b,transit,none_found,,,,
+mock-w8-b,strong-mayor,none_found,,,,
+mock-w8-b,growth,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M008
+mock-w8-b,addiction,none_found,,,,
+mock-w8-b,jobs,none_found,,,,
+mock-w8-b,ebikes,none_found,,,,
+mock-w8-b,transparency,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M010;M001
+mock-w9-a,taxes,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M003
+mock-w9-a,housing,none_found,,,,
+mock-w9-a,homelessness,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,,M007
+mock-w9-a,safety,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M001;M002
+mock-w9-a,transit,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M004
+mock-w9-a,strong-mayor,stated,Sample position for layout testing.,,,M008;M002
+mock-w9-a,growth,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,,M009;M002
+mock-w9-a,addiction,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M009
+mock-w9-a,jobs,stated,Sample position for layout testing.,,,M006;M007
+mock-w9-a,ebikes,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M003
+mock-w9-a,transparency,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M007;M002
+mock-w9-b,taxes,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M001
+mock-w9-b,housing,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M010
+mock-w9-b,homelessness,none_found,,,,
+mock-w9-b,safety,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,,M009;M011
+mock-w9-b,transit,none_found,,,,
+mock-w9-b,strong-mayor,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M002
+mock-w9-b,growth,none_found,,,,
+mock-w9-b,addiction,none_found,,,,
+mock-w9-b,jobs,stated,Sample position for layout testing.,,,M005
+mock-w9-b,ebikes,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M009
+mock-w9-b,transparency,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M003;M004
+mock-w9-c,taxes,stated,Sample position for layout testing.,,,M011;M005
+mock-w9-c,housing,stated,Sample position for layout testing.,,,M012;M003
+mock-w9-c,homelessness,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,,M007;M008
+mock-w9-c,safety,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M006
+mock-w9-c,transit,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M008;M001
+mock-w9-c,strong-mayor,none_found,,,,
+mock-w9-c,growth,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M007
+mock-w9-c,addiction,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,Sample fact-check context: made-up city figures differ from the figure the candidate gave.,M012,M007;M011
+mock-w9-c,jobs,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,,M010
+mock-w9-c,ebikes,stated,Sample position for layout testing.,,,M005
+mock-w9-c,transparency,none_found,,,,
+mock-w10-a,taxes,stated,Sample position for layout testing.,,,M005
+mock-w10-a,housing,stated,Sample position for layout testing.,,,M001;M006
+mock-w10-a,homelessness,stated,Sample position for layout testing.,,,M002
+mock-w10-a,safety,stated,Sample position for layout testing.,Sample fact-check context: made-up city figures differ from the figure the candidate gave.,M004,M003;M012
+mock-w10-a,transit,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M006
+mock-w10-a,strong-mayor,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M004
+mock-w10-a,growth,stated,Sample position for layout testing.,,,M003
+mock-w10-a,addiction,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M012
+mock-w10-a,jobs,none_found,,,,
+mock-w10-a,ebikes,none_found,,,,
+mock-w10-a,transparency,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M007;M012
+mock-w10-b,taxes,none_found,,,,
+mock-w10-b,housing,stated,Sample position for layout testing.,,,M001
+mock-w10-b,homelessness,none_found,,,,
+mock-w10-b,safety,stated,Sample position for layout testing.,,,M007
+mock-w10-b,transit,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M009;M012
+mock-w10-b,strong-mayor,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M006
+mock-w10-b,growth,none_found,,,,
+mock-w10-b,addiction,none_found,,,,
+mock-w10-b,jobs,stated,Sample position for layout testing.,,,M009;M010
+mock-w10-b,ebikes,stated,"Sample position of medium length, written to test how a typical paraphrased summary wraps inside a card and a table cell.",,,M005
+mock-w10-b,transparency,stated,Sample position of longer length. It runs to several sentences so the layout can be checked with a detailed answer. It mentions a made-up figure of $1.5M and a made-up date of 2027 to test numbers in text.,,,M010;M005
