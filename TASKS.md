@@ -46,6 +46,6 @@ Built per the list below. Preview: `npm run dev:mock`, then open http://localhos
 ### Next
 
 - [ ] Owner reviews the mock preview; collect layout changes.
-- [ ] Merge `site-build` into `main` after review, then delete the branch.
-- [ ] GitHub Actions workflow to deploy `main` to GitHub Pages (not before the owner approves going live).
+- [x] Merged `site-build` into `main` and deleted the branch (2026-10-22).
+- [x] GitHub Actions deploys `main` to GitHub Pages (2026-10-22). Live: https://tenonic.github.io/barrie-election-2026/
 - [ ] Corrections page and channel, once the owner decides on it (see Open questions in `PROJECT_NOTES.md`).
