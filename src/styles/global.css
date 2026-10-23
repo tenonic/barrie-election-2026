@@ -31,7 +31,8 @@
 }
 
 * { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; }
+/* Keeps jump links (such as Sources #S026) from landing under the sticky header. */
+html { -webkit-text-size-adjust: 100%; scroll-padding-top: 6rem; }
 body {
   margin: 0;
   background: var(--bg);
@@ -55,7 +56,7 @@ h3 { font-size: 1.1rem; margin: 0; }
   padding: .6rem 16px; text-align: center; font-weight: 600; font-size: .9rem;
 }
 
-.site-header { border-bottom: 1px solid var(--line); background: var(--surface); }
+.site-header { border-bottom: 1px solid var(--line); background: var(--surface); position: sticky; top: 0; z-index: 10; }
 .site-header .wrap { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .5rem 1.5rem; padding-block: .9rem; }
 .site-title { font-weight: 700; color: var(--ink); text-decoration: none; }
 .site-nav { display: flex; flex-wrap: wrap; gap: .25rem 1.25rem; }
