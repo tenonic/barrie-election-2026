@@ -122,7 +122,7 @@ These back the property-tax figures in Alex Nuttall's tax note. Check that each 
 
 ### Site build with mock-data preview (step 3): done 2026-10-22 on branch `site-build`
 
-Built per the list below. Preview: `npm run dev:mock`, then open http://localhost:4321/barrie-election-2026/. Regenerate mock data with `npm run mock:generate`.
+Built per the list below. Preview: `npm run dev`, then open http://localhost:4321/barrie-election-2026/. The mock-data setup is kept for future use (for example school trustees): `npm run dev:mock` fills races that have no real candidates; regenerate with `npm run mock:generate`.
 
 - [x] Set up Astro in this repo (Node.js 24 is installed). Read CSVs from `data/` at build time.
 - [x] Pages: home (ward picker, mayor link, "How we stay neutral" box), one page per race (candidate cards, fairness banner, comparison table of candidates x issues), Standards (from `STANDARDS.md`), Sources, and a "last updated" date. See "Site structure" in `PROJECT_NOTES.md`.

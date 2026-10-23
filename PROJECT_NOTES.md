@@ -52,6 +52,7 @@ A public, neutral website that helps Barrie voters compare candidates before the
 | 2026-10-23 | Always ask the owner before anything goes live (any push or merge to `main`), including small fixes. Replaces the earlier "small fixes go straight to `main`" rule |
 | 2026-10-23 | No feature branches: work directly on `main`, commit locally, show the change in the local preview, and push only after the owner says to publish |
 | 2026-10-23 | Also ask before every commit, not only before pushing |
+| 2026-10-23 | Site name "Barrie Voter Guide 2026" (was "Barrie Election 2026"), with a logo: dark tile, brown check mark, name and a "2026" tag. Not similar to BarrieVotes.ca or City of Barrie branding |
 | 2026-10-22 | Race pages: candidate cards hold the profile (background, priorities, public record, contact); issue positions, sources and fact-check notes are in the comparison table |
 
 ## Data model (CSV)

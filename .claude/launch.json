@@ -2,15 +2,15 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "Site preview (mock data)",
+      "name": "Site preview",
       "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "dev:mock"],
+      "runtimeArgs": ["run", "dev"],
       "port": 4321
     },
     {
-      "name": "Site preview (real data only)",
+      "name": "Site preview with mock data (fills races without real candidates)",
       "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "dev"],
+      "runtimeArgs": ["run", "dev:mock"],
       "port": 4321
     }
   ]

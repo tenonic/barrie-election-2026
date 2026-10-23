@@ -1,10 +1,11 @@
 ---
 import '../styles/global.css';
 import { USE_MOCK, lastUpdated, url } from '../lib/data';
+import Logo from '../components/Logo.astro';
 
 interface Props { title: string; description?: string }
 const { title, description = 'A neutral, sourced guide to the candidates in Barrie’s 2026 municipal election.' } = Astro.props;
-const fullTitle = title === 'Home' ? 'Barrie Election 2026: Candidate Guide' : `${title} · Barrie Election 2026`;
+const fullTitle = title === 'Home' ? 'Barrie Voter Guide 2026' : `${title} · Barrie Voter Guide 2026`;
 
 // Which nav section the current page belongs to; ward pages count as "Wards".
 const page = Astro.url.pathname.replace(import.meta.env.BASE_URL.replace(/\/$/, ''), '').replace(/^\/|\/$/g, '');
@@ -29,12 +30,12 @@ const nav = [
   <body>
     {USE_MOCK && (
       <div class="mock-banner" role="note">
-        Mock data preview: wards 1–6 and 8–10 show fictional candidates. Not for publication.
+        Mock data preview: races without real candidates show fictional ones. Not for publication.
       </div>
     )}
     <header class="site-header">
       <div class="wrap">
-        <a class="site-title" href={url()}>Barrie Election 2026</a>
+        <a class="site-title" href={url()} aria-label="Barrie Voter Guide 2026, home"><Logo /></a>
         <nav class="site-nav" aria-label="Main">
           {nav.map((n) => <a href={n.href} aria-current={n.key === section ? 'page' : undefined}>{n.label}</a>)}
         </nav>
