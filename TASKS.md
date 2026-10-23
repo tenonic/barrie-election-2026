@@ -20,7 +20,7 @@ BarrieToday asked every candidate for a self-written profile. Collect one for ea
 | Ward 7 | Michael Lewis | Done 2026-10-22 (S015) |
 | Wards 1-6, 8-10 | Added once those wards are researched | To do |
 
-### BarrieToday articles cited in wards 1-3
+### BarrieToday articles cited in wards 1-6
 
 These were cited through BarrieVotes.ca and not opened directly. For each one, check that the positions linked to it on the site match the article, then mark the source as verified. "Profile" means a candidate-submitted profile (it also covers the profile table above).
 
@@ -43,6 +43,15 @@ These were cited through BarrieVotes.ca and not opened directly. For each one, c
 | S081 | Electrician hopes to bring 'practical, hands-on' approach to Ward 3 (profile) | Hughes | To do |
 | S084 | Ward 3 candidate wants to keep Barrie 'a special city' (profile) | Jones | To do |
 | S089 | Baseball helps shape Ward 3 candidate's attitude toward teamwork (profile) | Rijo | To do |
+| S093 | Road safety, speeding among top issues in newly redrawn Ward 4 | Ahmad | To do |
+| S096 | Ward 4 candidate hopes to bring people together, solve problems | Corbett | To do |
+| S099 | Listening, problem-solving 'second nature' to Ward 4 candidate | Galeazza | To do |
+| S103 | Former councillor eyes return to city hall in Ward 4 | Khan | To do |
+| S109 | Ward 5 hopeful looks to bring 'new era of politics' to council (profile) | Da Silva | To do |
+| S113 | Thomson looks to draw on experience in re-election bid | Thomson | To do |
+| S116 | Ward 6 candidate hopes to 'bring residents together' in Barrie | Nader (only source for his positions) | To do |
+| S120 | Ward 6 incumbent says approach rests on 'finding practical solutions' (profile) | Nigussie | To do |
+| S125 | Traffic, transit, school zones among Ward 6 candidate's concerns | Pena | To do |
 
 Each source's link is on the site's Sources page, under its source ID.
 

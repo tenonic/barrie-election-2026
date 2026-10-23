@@ -43,6 +43,7 @@ A public, neutral website that helps Barrie voters compare candidates before the
 | 2026-10-22 | Ward research method (same for every candidate): City certified list for contact details and filing dates; BarrieVotes.ca candidate page; the original campaign pages and news articles it cites, which are recorded as our sources. Every non-BarrieToday link is checked to open. BarrieToday articles are marked "cited via BarrieVotes.ca, not opened directly" |
 | 2026-10-22 | "Incumbent" tag only for a councillor running in the ward they hold now (under the previous boundaries). A sitting councillor running in another ward has that role stated in their background instead |
 | 2026-10-22 | Recorded council votes are left for the public record pass, so positions only reflect what candidates say |
+| 2026-10-22 | Every candidate who cites "0% operating budget increases" (Nuttall, Harvey, Thomson, Nigussie) gets the same sourced context note on total tax increases |
 | 2026-10-22 | Race pages: candidate cards hold the profile (background, priorities, public record, contact); issue positions, sources and fact-check notes are in the comparison table |
 
 ## Data model (CSV)
@@ -103,7 +104,7 @@ Councillors also get a "Ward-specific priorities" field.
 | # | Step | Status |
 | --- | --- | --- |
 | 1 | Repo setup, data structure, migrate the mayor and Ward 7 research | Done 2026-10-22: https://github.com/tenonic/barrie-election-2026 |
-| 2 | Research wards 1-6 and 8-10 | In progress on branch `ward-research`: wards 1-3 done 2026-10-22 (15 candidates), awaiting owner review; wards 4-6 and 8-10 next |
+| 2 | Research wards 1-6 and 8-10 | In progress on branch `ward-research`: wards 1-6 done 2026-10-22 (25 candidates), awaiting owner review; wards 8-10 next |
 | 3 | Build the Astro site, with a mock-data preview first | Built 2026-10-22 and merged into `main`; owner review of layout ongoing |
 | 4 | Owner reviews, then the site goes live on GitHub Pages | Live early at the owner's request 2026-10-22: https://tenonic.github.io/barrie-election-2026/ (mayor and Ward 7 only; other wards "coming soon"). Every push to `main` redeploys |
 
