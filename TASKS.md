@@ -77,10 +77,10 @@ These were cited through BarrieVotes.ca and not opened directly. For each one, c
 | S056 | Ward 2 candidate says affordability among 'defining issues' this election (profile) | Edwards | Done 2026-10-23 |
 | S062 | 'Incredible' work being done to improve downtown, says Ward 2 incumbent (profile) | Nixon | Done 2026-10-23 |
 | S064 | Barrie must find ways to generate more revenue, says Ward 2 candidate (profile) | Noushahi | Done 2026-10-23 |
-| S068 | Change needed to fix downtown Barrie, says Ward 2 candidate (profile) | Strohm | To do |
+| S068 | Change needed to fix downtown Barrie, says Ward 2 candidate (profile) | Strohm | Done 2026-10-23 |
 | S069 | Election signs easy targets in Barrie campaign | Strohm (self-funding) | To do |
-| S074 | Ward 3 candidate vows to be 'independent voice' on Barrie council (profile) | Courser | To do |
-| S081 | Electrician hopes to bring 'practical, hands-on' approach to Ward 3 (profile) | Hughes | To do |
+| S074 | Ward 3 candidate vows to be 'independent voice' on Barrie council (profile) | Courser | Done 2026-10-23 |
+| S081 | Electrician hopes to bring 'practical, hands-on' approach to Ward 3 (profile) | Hughes | Done 2026-10-23 |
 | S084 | Ward 3 candidate wants to keep Barrie 'a special city' (profile) | Jones | To do |
 | S089 | Baseball helps shape Ward 3 candidate's attitude toward teamwork (profile) | Rijo | To do |
 | S093 | Road safety, speeding among top issues in newly redrawn Ward 4 | Ahmad | To do |
