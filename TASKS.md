@@ -83,10 +83,10 @@ These were cited through BarrieVotes.ca and not opened directly. For each one, c
 | S081 | Electrician hopes to bring 'practical, hands-on' approach to Ward 3 (profile) | Hughes | Done 2026-10-23 |
 | S084 | Ward 3 candidate wants to keep Barrie 'a special city' (profile) | Jones | Done 2026-10-23 |
 | S089 | Baseball helps shape Ward 3 candidate's attitude toward teamwork (profile) | Rijo | Done 2026-10-23 |
-| S093 | Road safety, speeding among top issues in newly redrawn Ward 4 | Ahmad | To do |
-| S096 | Ward 4 candidate hopes to bring people together, solve problems | Corbett | To do |
-| S099 | Listening, problem-solving 'second nature' to Ward 4 candidate | Galeazza | To do |
-| S103 | Former councillor eyes return to city hall in Ward 4 | Khan | To do |
+| S093 | Road safety, speeding among top issues in newly redrawn Ward 4 | Ahmad | Done 2026-10-23 (profile) |
+| S096 | Ward 4 candidate hopes to bring people together, solve problems | Corbett | Done 2026-10-23 (profile) |
+| S099 | Listening, problem-solving 'second nature' to Ward 4 candidate | Galeazza | Done 2026-10-23 (profile) |
+| S103 | Former councillor eyes return to city hall in Ward 4 | Khan | Done 2026-10-23 (profile) |
 | S109 | Ward 5 hopeful looks to bring 'new era of politics' to council (profile) | Da Silva | Done 2026-10-23 |
 | S113 | Thomson looks to draw on experience in re-election bid | Thomson | To do |
 | S116 | Ward 6 candidate hopes to 'bring residents together' in Barrie | Nader (only source for his positions) | Done 2026-10-23 (profile) |
