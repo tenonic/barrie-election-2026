@@ -1,9 +1,9 @@
 ---
-import type { Candidate } from '../lib/data';
+import type { Candidate, RaceType } from '../lib/data';
 import { PUBLIC_RECORD_REVIEWED } from '../lib/data';
 import SourceLinks from './SourceLinks.astro';
 
-interface Props { candidate: Candidate; raceType: 'mayor' | 'ward' }
+interface Props { candidate: Candidate; raceType: RaceType }
 const { candidate: c, raceType } = Astro.props;
 const prioritiesLabel = raceType === 'ward' ? 'Ward-specific priorities' : 'Other stated priorities';
 ---

@@ -4,12 +4,14 @@ import { races, url } from '../lib/data';
 
 const mayor = races.find((r) => r.type === 'mayor')!;
 const wards = races.filter((r) => r.type === 'ward');
+const trustees = races.filter((r) => r.type === 'trustee');
+const boards = [...new Set(trustees.map((t) => t.board))];
 const status = (n: number, acclaimed: boolean) =>
   acclaimed ? 'Acclaimed' : n === 0 ? 'Candidate information coming soon' : `${n} candidates`;
 ---
 <Base title="Home">
   <h1 class="sr-only">Barrie Voter Guide 2026</h1>
-  <p>Compare the candidates for mayor and ward councillor before election day, <strong>Monday, October 26, 2026</strong>. Every position is paraphrased from the candidate’s own words and linked to a source.</p>
+  <p>Compare the candidates for mayor, ward councillor and school board trustee before election day, <strong>Monday, October 26, 2026</strong>. Every position is paraphrased from the candidate’s own words and linked to a source.</p>
 
   <h2>Mayor</h2>
   <ul class="race-grid race-mayor">
@@ -36,6 +38,24 @@ const status = (n: number, acclaimed: boolean) =>
       </li>
     ))}
   </ul>
+
+  <h2 id="trustees">School board trustee</h2>
+  <p>You vote for one trustee, on the school board you support. English boards elect trustees by groups of wards; the French boards each elect one trustee for all of Barrie.</p>
+  {boards.map((b) => (
+    <>
+      <h3>{b}</h3>
+      <ul class="race-grid">
+        {trustees.filter((t) => t.board === b).map((t) => (
+          <li>
+            <a href={url(`${t.id}/`)}>
+              <strong>{t.wards.length === 10 ? 'All of Barrie' : `Wards ${t.wards.join(', ')}`}</strong>
+              <span class="muted small">{status(t.candidates.length, t.acclaimed)}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </>
+  ))}
 
   <section class="box" aria-labelledby="neutral">
     <h2 id="neutral">How we stay neutral</h2>

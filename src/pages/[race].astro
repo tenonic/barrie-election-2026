@@ -10,10 +10,17 @@ export function getStaticPaths() {
 
 const { race } = Astro.props as { race: Race };
 const n = race.candidates.length;
+const wardNumber = race.type === 'ward' ? race.id.replace('ward-', '') : '';
+const trusteeRaces = wardNumber ? races.filter((r) => r.type === 'trustee' && r.wards.includes(wardNumber)) : [];
+const wardList = (wards: string[]) => (wards.length === 10 ? 'all of Barrie' : `Barrie wards ${wards.slice(0, -1).join(', ')} and ${wards.at(-1)}`);
 ---
 <Base title={race.name} description={`Candidates for ${race.name} in Barrie's 2026 municipal election.`}>
   <p class="small"><a href={url()}>All races</a></p>
   <h1>{race.name}</h1>
+
+  {race.type === 'trustee' && (
+    <p><strong>{race.board}</strong>, representing {wardList(race.wards)}. {race.areaNote} You vote in this race only if you are a supporter of this school board.</p>
+  )}
 
   {race.acclaimed ? (
     <p><strong>Acclaimed.</strong> Only one candidate was certified for this race, so they are elected without a vote and this race will not appear on the ballot.</p>
@@ -25,8 +32,18 @@ const n = race.candidates.length;
     <p>Every candidate is researched the same way and shown with the same layout. Positions are paraphrased from the candidate’s own words and always sourced. Where we found nothing, we say so. A longer public record does not mean a candidate has done anything wrong. <a href={url('standards/')}>Our standards</a></p>
   </aside>
 
+  {trusteeRaces.length > 0 && (
+    <aside class="box" aria-labelledby="ward-trustees">
+      <h2 id="ward-trustees">School board trustee for Ward {wardNumber}</h2>
+      <p>You also vote for one trustee, on the school board you support:</p>
+      <ul>
+        {trusteeRaces.map((t) => <li><a href={url(`${t.id}/`)}>{t.board}</a></li>)}
+      </ul>
+    </aside>
+  )}
+
   {n === 0 ? (
-    <p class="empty">Candidate information for this ward is coming soon.</p>
+    <p class="empty">Candidate information for this race is coming soon.</p>
   ) : (
     <>
       <h2>Candidates</h2>
