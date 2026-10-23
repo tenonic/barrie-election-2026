@@ -20,6 +20,8 @@ export type Candidate = {
   id: string; name: string; incumbent: boolean; background: string; priorities: string;
   website: string; facebook: string; instagram: string; email: string; sources: Source[];
   positions: Position[]; record: RecordItem[];
+  // False when every position is "none found"; such candidates are left out of the comparison.
+  hasStatements: boolean;
 };
 export type RaceType = 'mayor' | 'ward' | 'trustee';
 export type Race = {
@@ -37,6 +39,11 @@ const issuesFor = (type: RaceType) => issues.filter((i: any) => i.applies_to ===
 const lastName = (name: string) => name.trim().split(/\s+/).pop()!.toLowerCase();
 
 function buildCandidate(c: any, type: RaceType): Candidate {
+  const built = buildFields(c, type);
+  return { ...built, hasStatements: built.positions.some((p) => p.stated) };
+}
+
+function buildFields(c: any, type: RaceType): Omit<Candidate, 'hasStatements'> {
   return {
     id: c.candidate_id,
     name: c.name,

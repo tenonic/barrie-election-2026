@@ -12,6 +12,9 @@ const prioritiesLabel = raceType === 'ward' ? 'Ward-specific priorities' : 'Othe
     <h3>{c.name}</h3>
     {c.incumbent && <span class="tag">Incumbent</span>}
   </header>
+  {!c.hasStatements && (
+    <p class="empty">No public statements found. We found no candidate profile, campaign website or news coverage quoting this candidate, so they are not shown in the comparison below. Contact them directly to ask about their positions.</p>
+  )}
   <dl>
     <dt>Background</dt>
     <dd>{c.background || <span class="empty">No information found.</span>}</dd>

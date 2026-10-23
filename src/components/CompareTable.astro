@@ -3,11 +3,16 @@ import type { Candidate } from '../lib/data';
 import SourceLinks from './SourceLinks.astro';
 
 interface Props { candidates: Candidate[] }
-const { candidates } = Astro.props;
+const { candidates: all } = Astro.props;
 // Every candidate in a race has the same issue list, in the same order.
-const issues = candidates[0].positions.map((p) => p.issue);
+const issues = all[0].positions.map((p) => p.issue);
+const candidates = all.filter((c) => c.hasStatements);
+const omitted = all.filter((c) => !c.hasStatements);
 ---
-<div class="compare">
+{omitted.length > 0 && (
+  <p class="muted small">Not shown: {omitted.map((c) => c.name).join(', ')} (no public statements found).</p>
+)}
+{candidates.length > 0 && <div class="compare">
   {issues.map((issue, i) => (
     <section class="compare-issue" aria-labelledby={`issue-${issue.issue_id}`}>
       <h3 id={`issue-${issue.issue_id}`}>{issue.name}</h3>
@@ -31,4 +36,4 @@ const issues = candidates[0].positions.map((p) => p.issue);
       </div>
     </section>
   ))}
-</div>
+</div>}
