@@ -1,14 +1,15 @@
 # Barrie Election 2026: Project Notes
 
 Internal working notes: decisions, plan and status. **Not published on the site.**
-Last updated: 2026-10-22
+Last updated: 2026-10-23
 
 ## Goal
 
 A public, neutral website that helps Barrie voters compare candidates before the **Monday, October 26, 2026** municipal election.
 
 - **Audience:** any Barrie voter
-- **Target go-live:** Saturday, October 24, 2026
+- **Voting:** online or by phone only, 24/7 from October 16 until 8pm on October 26; no paper ballots. Voters are already voting, so the site must be complete as early as possible.
+- **Live since:** 2026-10-22. **All work finished by Saturday, October 24**; corrections only after that (timeline in `TASKS.md`)
 - **Upkeep:** shared by the owner and Claude
 
 ## Scope
@@ -46,6 +47,7 @@ A public, neutral website that helps Barrie voters compare candidates before the
 | 2026-10-22 | Every candidate who cites "0% operating budget increases" (Nuttall, Harvey, Thomson, Nigussie) gets the same sourced context note on total tax increases |
 | 2026-10-22 | The same rule applies to the "779 affordable units approved" claim (Harvey, Hamilton): both get the same sourced housing note |
 | 2026-10-22 | Left out: a news report that a Ward 10 candidate was assaulted (personal matter, excluded by the public record rules), and a provincial run BarrieVotes attributes to Ben Hughes (identity not confirmed). Asmar Naveed's card notes his website says he has stepped back from campaigning, without health details |
+| 2026-10-23 | New timeline: voting is already open online and by phone, so all work finishes Fri Oct 23 or Sat Oct 24, then the site is frozen except for corrections. Public record pass cut from this election; the site keeps "Not yet reviewed". Add a sourced "How to vote" box to the home page |
 | 2026-10-22 | Race pages: candidate cards hold the profile (background, priorities, public record, contact); issue positions, sources and fact-check notes are in the comparison table |
 
 ## Data model (CSV)

@@ -2,6 +2,30 @@
 
 Internal task list. **Not published on the site.** Decisions and overall status live in `PROJECT_NOTES.md`.
 
+## Timeline (set 2026-10-23)
+
+Voting is already open: online and by phone, 24/7, from October 16 until 8pm on Monday, October 26. There are no paper ballots or polling stations. Every day the site is incomplete, people are voting without it, so all work finishes **today (Fri Oct 23) or tomorrow (Sat Oct 24)**. From Saturday evening the site is frozen except for corrections.
+
+**Friday, October 23**
+
+1. [ ] **How to vote box** on the home page (Claude, about 15 minutes; owner reviews before publishing). Sourced to the City of Barrie "Information for Voters" page:
+    - Online (barrie.elections.vote) or by phone (1-833-969-4572), 24/7 until 8pm on October 26. No paper ballots or polling stations.
+    - Voter Assistance Centres for in-person help with the digital platform, the voters list or a replacement PIN (bring ID): Allandale Recreation Centre, City Hall, East Bayfield Community Centre, Parkview Centre, Peggy Hill Team Community Centre, Surface Water Treatment Plant. Open Oct 22-23 10am-8pm, Oct 24 10am-6pm, closed Oct 25, Oct 26 10am-8pm. (The City page lists six centres; one FAQ says five.)
+    - Ward 10: the first voter letters had the wrong ward; those PINs are deactivated. Use the yellow "Updated Voter Information" letter.
+    - Also update home-page wording that assumes voting only happens on October 26.
+2. [ ] **Corrections channel** (owner decides), then a Corrections page with the two waiting entries (Claude, about 30 minutes).
+3. [ ] **Finish the sourcing** (Claude, about 1 hour): see "Every claim sourced" below.
+4. [ ] **Owner: BarrieToday checks, single-source entries first:** S116 (Nader) and S159 (Cadeau), then the candidate profiles.
+
+**Saturday, October 24**
+
+5. [ ] **Owner: remaining BarrieToday checks.** Claude applies any fixes the same day.
+6. [ ] **Final review** by the owner, then freeze by Saturday evening.
+
+**Sunday, October 25 to Monday, October 26:** corrections only.
+
+**Cut from this election:** the public record pass. There isn't time to do it equally for all 41 candidates, so the site keeps showing "Not yet reviewed" and says so plainly.
+
 ## Owner: manual source opening
 
 BarrieToday blocks automated access, so Claude cannot open its pages. The owner opens each page in a browser and pastes the full text into the chat. Claude then updates the data and marks the source as verified.
@@ -110,7 +134,7 @@ Every claim, fact and quote on the site must link to its source. Gaps found in t
 
 ### Next
 
-- [ ] Owner reviews the mock preview; collect layout changes.
+- [x] Owner reviewed the preview; all wards merged and live 2026-10-23.
 - [x] Merged `site-build` into `main` and deleted the branch (2026-10-22).
 - [x] GitHub Actions deploys `main` to GitHub Pages (2026-10-22). Live: https://tenonic.github.io/barrie-election-2026/
 - [ ] Corrections page and channel, once the owner decides on it (see Open questions in `PROJECT_NOTES.md`).
