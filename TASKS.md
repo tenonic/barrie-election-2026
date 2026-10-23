@@ -66,10 +66,10 @@ These were cited through BarrieVotes.ca and not opened directly. For each one, c
 
 | Source | Article | Used for | Status |
 | --- | --- | --- | --- |
-| S025 | Ward 1 candidate says Barrie residents 'want action' on safety issues | Agostino | To do |
+| S025 | Ward 1 candidate says Barrie residents 'want action' on safety issues | Agostino | Done 2026-10-23 (profile) |
 | S026 | Ward 1 candidates weigh in on how Barrie should develop 460 hectares of annexed land | All Ward 1 candidates | Done 2026-10-23 |
-| S029 | Ainsworth running on safety, accountability in Ward 1 | Ainsworth | To do |
-| S033 | Ward 1 candidate says communication, listening will guide campaign | Bowser | To do |
+| S029 | Ainsworth running on safety, accountability in Ward 1 | Ainsworth | Done 2026-10-23 (profile) |
+| S033 | Ward 1 candidate says communication, listening will guide campaign | Bowser | Done 2026-10-23 (profile) |
 | S037 | Ward 1 candidate believes in 'giving back to the community' (profile) | Rahman | Done 2026-10-23 |
 | S040 | Absentee landlords, speeding among top issues for Ward 1 hopeful (profile) | Stevenson | Done 2026-10-23 |
 | S046 | Ward 2 candidates cite addiction crisis, downtown Barrie safety as key election issues | Nixon, Noushahi, Strohm | To do |
