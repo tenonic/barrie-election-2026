@@ -30,6 +30,22 @@ Voting is already open: online and by phone, 24/7, from October 16 until 8pm on 
 
 BarrieToday blocks automated access, so Claude cannot open its pages. The owner opens each page in a browser and pastes the full text into the chat. Claude then updates the data and marks the source as verified.
 
+### Plan: verify BarrieToday articles with Claude desktop (owner will run this)
+
+The owner will run this check in the Claude desktop app, where Claude can read pages through a real browser (the built-in browser pane or Claude in Chrome). Instructions for Claude desktop:
+
+1. Work on a new branch (for example `verify-barrietoday`), never directly on `main`.
+2. Go through the BarrieToday tables below in this order: single-source entries first (S116 Nader, S159 Cadeau), then S026 (cited for all Ward 1 candidates), then the candidate profiles, then the rest, then the budget articles (S020-S022).
+3. For each article, open its URL from `data/sources.csv` in the browser. If the page doesn't load or is paywalled, mark the row "Could not open" and move on. Never guess its content.
+4. Find every row that cites the source ID: `data/positions.csv` (`source_ids` and `note_source_ids`) and `data/candidates.csv` (`source_ids`, which covers background and priorities). Compare each summary with the article:
+    - Matches: no change.
+    - Wrong or overstated: rewrite the paraphrase from the article. If the wrong version was already live, add an entry to the corrections list under "Next" below.
+    - The article states a position we show as `none_found`: add it as `stated`, citing the source.
+    - Follow the fairness rules in `PROJECT_NOTES.md`: paraphrase the candidate's own words, neutral tone, no new claims beyond the article.
+5. Update the source's `access_note` in `data/sources.csv` to "Verified in browser by Claude, YYYY-MM-DD" (or "verified by the owner" if the owner read it). For candidate-submitted profiles, keep "Candidate-submitted profile." at the start.
+6. Mark the row "Done" in the tables below (and in the profile table for profiles).
+7. Run `npm run check:data`, commit in small batches, and give the owner a short summary of every change. The owner reviews before merging to `main`; merging publishes the site.
+
 ### BarrieToday candidate profiles
 
 BarrieToday asked every candidate for a self-written profile. Collect one for each candidate so every race uses the same source (fairness rule 1). Write "none" if a candidate has no profile.
