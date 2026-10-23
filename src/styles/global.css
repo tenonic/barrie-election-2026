@@ -62,7 +62,7 @@ h3 { font-size: 1.1rem; margin: 0; }
 .site-nav { display: flex; flex-wrap: wrap; gap: .25rem 1.25rem; }
 .site-nav a { color: var(--ink); text-decoration: none; }
 .site-nav a:hover { text-decoration: underline; }
-.site-nav a[aria-current="page"] { color: var(--accent); font-weight: 600; text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: .35em; }
+.site-nav a[aria-current] { color: var(--accent); font-weight: 600; text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: .35em; }
 
 main { padding-block: 2rem 3rem; }
 

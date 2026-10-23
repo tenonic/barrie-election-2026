@@ -40,6 +40,20 @@ const nav = [
         </nav>
       </div>
     </header>
+    {page === '' && (
+      <script is:inline>
+        // The "Wards" link points to the ward list on the home page; highlight it while that's the target.
+        (function () {
+          var link = document.querySelector('.site-nav a[href$="#wards"]');
+          function update() {
+            if (location.hash === '#wards') link.setAttribute('aria-current', 'location');
+            else link.removeAttribute('aria-current');
+          }
+          update();
+          window.addEventListener('hashchange', update);
+        })();
+      </script>
+    )}
     <main class="wrap">
       <slot />
     </main>
