@@ -99,7 +99,7 @@ These were cited through BarrieVotes.ca and not opened directly. For each one, c
 | S147 | Ward 9 incumbent says local parks have seen 'historical investments' | Morales | To do |
 | S153 | Ward 9 candidate wants 'meaningful' community consultation | Naveed | To do |
 | S156 | Councillors have power to keep Barrie affordable, says Ward 9 candidate | Weingarten | To do |
-| S159 | Military vet wants 'every resident's voice' to be heard in Ward 10 | Cadeau (only source for his positions) | To do |
+| S159 | Military vet wants 'every resident's voice' to be heard in Ward 10 | Cadeau (only source for his positions) | Done 2026-10-23 (profile) |
 | S162 | 'Smarter growth, safer neighbourhoods' among priorities for Ward 10 incumbent | Hamilton | To do |
 | S166 | Ward 10 candidate wants more thought put into Barrie's rapid growth | Kapustin | To do |
 
