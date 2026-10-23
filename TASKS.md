@@ -72,13 +72,13 @@ These were cited through BarrieVotes.ca and not opened directly. For each one, c
 | S033 | Ward 1 candidate says communication, listening will guide campaign | Bowser | Done 2026-10-23 (profile) |
 | S037 | Ward 1 candidate believes in 'giving back to the community' (profile) | Rahman | Done 2026-10-23 |
 | S040 | Absentee landlords, speeding among top issues for Ward 1 hopeful (profile) | Stevenson | Done 2026-10-23 |
-| S046 | Ward 2 candidates cite addiction crisis, downtown Barrie safety as key election issues | Nixon, Noushahi, Strohm | To do |
+| S046 | Ward 2 candidates cite addiction crisis, downtown Barrie safety as key election issues | Nixon, Noushahi, Strohm | Done 2026-10-23 |
 | S053 | Ward 2 candidate running on 'show up or hush up' principle (profile) | Casera | Done 2026-10-23 |
 | S056 | Ward 2 candidate says affordability among 'defining issues' this election (profile) | Edwards | Done 2026-10-23 |
 | S062 | 'Incredible' work being done to improve downtown, says Ward 2 incumbent (profile) | Nixon | Done 2026-10-23 |
 | S064 | Barrie must find ways to generate more revenue, says Ward 2 candidate (profile) | Noushahi | Done 2026-10-23 |
 | S068 | Change needed to fix downtown Barrie, says Ward 2 candidate (profile) | Strohm | Done 2026-10-23 |
-| S069 | Election signs easy targets in Barrie campaign | Strohm (self-funding) | To do |
+| S069 | Election signs easy targets in Barrie campaign | Strohm (self-funding) | Done 2026-10-23 |
 | S074 | Ward 3 candidate vows to be 'independent voice' on Barrie council (profile) | Courser | Done 2026-10-23 |
 | S081 | Electrician hopes to bring 'practical, hands-on' approach to Ward 3 (profile) | Hughes | Done 2026-10-23 |
 | S084 | Ward 3 candidate wants to keep Barrie 'a special city' (profile) | Jones | Done 2026-10-23 |
