@@ -58,7 +58,10 @@ BarrieToday asked every candidate for a self-written profile. Collect one for ea
 | Mayor | Tanya Saari | To do |
 | Ward 7 | Gary Harvey | To do |
 | Ward 7 | Michael Lewis | Done 2026-10-22 (S015) |
-| Wards 1-6, 8-10 | Added once those wards are researched | To do |
+| Wards 1-6, 8-10 | 32 candidates | Done 2026-10-23 (verified profiles are marked in the articles table below) |
+| Ward 1 | Christian Cadera | To do (no profile found yet) |
+| Ward 4 | Patrick Harriott-Stewart | To do (no profile found yet) |
+| Ward 8 | Jim Harris | To do (no profile found yet) |
 
 ### BarrieToday articles cited in wards 1-10
 
@@ -66,42 +69,42 @@ These were cited through BarrieVotes.ca and not opened directly. For each one, c
 
 | Source | Article | Used for | Status |
 | --- | --- | --- | --- |
-| S025 | Ward 1 candidate says Barrie residents 'want action' on safety issues | Agostino | To do |
-| S026 | Ward 1 candidates weigh in on how Barrie should develop 460 hectares of annexed land | All Ward 1 candidates | To do |
-| S029 | Ainsworth running on safety, accountability in Ward 1 | Ainsworth | To do |
-| S033 | Ward 1 candidate says communication, listening will guide campaign | Bowser | To do |
-| S037 | Ward 1 candidate believes in 'giving back to the community' (profile) | Rahman | To do |
-| S040 | Absentee landlords, speeding among top issues for Ward 1 hopeful (profile) | Stevenson | To do |
-| S046 | Ward 2 candidates cite addiction crisis, downtown Barrie safety as key election issues | Nixon, Noushahi, Strohm | To do |
-| S053 | Ward 2 candidate running on 'show up or hush up' principle (profile) | Casera | To do |
-| S056 | Ward 2 candidate says affordability among 'defining issues' this election (profile) | Edwards | To do |
-| S062 | 'Incredible' work being done to improve downtown, says Ward 2 incumbent (profile) | Nixon | To do |
-| S064 | Barrie must find ways to generate more revenue, says Ward 2 candidate (profile) | Noushahi | To do |
-| S068 | Change needed to fix downtown Barrie, says Ward 2 candidate (profile) | Strohm | To do |
-| S069 | Election signs easy targets in Barrie campaign | Strohm (self-funding) | To do |
-| S074 | Ward 3 candidate vows to be 'independent voice' on Barrie council (profile) | Courser | To do |
-| S081 | Electrician hopes to bring 'practical, hands-on' approach to Ward 3 (profile) | Hughes | To do |
-| S084 | Ward 3 candidate wants to keep Barrie 'a special city' (profile) | Jones | To do |
-| S089 | Baseball helps shape Ward 3 candidate's attitude toward teamwork (profile) | Rijo | To do |
-| S093 | Road safety, speeding among top issues in newly redrawn Ward 4 | Ahmad | To do |
-| S096 | Ward 4 candidate hopes to bring people together, solve problems | Corbett | To do |
-| S099 | Listening, problem-solving 'second nature' to Ward 4 candidate | Galeazza | To do |
-| S103 | Former councillor eyes return to city hall in Ward 4 | Khan | To do |
-| S109 | Ward 5 hopeful looks to bring 'new era of politics' to council (profile) | Da Silva | To do |
-| S113 | Thomson looks to draw on experience in re-election bid | Thomson | To do |
-| S116 | Ward 6 candidate hopes to 'bring residents together' in Barrie | Nader (only source for his positions) | To do |
-| S120 | Ward 6 incumbent says approach rests on 'finding practical solutions' (profile) | Nigussie | To do |
-| S125 | Traffic, transit, school zones among Ward 6 candidate's concerns | Pena | To do |
-| S130 | Ward 8 candidate's career shaped by law, public policy and judicial work | Alim | To do |
-| S133 | 'Harder questions' must be asked about Barrie's growth, says Ward 8 newcomer | Fellows | To do |
-| S142 | Rising taxes, declining core services among top election issues, says Costello | Costello | To do |
-| S144 | Ward 9 candidate hosting meet-and-greet Wednesday evening | Costello (housing) | To do |
-| S147 | Ward 9 incumbent says local parks have seen 'historical investments' | Morales | To do |
-| S153 | Ward 9 candidate wants 'meaningful' community consultation | Naveed | To do |
-| S156 | Councillors have power to keep Barrie affordable, says Ward 9 candidate | Weingarten | To do |
-| S159 | Military vet wants 'every resident's voice' to be heard in Ward 10 | Cadeau (only source for his positions) | To do |
-| S162 | 'Smarter growth, safer neighbourhoods' among priorities for Ward 10 incumbent | Hamilton | To do |
-| S166 | Ward 10 candidate wants more thought put into Barrie's rapid growth | Kapustin | To do |
+| S025 | Ward 1 candidate says Barrie residents 'want action' on safety issues | Agostino | Done 2026-10-23 (profile) |
+| S026 | Ward 1 candidates weigh in on how Barrie should develop 460 hectares of annexed land | All Ward 1 candidates | Done 2026-10-23 |
+| S029 | Ainsworth running on safety, accountability in Ward 1 | Ainsworth | Done 2026-10-23 (profile) |
+| S033 | Ward 1 candidate says communication, listening will guide campaign | Bowser | Done 2026-10-23 (profile) |
+| S037 | Ward 1 candidate believes in 'giving back to the community' (profile) | Rahman | Done 2026-10-23 |
+| S040 | Absentee landlords, speeding among top issues for Ward 1 hopeful (profile) | Stevenson | Done 2026-10-23 |
+| S046 | Ward 2 candidates cite addiction crisis, downtown Barrie safety as key election issues | Nixon, Noushahi, Strohm | Done 2026-10-23 |
+| S053 | Ward 2 candidate running on 'show up or hush up' principle (profile) | Casera | Done 2026-10-23 |
+| S056 | Ward 2 candidate says affordability among 'defining issues' this election (profile) | Edwards | Done 2026-10-23 |
+| S062 | 'Incredible' work being done to improve downtown, says Ward 2 incumbent (profile) | Nixon | Done 2026-10-23 |
+| S064 | Barrie must find ways to generate more revenue, says Ward 2 candidate (profile) | Noushahi | Done 2026-10-23 |
+| S068 | Change needed to fix downtown Barrie, says Ward 2 candidate (profile) | Strohm | Done 2026-10-23 |
+| S069 | Election signs easy targets in Barrie campaign | Strohm (self-funding) | Done 2026-10-23 |
+| S074 | Ward 3 candidate vows to be 'independent voice' on Barrie council (profile) | Courser | Done 2026-10-23 |
+| S081 | Electrician hopes to bring 'practical, hands-on' approach to Ward 3 (profile) | Hughes | Done 2026-10-23 |
+| S084 | Ward 3 candidate wants to keep Barrie 'a special city' (profile) | Jones | Done 2026-10-23 |
+| S089 | Baseball helps shape Ward 3 candidate's attitude toward teamwork (profile) | Rijo | Done 2026-10-23 |
+| S093 | Road safety, speeding among top issues in newly redrawn Ward 4 | Ahmad | Done 2026-10-23 (profile) |
+| S096 | Ward 4 candidate hopes to bring people together, solve problems | Corbett | Done 2026-10-23 (profile) |
+| S099 | Listening, problem-solving 'second nature' to Ward 4 candidate | Galeazza | Done 2026-10-23 (profile) |
+| S103 | Former councillor eyes return to city hall in Ward 4 | Khan | Done 2026-10-23 (profile) |
+| S109 | Ward 5 hopeful looks to bring 'new era of politics' to council (profile) | Da Silva | Done 2026-10-23 |
+| S113 | Thomson looks to draw on experience in re-election bid | Thomson | Done 2026-10-23 (profile) |
+| S116 | Ward 6 candidate hopes to 'bring residents together' in Barrie | Nader (only source for his positions) | Done 2026-10-23 (profile) |
+| S120 | Ward 6 incumbent says approach rests on 'finding practical solutions' (profile) | Nigussie | Done 2026-10-23 |
+| S125 | Traffic, transit, school zones among Ward 6 candidate's concerns | Pena | Done 2026-10-23 (profile) |
+| S130 | Ward 8 candidate's career shaped by law, public policy and judicial work | Alim | Done 2026-10-23 (profile) |
+| S133 | 'Harder questions' must be asked about Barrie's growth, says Ward 8 newcomer | Fellows | Done 2026-10-23 (profile) |
+| S142 | Rising taxes, declining core services among top election issues, says Costello | Costello | Done 2026-10-23 (profile) |
+| S144 | Ward 9 candidate hosting meet-and-greet Wednesday evening | Costello (housing) | Done 2026-10-23 |
+| S147 | Ward 9 incumbent says local parks have seen 'historical investments' | Morales | Done 2026-10-23 (profile) |
+| S153 | Ward 9 candidate wants 'meaningful' community consultation | Naveed | Done 2026-10-23 (profile) |
+| S156 | Councillors have power to keep Barrie affordable, says Ward 9 candidate | Weingarten | Done 2026-10-23 (profile) |
+| S159 | Military vet wants 'every resident's voice' to be heard in Ward 10 | Cadeau (only source for his positions) | Done 2026-10-23 (profile) |
+| S162 | 'Smarter growth, safer neighbourhoods' among priorities for Ward 10 incumbent | Hamilton | Done 2026-10-23 (profile) |
+| S166 | Ward 10 candidate wants more thought put into Barrie's rapid growth | Kapustin | Done 2026-10-23 (profile) |
 
 Each source's link is on the site's Sources page, under its source ID.
 
@@ -111,9 +114,9 @@ These back the property-tax figures in Alex Nuttall's tax note. Check that each 
 
 | Source | Figure to check | Status |
 | --- | --- | --- |
-| S020 | 4.82% total increase, 2024 | To do |
-| S021 | 4.31% total increase, 2025 | To do |
-| S022 | 3.95% total increase, 2026 | To do |
+| S020 | 4.82% total increase, 2024 | Done 2026-10-23 |
+| S021 | 4.31% total increase, 2025 | Done 2026-10-23 |
+| S022 | 3.95% total increase, 2026 | Done 2026-10-23 |
 
 ## Claude
 

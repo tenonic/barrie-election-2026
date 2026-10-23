@@ -71,18 +71,18 @@ stefano-agostino,homelessness,stated,Residents want effective solutions for peop
 stefano-agostino,safety,stated,Calls safety a top priority for the next term; residents deserve to feel safe in their neighbourhoods and downtown.,,,S025;S027
 stefano-agostino,transit,stated,Road infrastructure must be a priority so the new road network can handle more traffic.,,,S026;S027
 stefano-agostino,strong-mayor,none_found,,,,
-stefano-agostino,growth,stated,Concerned about heavy industry next to homes on the annexed land; wants buffers such as green corridors between industrial and residential areas.,,,S026;S027
+stefano-agostino,growth,stated,"Plan ahead for fast growth with smart decisions on infrastructure, roads, services and housing. Concerned about heavy industry next to homes on the annexed land; wants buffers such as green corridors between industrial and residential areas.",,,S026;S027;S025
 stefano-agostino,addiction,none_found,,,,
 stefano-agostino,jobs,stated,"Wants a clear plan, with proper infrastructure and community input, to attract businesses and manufacturers that fit the city's long-term vision.",,,S026;S027
 stefano-agostino,ebikes,none_found,,,,
-stefano-agostino,transparency,none_found,,,,
+stefano-agostino,transparency,stated,"Says residents want action, accountability and results rather than more talk.",,,S025
 shaughna-ainsworth,taxes,stated,Keep property taxes as low as possible; spend smarter rather than more.,,,S029;S030
 shaughna-ainsworth,housing,stated,Says affordable housing was the main reason for annexing new land; wants to avoid repeating high-density mistakes such as too little parking and narrow roads.,,,S026;S028
 shaughna-ainsworth,homelessness,stated,"Practical, compassionate solutions that balance compassion with accountability; wants to join the city's Homelessness Task Force.",,,S029;S030
 shaughna-ainsworth,safety,stated,Residents deserve to feel safe on their streets; strong supporter of all emergency services.,,,S029;S030
-shaughna-ainsworth,transit,stated,Local roads still need repair; traffic calming on high-speed residential streets.,,,S030
+shaughna-ainsworth,transit,stated,"Local roads still need repair; traffic controls and calming on high-speed residential streets; regular maintenance of sidewalks, roads and lighting.",,,S030;S029
 shaughna-ainsworth,strong-mayor,none_found,,,,
-shaughna-ainsworth,growth,stated,"Growth must work for existing residents, not just developers, and must pay for itself rather than adding to existing taxpayers' bills.",,,S029;S030
+shaughna-ainsworth,growth,stated,"Growth must work for existing residents, not just developers, and must pay for itself rather than adding to existing taxpayers' bills. Wants council to keep as much control as possible over new development.",,,S029;S030;S026
 shaughna-ainsworth,addiction,stated,Wants more provincial investment in mental health and addiction services.,,,S029;S028
 shaughna-ainsworth,jobs,none_found,,,,
 shaughna-ainsworth,ebikes,none_found,,,,
@@ -119,11 +119,11 @@ hafiz-rahman,growth,none_found,,,,
 hafiz-rahman,addiction,stated,Help people access rehabilitation services.,,,S036;S035
 hafiz-rahman,jobs,stated,Job training and basic workplace certifications to help people experiencing homelessness find stable work.,,,S036;S035
 hafiz-rahman,ebikes,none_found,,,,
-hafiz-rahman,transparency,none_found,,,,
+hafiz-rahman,transparency,stated,"Wants to be a councillor who listens to residents, is accessible and works honestly on local issues.",,,S037
 pauline-stevenson,taxes,stated,"Control spending, find efficiencies (including through AI) and look for revenue that doesn't rely only on property taxes; every capital project adds future operating costs.",,,S040;S039
 pauline-stevenson,housing,stated,Wants housing people can actually afford in the east end.,,,S026;S038
 pauline-stevenson,homelessness,stated,"Collaborative, practical and compassionate approach, based on research and what works elsewhere.",,,S040;S039
-pauline-stevenson,safety,stated,"Speeding and petty crime are real concerns; says safety is not just policing but also design, lighting and maintenance.",,,S039
+pauline-stevenson,safety,stated,"Speeding and petty crime are real concerns; wants action on speeding in residential neighbourhoods and absentee landlords. Says safety is not just policing but also design, lighting and maintenance.",,,S039;S040
 pauline-stevenson,transit,stated,"Invest proactively in traffic-calming where needed; traffic, transit and infrastructure need careful planning on the annexed land.",,,S039;S026
 pauline-stevenson,strong-mayor,none_found,,,,
 pauline-stevenson,growth,stated,Development should respect neighbourhood character. Will not support heavy industry on the annexed land.,,,S040;S026
@@ -132,20 +132,20 @@ pauline-stevenson,jobs,stated,"Wants new job opportunities, but not heavy indust
 pauline-stevenson,ebikes,none_found,,,,
 pauline-stevenson,transparency,stated,"Says residents expect their councillor to show up, listen, do their homework and keep people informed.",,,S040
 frank-casera,taxes,stated,"Keep property taxes as low as reasonably possible; make better use of development charges and other funding, and question how public money is spent.",,,S050
-frank-casera,housing,stated,Make better use of planning and zoning tools to encourage housing.,,,S051;S053
+frank-casera,housing,stated,Make better use of planning and zoning tools to encourage housing.,,,S051
 frank-casera,homelessness,stated,"Compassion, but without normalizing unacceptable behaviour: enforce the rules while creating pathways to treatment, recovery and stability. Notes many tools sit with other governments.",,,S051
 frank-casera,safety,stated,Enforce existing laws and give police adequate resources; says policing is not always the right response to mental health and addiction.,,,S051
 frank-casera,transit,stated,"Transit investment should improve frequency and reliability; invest in roads, transit and underground infrastructure.",,,S050
 frank-casera,strong-mayor,none_found,,,,
-frank-casera,growth,stated,Growth should build on what makes communities special; development should pay its share of the infrastructure it needs.,,,S052;S050
+frank-casera,growth,stated,"Growth should build on what makes communities special, with change managed carefully so success works for everyone; development should pay its share of the infrastructure it needs.",,,S052;S050;S053
 frank-casera,addiction,stated,Connect people struggling with mental health and addiction to services.,,,S051
 frank-casera,jobs,stated,"Make it easier for businesses to operate, grow and invest in Barrie.",,,S050
 frank-casera,ebikes,none_found,,,,
-frank-casera,transparency,none_found,,,,
+frank-casera,transparency,stated,"Says his approach rests on listening, collaboration and accountability rather than political rhetoric or party politics.",,,S053
 shanicka-edwards,taxes,stated,Points to four straight property-tax increases; wants careful oversight of spending while protecting essential services.,,,S056;S055
 shanicka-edwards,housing,stated,"Homes that working families, seniors, young people and people with disabilities can actually afford.",,,S055
 shanicka-edwards,homelessness,stated,"""Homelessness is not a crime."" Housing First with mental health, addiction and income supports; once shelter alternatives exist, consistently enforce rules against violence, vandalism and unsafe encampments.",,,S056;S055
-shanicka-edwards,safety,stated,"Consistent bylaw enforcement, better lighting and faster cleanups downtown.",,,S055
+shanicka-edwards,safety,stated,"Consistent bylaw enforcement, better lighting and faster cleanups downtown; says safety and disorder need both compassion and accountability.",,,S055;S056
 shanicka-edwards,transit,stated,"Hears concerns about deteriorating roads, flooding, speeding and aging infrastructure.",,,S056
 shanicka-edwards,strong-mayor,none_found,,,,
 shanicka-edwards,growth,stated,"Growth must bring better housing, businesses and safer streets while respecting existing neighbourhoods; growth without the systems to support it is not responsible planning.",,,S055;S056
@@ -174,7 +174,7 @@ ajmal-noushahi,growth,stated,Plan infrastructure well in advance as Barrie grows
 ajmal-noushahi,addiction,none_found,,,,
 ajmal-noushahi,jobs,stated,"Modernize regulations so residents and businesses invest and grow, including legal home-based businesses.",,,S064
 ajmal-noushahi,ebikes,none_found,,,,
-ajmal-noushahi,transparency,stated,Break down how property taxes are spent so residents can hold council accountable.,,,S066;S046
+ajmal-noushahi,transparency,stated,Break down how property taxes are spent so residents can hold council accountable.,,,S066;S046;S064
 tracy-strohm,taxes,none_found,,,,
 tracy-strohm,housing,none_found,,,,
 tracy-strohm,homelessness,stated,"Shelters were meant to be temporary; wants a long-term plan with all three levels of government, more supportive housing and a supervised washroom for people living on the street.",,,S068;S046;S048
@@ -205,7 +205,7 @@ ben-hughes,transit,stated,"Snow clearing should cover sidewalks, bus stops and t
 ben-hughes,strong-mayor,none_found,,,,
 ben-hughes,growth,stated,"Judge growth by whether it makes Barrie stronger, not by population or revenue; new areas need services and older neighbourhoods need continued investment.",,,S077;S081
 ben-hughes,addiction,none_found,,,,
-ben-hughes,jobs,stated,"Wants more businesses, employers, industry and good jobs; support local businesses.",,,S080;S071
+ben-hughes,jobs,stated,"Wants more businesses, employers, industry and good jobs; support local businesses and entrepreneurship.",,,S080;S071;S081
 ben-hughes,ebikes,none_found,,,,
 ben-hughes,transparency,none_found,,,,
 bryan-jones,taxes,none_found,,,,
@@ -223,7 +223,7 @@ ryan-rijo,taxes,stated,Keep spending disciplined and find efficiencies and cut d
 ryan-rijo,housing,none_found,,,,
 ryan-rijo,homelessness,none_found,,,,
 ryan-rijo,safety,stated,"Support police, fire, paramedics and other first responders; tackle crime, theft, vandalism and repeat problem areas.",,,S087;S089
-ryan-rijo,transit,stated,"Repair roads, potholes and sidewalks.",,,S087
+ryan-rijo,transit,stated,"Repair roads, potholes and sidewalks; snow clearing, stormwater, water and traffic management must keep pace with growth.",,,S087;S089
 ryan-rijo,strong-mayor,none_found,,,,
 ryan-rijo,growth,stated,"Growth should come with the roads, emergency services and infrastructure to support it; development on annexed land should respect existing rural communities.",,,S089;S071
 ryan-rijo,addiction,none_found,,,,
@@ -241,7 +241,7 @@ iradat-ahmad,addiction,none_found,,,,
 iradat-ahmad,jobs,none_found,,,,
 iradat-ahmad,ebikes,none_found,,,,
 iradat-ahmad,transparency,stated,"Service standards residents can hold the city to, including for contractors on side streets and courts.",,,S093;S094
-matthew-corbett,taxes,none_found,,,,
+matthew-corbett,taxes,stated,Says a councillor must be fiscally responsible; has prepared multimillion-dollar library budgets.,,,S096
 matthew-corbett,housing,none_found,,,,
 matthew-corbett,homelessness,none_found,,,,
 matthew-corbett,safety,none_found,,,,
@@ -251,18 +251,18 @@ matthew-corbett,growth,none_found,,,,
 matthew-corbett,addiction,none_found,,,,
 matthew-corbett,jobs,none_found,,,,
 matthew-corbett,ebikes,none_found,,,,
-matthew-corbett,transparency,none_found,,,,
+matthew-corbett,transparency,stated,"Says a councillor should stay connected to residents, communicate clearly about decisions and ask hard questions.",,,S096
 lori-galeazza,taxes,none_found,,,,
 lori-galeazza,housing,none_found,,,,
 lori-galeazza,homelessness,stated,"Will work to be part of the solution, but says she won't pretend to be an expert on mental health.",,,S098
-lori-galeazza,safety,stated,Residents need to feel safe at home and in public spaces.,,,S098
+lori-galeazza,safety,stated,"Residents need to feel safe at home, around schools and in public spaces.",,,S098;S099
 lori-galeazza,transit,stated,"Main roads have become a racetrack: wants year-round, 24-hour lower speed limits, better snow removal and attention to traffic flow and road conditions.",,,S098;S099
 lori-galeazza,strong-mayor,none_found,,,,
 lori-galeazza,growth,stated,"Smart, well-planned growth that doesn't overwhelm aging infrastructure; fire safety, stormwater, snow storage and parking settled before projects are finished; more communication among planners, developers and residents.",,,S098;S099;S091
 lori-galeazza,addiction,none_found,,,,
 lori-galeazza,jobs,stated,Says businesses are closing and few big employers are hiring; wants more focus on attracting good-paying jobs.,,,S091
 lori-galeazza,ebikes,none_found,,,,
-lori-galeazza,transparency,stated,"Will be a full-time councillor, saying residents cannot be fairly represented otherwise.",,,S099
+lori-galeazza,transparency,stated,"Will be a full-time councillor, saying residents cannot be fairly represented otherwise; will post office hours, phone number, email and website.",,,S099
 patrick-harriott-stewart,taxes,none_found,,,,
 patrick-harriott-stewart,housing,none_found,,,,
 patrick-harriott-stewart,homelessness,none_found,,,,
@@ -278,9 +278,9 @@ arif-khan,taxes,stated,Responsible spending and value for tax dollars; residents
 arif-khan,housing,none_found,,,,
 arif-khan,homelessness,stated,Support people who genuinely need help without normalizing conduct that harms residents.,,,S102
 arif-khan,safety,stated,Says police and City Hall cannot solve safety challenges alone.,,,S102;S103
-arif-khan,transit,stated,Build roads for capacity by the time people move in; traffic calming where appropriate.,,,S102;S091
+arif-khan,transit,stated,"Build roads for capacity by the time people move in; traffic calming where appropriate. Says speeding, road design, congestion and e-bike use need planning based on data and effective enforcement.",,,S102;S091;S103
 arif-khan,strong-mayor,none_found,,,,
-arif-khan,growth,stated,"Supports growth, but only with clear checks and balances.",,,S102
+arif-khan,growth,stated,"Supports growth, but only with clear checks and balances; infrastructure and services should keep pace with growth rather than rely on older plans.",,,S102;S103
 arif-khan,addiction,stated,Says residents are overwhelmingly concerned about open drug use.,,,S103
 arif-khan,jobs,stated,Create an environment where people and businesses thrive.,,,S102
 arif-khan,ebikes,stated,"Would bring a motion for fair, responsible and enforceable e-bike guidelines.",,,S102;S103
@@ -291,7 +291,7 @@ duarte-da-silva,homelessness,none_found,,,,
 duarte-da-silva,safety,stated,"Public safety is a campaign pillar; more traffic calming, especially around schools.",,,S108;S106
 duarte-da-silva,transit,stated,Says repaving County Road 90 is not a safety fix after several serious crashes this year.,,,S109
 duarte-da-silva,strong-mayor,none_found,,,,
-duarte-da-silva,growth,none_found,,,,
+duarte-da-silva,growth,stated,"Wants planning problems caught early, citing 611 planned homes at 49 Miller Drive with only two entrances on the same street.",,,S109
 duarte-da-silva,addiction,none_found,,,,
 duarte-da-silva,jobs,stated,Would support expanding small-business grants coordinated with Invest Barrie.,,,S106
 duarte-da-silva,ebikes,none_found,,,,
@@ -309,8 +309,8 @@ robert-thomson,ebikes,none_found,,,,
 robert-thomson,transparency,none_found,,,,
 nasar-george-nader,taxes,none_found,,,,
 nasar-george-nader,housing,stated,Wants a solution for housing and mental health.,,,S116
-nasar-george-nader,homelessness,stated,Says Barrie has about 600 people living unhoused; links homelessness to housing and mental health.,,,S116
-nasar-george-nader,safety,none_found,,,,
+nasar-george-nader,homelessness,stated,Says Barrie has more than 600 people living unhoused; links homelessness to housing and mental health.,,,S116
+nasar-george-nader,safety,stated,"Says residents report rising crime and speeding, and that many are afraid to take their families to the waterfront; wants all three levels of government to work together on these issues.",,,S116
 nasar-george-nader,transit,stated,Says roads are getting worse and traffic will grow as many new homes are built.,,,S116
 nasar-george-nader,strong-mayor,none_found,,,,
 nasar-george-nader,growth,none_found,,,,
@@ -322,7 +322,7 @@ nigussie-nigussie,taxes,stated,Cites four years of 0% operating budget increases
 nigussie-nigussie,housing,stated,Cites an approved 176-unit affordable housing project and nearly $100 million in housing and infrastructure funding.,,,S118;S119
 nigussie-nigussie,homelessness,none_found,,,,
 nigussie-nigussie,safety,stated,Cites $3.8 million invested in pedestrian safety.,,,S118
-nigussie-nigussie,transit,stated,Says council approved a second day of free transit for seniors at his request; roads and services should be built to support growth.,,,S118;S121
+nigussie-nigussie,transit,stated,Says council approved a second day of free transit for seniors at his request; roads and services should be built to support growth.,,,S118;S121;S120
 nigussie-nigussie,strong-mayor,none_found,,,,
 nigussie-nigussie,growth,stated,Manage growth by staying ahead with smart infrastructure.,,,S121;S120
 nigussie-nigussie,addiction,none_found,,,,
@@ -332,14 +332,14 @@ nigussie-nigussie,transparency,stated,Introduced an annual resident outreach pro
 christel-pena,taxes,none_found,,,,
 christel-pena,housing,stated,Says housing affordability requires a balanced approach.,,,S124
 christel-pena,homelessness,none_found,,,,
-christel-pena,safety,none_found,,,,
+christel-pena,safety,stated,"Says school zones can feel too busy or unsafe and traffic patterns don't reflect common-sense realities; wants a safe, connected Ward 6.",,,S125
 christel-pena,transit,stated,Will work with the city to review transit routes and service frequency along major roads in Ward 6.,,,S123;S125
 christel-pena,strong-mayor,none_found,,,,
 christel-pena,growth,stated,"""Growth is inevitable. Poor planning is not.""",,,S124
 christel-pena,addiction,none_found,,,,
 christel-pena,jobs,stated,Will work with local business owners to understand their challenges.,,,S123
 christel-pena,ebikes,none_found,,,,
-christel-pena,transparency,none_found,,,,
+christel-pena,transparency,stated,Says neighbourhoods thrive when communication is open and community engagement is real; wants longtime residents and newcomers to feel heard.,,,S125
 samina-alim,taxes,none_found,,,,
 samina-alim,housing,stated,Supports practical solutions that make stable housing more accessible.,,,S129
 samina-alim,homelessness,stated,Coordinated action on homelessness and addiction with government and community partners.,,,S129
@@ -354,7 +354,7 @@ samina-alim,transparency,stated,"Residents should always be able to see what was
 amanda-fellows,taxes,stated,Council should ask whether every dollar spent is necessary; says responsible spending does not simply mean cutting services.,,,S133;S132
 amanda-fellows,housing,stated,"More affordable and diverse housing, including supportive and non-market housing; not opposed to growth.",,,S132;S133
 amanda-fellows,homelessness,stated,"Practical, evidence-informed responses; says homelessness can't be solved by moving people somewhere else.",,,S132;S133
-amanda-fellows,safety,stated,Community safety approaches that deal with immediate concerns and their root causes.,,,S132
+amanda-fellows,safety,stated,Community safety approaches that deal with immediate concerns and their root causes; says residents' safety concerns can't be ignored.,,,S132;S133
 amanda-fellows,transit,stated,Plan ahead for road pressure points; wants the city to be more proactive on traffic calming.,,,S127
 amanda-fellows,strong-mayor,none_found,,,,
 amanda-fellows,growth,stated,"Consider the surrounding neighbourhood and the combined effect on traffic, schools and parks; infrastructure and services should keep pace with development.",,,S133;S132
@@ -377,7 +377,7 @@ norm-costello,taxes,stated,"Be more fiscally responsible: examine how money is s
 norm-costello,housing,stated,Says he focuses on innovative housing solutions.,,,S144
 norm-costello,homelessness,stated,Calls homelessness and drug use the city's biggest issue; wants a coordinated plan across all levels of government.,,,S142;S143
 norm-costello,safety,stated,"Supports community policing; calls Canada ""underpoliced"" and wants traffic enforcement instead of speed bumps and bollards.",,,S141;S143
-norm-costello,transit,stated,"Fix poor street conditions, review bus sizes and routes, and improve traffic-light timing at many intersections.",,,S141;S139
+norm-costello,transit,stated,"Fix poor street conditions, review bus sizes and routes, and improve traffic-light timing at many intersections. Wants windrow plow attachments so snow isn't left across driveways.",,,S141;S139;S142
 norm-costello,strong-mayor,none_found,,,,
 norm-costello,growth,stated,Wants road and utility upgrades in the Hewitt's secondary plan area before congestion becomes unmanageable.,,,S141
 norm-costello,addiction,stated,Says there is a gap in care for people with mental health and drug issues; wants stronger legal tools to remove drug-impaired people from the street.,,,S141;S143
@@ -401,14 +401,14 @@ asmar-naveed,homelessness,none_found,,,,
 asmar-naveed,safety,stated,"Supports measures that make neighbourhoods safer, cleaner and more livable.",,,S149
 asmar-naveed,transit,stated,"Street lighting, pedestrian crossings, sidewalks, speeding and transit connections; a shared multi-use path on Dean Avenue.",,,S150;S151
 asmar-naveed,strong-mayor,none_found,,,,
-asmar-naveed,growth,stated,"Development should be matched by infrastructure, roads, services, parks and responsible planning.",,,S152
+asmar-naveed,growth,stated,"Development should be matched by infrastructure, roads, services, parks and responsible planning.",,,S152;S153
 asmar-naveed,addiction,none_found,,,,
 asmar-naveed,jobs,none_found,,,,
 asmar-naveed,ebikes,none_found,,,,
 asmar-naveed,transparency,stated,Meaningful consultation and better communication between residents and city hall; a plow tracker that shows real results.,,,S153;S151
 dave-weingarten,taxes,stated,"Financial austerity: keep property taxes as low as possible and vote against costly projects; spend tax dollars for residents, ""not tourists, not developers.""",,,S155;S156;S139
 dave-weingarten,housing,stated,Opposes over-developing the already congested downtown.,,,S156
-dave-weingarten,homelessness,none_found,,,,
+dave-weingarten,homelessness,stated,Says no single councillor can solve homelessness and drug use; councillors should work together and with higher levels of government.,,,S156
 dave-weingarten,safety,stated,Work with police to keep public spaces safe and welcoming for families.,,,S156
 dave-weingarten,transit,stated,"Road maintenance, traffic calming and snow removal are safety issues, especially for seniors.",,,S156
 dave-weingarten,strong-mayor,none_found,,,,
@@ -416,7 +416,7 @@ dave-weingarten,growth,stated,"Barrie can grow into a larger city, but not by ov
 dave-weingarten,addiction,stated,Partner with the province on proper treatment and rehabilitation centres.,,,S156
 dave-weingarten,jobs,none_found,,,,
 dave-weingarten,ebikes,none_found,,,,
-dave-weingarten,transparency,stated,Will be accessible and transparent; councillors should be easy to reach and respond.,,,S155;S139
+dave-weingarten,transparency,stated,Will be accessible and transparent; promises residents who reach out will get an answer.,,,S155;S139;S156
 william-cadeau,taxes,none_found,,,,
 william-cadeau,housing,none_found,,,,
 william-cadeau,homelessness,none_found,,,,
@@ -438,12 +438,12 @@ bryn-hamilton,growth,stated,"Growth must produce safe, functional neighbourhoods
 bryn-hamilton,addiction,none_found,,,,
 bryn-hamilton,jobs,none_found,,,,
 bryn-hamilton,ebikes,none_found,,,,
-bryn-hamilton,transparency,none_found,,,,
+bryn-hamilton,transparency,stated,"Lists accessible leadership as a priority: responding to residents, showing up in neighbourhoods, asking difficult questions and following issues through.",,,S162
 georgy-kapustin,taxes,none_found,,,,
 georgy-kapustin,housing,stated,"Needs new housing, but growth shouldn't just meet development numbers; proposes rental licensing to hold landlords accountable.",,,S166;S164
 georgy-kapustin,homelessness,stated,Review how concentrating homelessness and crisis services downtown affects safety; publicly funded programs should show measurable results.,,,S164;S166
 georgy-kapustin,safety,stated,Supports a stronger visible police presence and active road-safety enforcement.,,,S166
-georgy-kapustin,transit,stated,"Says Barrie needs about 35 more buses; proposes direct rapid routes, a second exit at Barrie South GO and more turn lanes.",,,S165;S164
+georgy-kapustin,transit,stated,"Says Barrie needs about 35 more buses; proposes direct rapid routes, better connections between neighbourhoods, employment areas and GO stations, a second exit at Barrie South GO and more turn lanes.",,,S165;S164;S166
 georgy-kapustin,strong-mayor,none_found,,,,
 georgy-kapustin,growth,stated,"Look at the full impact of development before deciding, and match approvals to service capacity.",,,S166;S164;S167
 georgy-kapustin,addiction,stated,"People in crisis need real pathways into shelter, treatment, recovery, employment and stability.",,,S164
