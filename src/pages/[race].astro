@@ -35,7 +35,7 @@ const n = race.candidates.length;
       </div>
 
       <h2>{n > 1 ? 'Compare positions' : 'Positions'}</h2>
-      {n > 1 && <p class="muted small">On a phone, scroll sideways to see every candidate.</p>}
+      {n > 1 && <p class="muted small">Each issue lists every candidate in the same alphabetical order.</p>}
       <CompareTable candidates={race.candidates} />
     </>
   )}

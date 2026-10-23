@@ -6,36 +6,28 @@ import SourceLinks from './SourceLinks.astro';
 interface Props { candidates: Candidate[] }
 const { candidates } = Astro.props;
 ---
-<div class="table-scroll">
-  <table class="compare">
-    <caption class="sr-only">Candidate positions by issue</caption>
-    <thead>
-      <tr>
-        <th scope="col">Issue</th>
-        {candidates.map((c) => <th scope="col">{c.name}</th>)}
-      </tr>
-    </thead>
-    <tbody>
-      {issues.map((issue, i) => (
-        <tr>
-          <th scope="row">{issue.name}</th>
-          {candidates.map((c) => {
-            const p = c.positions[i];
-            return (
-              <td>
-                {p.stated ? p.summary : <span class="empty">No stated position found.</span>}
-                <SourceLinks sources={p.sources} />
-                {p.note && (
-                  <div class="note">
-                    <strong>Context:</strong> {p.note}
-                    <SourceLinks sources={p.noteSources} />
-                  </div>
-                )}
-              </td>
-            );
-          })}
-        </tr>
-      ))}
-    </tbody>
-  </table>
+<div class="compare">
+  {issues.map((issue, i) => (
+    <section class="compare-issue" aria-labelledby={`issue-${issue.issue_id}`}>
+      <h3 id={`issue-${issue.issue_id}`}>{issue.name}</h3>
+      <div class="compare-grid">
+        {candidates.map((c) => {
+          const p = c.positions[i];
+          return (
+            <div class="compare-cell">
+              <div class="compare-name">{c.name}</div>
+              {p.stated ? p.summary : <span class="empty">No stated position found.</span>}
+              <SourceLinks sources={p.sources} />
+              {p.note && (
+                <div class="note">
+                  <strong>Context:</strong> {p.note}
+                  <SourceLinks sources={p.noteSources} />
+                </div>
+              )}
+            </div>
+          );
+        })}
+      </div>
+    </section>
+  ))}
 </div>
