@@ -17,7 +17,15 @@ const status = (n: number, acclaimed: boolean) =>
   </ul>
 
   <h2 id="wards">Ward councillor</h2>
-  <p class="muted small">New ward boundaries are in effect for 2026. <a href="https://www.barrie.ca/government-news/2026-municipal-election" rel="noopener">Find your ward on the City of Barrie website</a>.</p>
+  <section class="box find-ward" aria-labelledby="find-ward">
+    <h2 id="find-ward">Find your ward</h2>
+    <p>Ward boundaries changed for 2026, so your ward may be different from last election. Look up your address:</p>
+    <div class="button-row">
+      <a class="button" href="https://experience.arcgis.com/experience/ba627b0870f941bdafce6f2dc38836cd" rel="noopener">City of Barrie ward map</a>
+      <a class="button button-secondary" href="https://barrievotes.ca/vote/find-your-ward/" rel="noopener">Address lookup (BarrieVotes.ca)</a>
+    </div>
+    <p class="muted small">The City's map is the official source. The BarrieVotes.ca lookup is an unofficial tool that checks your address against the City's address list.</p>
+  </section>
   <ul class="race-grid">
     {wards.map((w) => (
       <li>
