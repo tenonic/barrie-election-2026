@@ -16,17 +16,23 @@ export function readDir(dir) {
   return Object.fromEntries(TABLES.map((t) => [t, readTable(dir, t)]));
 }
 
-// Mock rows are added to the real ones. A mock race row only replaces a real
-// race that has no real candidates, so real data always wins.
+// Mock data only fills races that have no real candidates yet, so real data always wins.
 export function mergeMock(real, mock) {
   const realRaceIds = new Set(real.candidates.map((c) => c.race_id));
   const races = real.races.map((r) => {
     const m = mock.races.find((x) => x.race_id === r.race_id);
     return m && !realRaceIds.has(r.race_id) ? { ...r, ...m } : r;
   });
-  const out = { races };
-  for (const t of TABLES) if (t !== 'races') out[t] = [...real[t], ...mock[t]];
-  return out;
+  const mockCandidates = mock.candidates.filter((c) => !realRaceIds.has(c.race_id));
+  const keep = new Set(mockCandidates.map((c) => c.candidate_id));
+  return {
+    races,
+    candidates: [...real.candidates, ...mockCandidates],
+    issues: real.issues,
+    positions: [...real.positions, ...mock.positions.filter((p) => keep.has(p.candidate_id))],
+    public_record: [...real.public_record, ...mock.public_record.filter((r) => keep.has(r.candidate_id))],
+    sources: [...real.sources, ...mock.sources],
+  };
 }
 
 export const splitIds = (s) => (s || '').split(';').map((x) => x.trim()).filter(Boolean);
