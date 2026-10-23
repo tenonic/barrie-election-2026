@@ -1,5 +1,6 @@
 ---
 import type { Candidate } from '../lib/data';
+import { PUBLIC_RECORD_REVIEWED } from '../lib/data';
 import SourceLinks from './SourceLinks.astro';
 
 interface Props { candidate: Candidate; raceType: 'mayor' | 'ward' }
@@ -21,7 +22,7 @@ const prioritiesLabel = raceType === 'ward' ? 'Ward-specific priorities' : 'Othe
     <dt>Public record</dt>
     <dd>
       {c.record.length === 0 ? (
-        <span class="empty">No items found.</span>
+        <span class="empty">{PUBLIC_RECORD_REVIEWED ? 'No items found.' : 'Not yet reviewed.'}</span>
       ) : (
         <ul>
           {c.record.map((r) => (

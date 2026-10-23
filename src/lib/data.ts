@@ -4,6 +4,10 @@ import { readDir, mergeMock, checkData, splitIds } from './load.mjs';
 
 export const USE_MOCK = process.env.USE_MOCK === '1';
 
+// Set to true once the public record pass is done for every candidate.
+// Until then, an empty public record shows "Not yet reviewed" instead of "No items found".
+export const PUBLIC_RECORD_REVIEWED = false;
+
 const raw = USE_MOCK ? mergeMock(readDir('data'), readDir('data-mock')) : readDir('data');
 const errors = checkData(raw);
 if (errors.length) throw new Error(`Data check failed:\n${errors.join('\n')}`);
