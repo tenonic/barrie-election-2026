@@ -42,7 +42,7 @@ The owner will run this check in the Claude desktop app, where Claude can read p
     - Wrong or overstated: rewrite the paraphrase from the article. If the wrong version was already live, add an entry to the corrections list under "Next" below.
     - The article states a position we show as `none_found`: add it as `stated`, citing the source.
     - Follow the fairness rules in `PROJECT_NOTES.md`: paraphrase the candidate's own words, neutral tone, no new claims beyond the article.
-5. Update the source's `access_note` in `data/sources.csv` to "Verified in browser by Claude, YYYY-MM-DD" (or "verified by the owner" if the owner read it). For candidate-submitted profiles, keep "Candidate-submitted profile." at the start.
+5. In `data/sources.csv`, `access_note` is shown on the site and `internal_note` is not. For a verified source: remove "Found via BarrieVotes.ca" from `access_note` (keep "Candidate-submitted profile" for profiles), and set `internal_note` to "Verified in browser by Claude, YYYY-MM-DD" (or "Verified by the owner, YYYY-MM-DD").
 6. Mark the row "Done" in the tables below (and in the profile table for profiles).
 7. Run `npm run check:data`, commit in small batches, and give the owner a short summary of every change. The owner reviews before merging to `main`; merging publishes the site.
 

@@ -48,6 +48,7 @@ A public, neutral website that helps Barrie voters compare candidates before the
 | 2026-10-22 | The same rule applies to the "779 affordable units approved" claim (Harvey, Hamilton): both get the same sourced housing note |
 | 2026-10-22 | Left out: a news report that a Ward 10 candidate was assaulted (personal matter, excluded by the public record rules), and a provincial run BarrieVotes attributes to Ben Hughes (identity not confirmed). Asmar Naveed's card notes his website says he has stepped back from campaigning, without health details |
 | 2026-10-23 | New timeline: voting is already open online and by phone, so all work finishes Fri Oct 23 or Sat Oct 24, then the site is frozen except for corrections. Public record pass cut from this election; the site keeps "Not yet reviewed". Add a sourced "How to vote" box to the home page |
+| 2026-10-23 | `sources.csv` gets an `internal_note` column the site never shows. Public notes only say what helps a reader: "Found via BarrieVotes.ca" for sources not yet read directly, "Candidate-submitted profile", and real caveats about a source |
 | 2026-10-22 | Race pages: candidate cards hold the profile (background, priorities, public record, contact); issue positions, sources and fact-check notes are in the comparison table |
 
 ## Data model (CSV)

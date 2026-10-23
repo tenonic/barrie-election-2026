@@ -34,7 +34,7 @@ Items are written in a factual tone, with a date and a source.
 
 - Preferred sources: official City of Barrie records, candidates' own websites and statements, and established local news outlets.
 - Each source is recorded with its title, outlet, URL and the date it was accessed.
-- Where a source could not be opened directly, the source table says so.
+- Where we found a source through BarrieVotes.ca and have not yet read it ourselves, the Sources page marks it "Found via BarrieVotes.ca".
 
 ## Data entry
 
