@@ -89,7 +89,7 @@ These were cited through BarrieVotes.ca and not opened directly. For each one, c
 | S103 | Former councillor eyes return to city hall in Ward 4 | Khan | To do |
 | S109 | Ward 5 hopeful looks to bring 'new era of politics' to council (profile) | Da Silva | To do |
 | S113 | Thomson looks to draw on experience in re-election bid | Thomson | To do |
-| S116 | Ward 6 candidate hopes to 'bring residents together' in Barrie | Nader (only source for his positions) | To do |
+| S116 | Ward 6 candidate hopes to 'bring residents together' in Barrie | Nader (only source for his positions) | Done 2026-10-23 (profile) |
 | S120 | Ward 6 incumbent says approach rests on 'finding practical solutions' (profile) | Nigussie | To do |
 | S125 | Traffic, transit, school zones among Ward 6 candidate's concerns | Pena | To do |
 | S130 | Ward 8 candidate's career shaped by law, public policy and judicial work | Alim | To do |
