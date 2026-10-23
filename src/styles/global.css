@@ -66,7 +66,7 @@ h3 { font-size: 1.1rem; margin: 0; }
 .site-nav a:hover { text-decoration: underline; }
 .site-nav a[aria-current] { color: var(--accent); font-weight: 600; text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: .35em; }
 
-main { padding-block: 2rem 3rem; }
+main.wrap { padding-block: 1rem 3rem; }
 
 .site-footer { border-top: 1px solid var(--line); padding-block: 1.5rem; font-size: .875rem; color: var(--muted); }
 .site-footer p { margin: .25rem 0; }
@@ -86,6 +86,13 @@ main { padding-block: 2rem 3rem; }
 }
 .button:hover { text-decoration: underline; }
 .button-secondary { background: transparent; color: var(--accent); }
+
+/* Race page: back link above the title, on the left */
+.back-link {
+  display: inline-block; margin-bottom: 1rem; padding: .45rem .85rem; border: 2px solid var(--accent); border-radius: var(--radius);
+  color: var(--accent); font-weight: 600; text-decoration: none; white-space: nowrap;
+}
+.back-link:hover { background: var(--accent-soft); }
 
 /* Home: race picker */
 .race-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr)); gap: .75rem; padding: 0; list-style: none; }

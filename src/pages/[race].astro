@@ -13,9 +13,13 @@ const n = race.candidates.length;
 const wardNumber = race.type === 'ward' ? race.id.replace('ward-', '') : '';
 const trusteeRaces = wardNumber ? races.filter((r) => r.type === 'trustee' && r.wards.includes(wardNumber)) : [];
 const wardList = (wards: string[]) => (wards.length === 10 ? 'all of Barrie' : `Barrie wards ${wards.slice(0, -1).join(', ')} and ${wards.at(-1)}`);
+// Back link returns to this race's section of the home page.
+const back = race.type === 'ward' ? { href: url('#wards'), label: 'All wards' }
+  : race.type === 'trustee' ? { href: url('#trustees'), label: 'All trustee races' }
+  : { href: url(), label: 'All races' };
 ---
 <Base title={race.name} description={`Candidates for ${race.name} in Barrie's 2026 municipal election.`}>
-  <p class="small"><a href={url()}>All races</a></p>
+  <a class="back-link" href={back.href}><span aria-hidden="true">←</span> {back.label}</a>
   <h1>{race.name}</h1>
 
   {race.type === 'trustee' && (
