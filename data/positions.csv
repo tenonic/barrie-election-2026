@@ -1,47 +1,47 @@
 candidate_id,issue_id,status,summary,note,note_source_ids,source_ids
 alex-nuttall,taxes,stated,"Keep the city operating budget at 0%, as for the past four years, and pay down city debt (says 25% paid down so far).","Total property-tax increases, which include service partners such as police and the County of Simcoe, were 4.82% (2024), 4.31% (2025) and 3.95% (2026). The 0% applies to the City operating budget only; the City also kept a 2% infrastructure levy.",S020;S021;S018;S019;S022;S023,S003;S009;S170
 alex-nuttall,housing,stated,Committed to 800 affordable housing units. Says council increased affordable housing units through innovation and incentives.,The City reports its Housing Community Improvement Plan has supported 248 affordable housing units since 2020.,S016,S003;S170
-alex-nuttall,homelessness,stated,"Continue clearing encampments under the state of emergency, and create a 'compassionate intervention team'.",,,S003;S170
+alex-nuttall,homelessness,stated,"Continue clearing encampments under the state of emergency, and create a 'compassionate intervention team'.",,,S003;S170;S199
 alex-nuttall,safety,stated,Says he added 44 frontline police officers and that the police budget is where it needs to be. Credits stopping prisoner drop-offs from Penetanguishene.,,,S003;S009;S170
 alex-nuttall,transit,stated,Invest $3M in traffic calming. Says he has led one of the most aggressive infrastructure renewal programs in the city's history.,,,S003;S170
 alex-nuttall,strong-mayor,stated,Says every use of his strong-mayor powers has had majority council support.,,,S003
 alex-nuttall,growth,stated,"Complete planned recreation centres and libraries; says he cut the performing arts centre budget from $167.5M to $90M. Plans a south-end recreation centre, two new libraries and a hospital expansion without an undue burden on taxpayers.",,,S003;S009;S170
-alex-nuttall,addiction,stated,Petition the province to treat public drug intoxication like public alcohol intoxication; opposes a supervised consumption site; partner on the HART Hub.,,,S003;S009;S170
-alex-nuttall,jobs,stated,Attract 2000 defence-related manufacturing jobs and position Barrie as a defence hub. Cites new employment land and a university campus downtown.,,,S003;S170
-alex-nuttall,ebikes,stated,Ban e-bikes and e-scooters from city walking paths and sidewalks.,,,S003
-alex-nuttall,transparency,none_found,,,,
+alex-nuttall,addiction,stated,Petition the province to treat public drug intoxication like public alcohol intoxication; opposes a supervised consumption site; partner on the HART Hub.,,,S003;S009;S170;S206
+alex-nuttall,jobs,stated,"Attract 2000 defence-related manufacturing jobs and position Barrie as a defence hub. Cites new employment land and a university campus downtown. Wants Barrie to rely less on Toronto, with its own job market and more industrial land.",,,S003;S170;S203
+alex-nuttall,ebikes,stated,Ban e-bikes and e-scooters from city walking paths and sidewalks.,,,S003;S196
+alex-nuttall,transparency,stated,Says all budgeting was done in public and will stay that way; residents have a right to know how their tax dollars are managed.,,,S198
 kay-sayer,taxes,stated,"Create a real-time 'taxes tab' tracking spending on hospitals, fire, police and schools.",,,S005
 kay-sayer,housing,none_found,,,,
-kay-sayer,homelessness,stated,Opposes the proposed compassionate intervention team as a temporary fix; wants mayors to press the province together on homelessness and drugs.,,,S005
-kay-sayer,safety,stated,"Says police, fire and paramedics already have the tools they need under the Mental Health Act.",,,S005
+kay-sayer,homelessness,stated,Opposes the proposed compassionate intervention team as a temporary fix; wants mayors to press the province together on homelessness and drugs.,,,S005;S205
+kay-sayer,safety,stated,"Says police, fire and paramedics already have the tools they need under the Mental Health Act.",,,S005;S205
 kay-sayer,transit,none_found,,,,
 kay-sayer,strong-mayor,stated,Objects to one mayor overriding council; says strong mayors should be held accountable locally.,,,S005;S172
 kay-sayer,growth,stated,Put each major project to a 24-hour public vote.,,,S005
 kay-sayer,addiction,stated,"Supports community programs and recovery meetings; argues the system funds 'sickness, not healing'.",,,S005
 kay-sayer,jobs,none_found,,,,
-kay-sayer,ebikes,stated,Regulate e-bikes and e-scooters using data rather than banning them.,,,S005
+kay-sayer,ebikes,stated,Regulate e-bikes and e-scooters using data rather than banning them.,,,S005;S196
 kay-sayer,transparency,stated,"Her central theme: publish shelter, police and outreach budgets, and create an open budget dashboard.",,,S005;S172
-russell-tighe,taxes,stated,Hold the tax rate steady through efficiencies; reduce reliance on residential taxes by attracting commercial and industrial investment; higher development charges on large projects.,,,S006
+russell-tighe,taxes,stated,Hold the tax rate steady through efficiencies; reduce reliance on residential taxes by attracting commercial and industrial investment; higher development charges on large projects.,,,S006;S200
 russell-tighe,housing,stated,"Affordable housing is his top priority: increase supply, reduce barriers, protect dignity.",,,S006;S173
 russell-tighe,homelessness,stated,Dismantle encampments one at a time with outreach workers who already know the residents; involve people in encampments in solutions.,,,S006
 russell-tighe,safety,stated,Outreach and stabilization teams working alongside police.,,,S006
-russell-tighe,transit,none_found,,,,
+russell-tighe,transit,stated,"Modernize how the city funds roads, bridges and pipes, with development charge revenue tied directly to infrastructure upgrades.",,,S200
 russell-tighe,strong-mayor,stated,"Would use them only for public safety, supporting vulnerable residents and meeting legal obligations.",,,S006
 russell-tighe,growth,stated,"Supportive of planned facilities but cautious about their number, timing and location; data centres would not be a priority. Growth should protect local character and benefit everyone, not just the edges of the city.",,,S006;S173
 russell-tighe,addiction,stated,"Open to oversight of public drug intoxication by trained and certified responders. Wants compassionate, evidence-based support before, during and after a crisis.",,,S006;S173
 russell-tighe,jobs,stated,Attract commercial and industrial investment; keep or defer development charges for small businesses.,,,S006
-russell-tighe,ebikes,stated,Public and youth safety education; open to penalties for reckless riding.,,,S006
+russell-tighe,ebikes,stated,Public and youth safety education; open to penalties for reckless riding.,,,S006;S196
 russell-tighe,transparency,none_found,,,,
 tanya-saari,taxes,stated,"Line-by-line review of the 2027 budget; keep increases as low as possible, with no promise of a freeze or cut. Criticizes the 'headline tax freeze'. Says some projects may need to be delayed.",,,S004;S010;S171
 tanya-saari,housing,stated,More supportive and permanent housing; faster zoning approvals; public cost-benefit analysis before further development charge cuts.,,,S004
-tanya-saari,homelessness,stated,Housing-first approach; homelessness task force within 90 days; wants to see results of the state of emergency before deciding whether to continue it. Says homelessness can't be solved by moving people from place to place.,,,S004;S171
+tanya-saari,homelessness,stated,Housing-first approach; homelessness task force within 90 days; wants to see results of the state of emergency before deciding whether to continue it. Says homelessness can't be solved by moving people from place to place.,,,S004;S171;S199
 tanya-saari,safety,stated,Backs police; wants police budget growth reviewed rather than cut; pairs safety with prevention and supportive housing.,,,S004;S010
 tanya-saari,transit,stated,$1 transit fare and $25 monthly pass once a financial plan is published; better roads and snow clearing. Wants residents to see the service levels the city promises and whether they are delivered.,,,S004;S010;S171
 tanya-saari,strong-mayor,stated,Prefers to work through council and use the powers only when required; would publish a strong-mayor powers policy within 90 days.,,,S004
 tanya-saari,growth,stated,"Growth matched with roads, transit, parks and services; 'not yet' on the new recreation centre; supports a data-centre moratorium. When public money encourages development, residents should see what they get in return.",,,S004;S010;S171
-tanya-saari,addiction,stated,No firm position yet on supervised consumption sites.,,,S004
+tanya-saari,addiction,stated,"No firm position yet on supervised consumption sites. Wants better access to addiction treatment, mental health care and withdrawal services, with a plan for what happens after treatment.",,,S004;S206
 tanya-saari,jobs,none_found,,,,
-tanya-saari,ebikes,stated,Wants more information on the problems before deciding whether to ban or restrict them.,,,S004
+tanya-saari,ebikes,stated,Wants more information on the problems before deciding whether to ban or restrict them.,,,S004;S196
 tanya-saari,transparency,stated,Full-picture budgets; decisions made with all of council; restore online access to advisory committee meetings.,,,S004;S010;S171
 gary-harvey,taxes,stated,Points to four straight 0% operating budgets and Barrie's first AAA credit rating; says tax-bill increases came mainly from service partners.,"Total property-tax increases, which include service partners such as police and the County of Simcoe, were 4.82% (2024), 4.31% (2025) and 3.95% (2026). The 0% applies to the City operating budget only; the City also kept a 2% infrastructure levy.",S020;S021;S018;S019;S022;S023,S008;S168
 gary-harvey,housing,stated,Cites $80M in development charge waivers and 779 affordable homes approved.,The City reports its Housing Community Improvement Plan has supported 248 affordable housing units since 2020. We found no City count of affordable units approved.,S016,S008;S011
@@ -583,3 +583,44 @@ innocent-legrand,t-wellbeing,none_found,,,,
 innocent-legrand,t-busing,none_found,,,,
 innocent-legrand,t-learning,none_found,,,,
 innocent-legrand,t-governance,none_found,,,,
+alex-nuttall,parks,stated,"Parks should be safe and welcoming for families and children; says public infrastructure spending should include recreation, parks and trails.",,,S197;S198;S199
+kay-sayer,parks,stated,"Says she would meet her tax goal without cutting a single park or other core service, by delaying big-ticket items.",,,S201
+russell-tighe,parks,stated,"Signed the Simcoe County Greenbelt Coalition's sustainability pledge, which commits signers to protecting natural heritage, farmland and clean water and to using green infrastructure.",,,S207
+tanya-saari,parks,stated,"Prioritize well-maintained parks; new homes must come with parks and other infrastructure. Signed the Simcoe County Greenbelt Coalition's sustainability pledge, which commits signers to protecting natural heritage, farmland and clean water and to using green infrastructure.",,,S004;S010;S201;S202;S207
+gary-harvey,parks,stated,"Points to a splash pad, pickleball courts and basketball courts coming to the Peggy Hill community centre.",,,S168
+michael-lewis,parks,none_found,,,,
+stefano-agostino,parks,stated,"Cleaner parks; parks should be planned alongside new development, and growth should preserve the waterfront.",,,S208
+shaughna-ainsworth,parks,stated,"Protect and enhance Barrie's beaches, parks, walking trails and tree-lined streets, including the North Shore Trail and Johnson's Beach.",,,S029;S030
+brent-bowser,parks,stated,Lists parks and green spaces as a priority; growth on the annexed land should include parks and protected natural areas.,,,S026;S032
+christian-cadera,parks,stated,Wants more green space in new neighbourhoods.,,,S026
+hafiz-rahman,parks,stated,Wants a leash-free dog park.,,,S035;S036
+pauline-stevenson,parks,none_found,,,,
+frank-casera,parks,stated,"Signed the Simcoe County Greenbelt Coalition's sustainability pledge, which commits signers to protecting natural heritage, farmland and clean water and to using green infrastructure.",,,S207
+shanicka-edwards,parks,none_found,,,,
+craig-nixon,parks,stated,Protect the waterfront as Ward 2 grows.,,,S061;S047
+ajmal-noushahi,parks,stated,"Streets and parks should get the attention they deserve; build safer roads, parks and neighbourhoods.",,,S209
+tracy-strohm,parks,none_found,,,,
+amy-courser,parks,stated,"Protect parks, green spaces and the environment; development should not sacrifice green space. Signed the Simcoe County Greenbelt Coalition's sustainability pledge, which commits signers to protecting natural heritage, farmland and clean water and to using green infrastructure.",,,S074;S073;S207
+ben-hughes,parks,stated,"Keep maintaining roads, parks and sidewalks in established neighbourhoods.",,,S210
+bryan-jones,parks,stated,"Safe, clean parks for everyone to enjoy.",,,S084
+ryan-rijo,parks,none_found,,,,
+iradat-ahmad,parks,stated,"Parks, along with roads, transit and servicing, should arrive with new development.",,,S093
+matthew-corbett,parks,none_found,,,,
+lori-galeazza,parks,stated,Protect public parks and lakefront spaces and keep them clean and safe for everyone.,,,S099
+patrick-harriott-stewart,parks,none_found,,,,
+arif-khan,parks,stated,"A balanced approach to responsible growth, healthy green spaces and the waterfront.",,,S102
+duarte-da-silva,parks,stated,"Signed the Simcoe County Greenbelt Coalition's sustainability pledge, which commits signers to protecting natural heritage, farmland and clean water and to using green infrastructure.",,,S207
+robert-thomson,parks,stated,"Cites an expanded outdoor library linked to community gardens in Lampman Park and a new multi-use playing surface there. Signed the Simcoe County Greenbelt Coalition's sustainability pledge, which commits signers to protecting natural heritage, farmland and clean water and to using green infrastructure.",,,S113;S207
+nasar-george-nader,parks,none_found,,,,
+nigussie-nigussie,parks,stated,"Points to $1.17 million for flood mitigation on Marta Crescent, $100,000 in Ferndale Woods Park improvements and his support for protecting the Ardagh Bluffs and Beacon Glen trails.",,,S120
+christel-pena,parks,none_found,,,,
+samina-alim,parks,stated,"Protect natural, agricultural and recreational spaces as the city grows.",,,S129
+amanda-fellows,parks,stated,"Development should account for its effect on nearby parks. Signed the Simcoe County Greenbelt Coalition's sustainability pledge, which commits signers to protecting natural heritage, farmland and clean water and to using green infrastructure.",,,S133;S207
+jim-harris,parks,stated,"Cites protecting parks and natural spaces, and a new planning permit system with added protection for heritage and mature trees.",,,S169
+norm-costello,parks,none_found,,,,
+sergio-morales,parks,stated,"Cites what he calls historic investment in Ward 9 parks this term, including new local parks and the redesign of Painswick Park.",,,S147
+asmar-naveed,parks,stated,Invest in parks and public spaces; wants a shared multi-use path on Dean Avenue.,,,S153;S151
+dave-weingarten,parks,none_found,,,,
+william-cadeau,parks,none_found,,,,
+bryn-hamilton,parks,stated,"Growth must bring adequate parks along with roads, parking and snow storage.",,,S162
+georgy-kapustin,parks,stated,"Parks must be considered before development is approved; residents need safe, usable streets, parks and public spaces.",,,S164
