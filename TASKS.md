@@ -67,7 +67,7 @@ These were cited through BarrieVotes.ca and not opened directly. For each one, c
 | Source | Article | Used for | Status |
 | --- | --- | --- | --- |
 | S025 | Ward 1 candidate says Barrie residents 'want action' on safety issues | Agostino | To do |
-| S026 | Ward 1 candidates weigh in on how Barrie should develop 460 hectares of annexed land | All Ward 1 candidates | To do |
+| S026 | Ward 1 candidates weigh in on how Barrie should develop 460 hectares of annexed land | All Ward 1 candidates | Done 2026-10-23 |
 | S029 | Ainsworth running on safety, accountability in Ward 1 | Ainsworth | To do |
 | S033 | Ward 1 candidate says communication, listening will guide campaign | Bowser | To do |
 | S037 | Ward 1 candidate believes in 'giving back to the community' (profile) | Rahman | To do |
