@@ -1,18 +1,20 @@
 ---
 import '../styles/global.css';
-import { USE_MOCK, lastUpdated, url } from '../lib/data';
+import { USE_MOCK, lastUpdated, races, url } from '../lib/data';
 import Logo from '../components/Logo.astro';
 
 interface Props { title: string; description?: string }
 const { title, description = 'A neutral, sourced guide to the candidates in Barrie’s 2026 municipal election.' } = Astro.props;
 const fullTitle = title === 'Home' ? 'Barrie Voter Guide 2026' : `${title} · Barrie Voter Guide 2026`;
 
-// Which nav section the current page belongs to; ward pages count as "Wards".
+// Which nav section the current page belongs to; ward pages count as "Wards", trustee pages as "Trustees".
 const page = Astro.url.pathname.replace(import.meta.env.BASE_URL.replace(/\/$/, ''), '').replace(/^\/|\/$/g, '');
-const section = page.startsWith('ward-') ? 'wards' : page;
+const trusteePages = races.filter((r) => r.type === 'trustee').map((r) => r.id);
+const section = page.startsWith('ward-') ? 'wards' : trusteePages.includes(page) ? 'trustees' : page;
 const nav = [
   { key: 'mayor', href: url('mayor/'), label: 'Mayor' },
   { key: 'wards', href: url('#wards'), label: 'Wards' },
+  { key: 'trustees', href: url('#trustees'), label: 'Trustees' },
   { key: 'standards', href: url('standards/'), label: 'Our standards' },
   { key: 'sources', href: url('sources/'), label: 'Sources' },
 ];

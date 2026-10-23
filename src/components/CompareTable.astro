@@ -1,10 +1,11 @@
 ---
 import type { Candidate } from '../lib/data';
-import { issues } from '../lib/data';
 import SourceLinks from './SourceLinks.astro';
 
 interface Props { candidates: Candidate[] }
 const { candidates } = Astro.props;
+// Every candidate in a race has the same issue list, in the same order.
+const issues = candidates[0].positions.map((p) => p.issue);
 ---
 <div class="compare">
   {issues.map((issue, i) => (

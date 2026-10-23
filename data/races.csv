@@ -1,12 +1,19 @@
-race_id,name,type,display_order,acclaimed
-mayor,Mayor,mayor,0,
-ward-1,Ward 1 Councillor,ward,1,
-ward-2,Ward 2 Councillor,ward,2,
-ward-3,Ward 3 Councillor,ward,3,
-ward-4,Ward 4 Councillor,ward,4,
-ward-5,Ward 5 Councillor,ward,5,
-ward-6,Ward 6 Councillor,ward,6,
-ward-7,Ward 7 Councillor,ward,7,no
-ward-8,Ward 8 Councillor,ward,8,
-ward-9,Ward 9 Councillor,ward,9,
-ward-10,Ward 10 Councillor,ward,10,
+race_id,name,type,display_order,acclaimed,board,area_wards,area_note
+mayor,Mayor,mayor,0,,,,
+ward-1,Ward 1 Councillor,ward,1,,,,
+ward-2,Ward 2 Councillor,ward,2,,,,
+ward-3,Ward 3 Councillor,ward,3,,,,
+ward-4,Ward 4 Councillor,ward,4,,,,
+ward-5,Ward 5 Councillor,ward,5,,,,
+ward-6,Ward 6 Councillor,ward,6,,,,
+ward-7,Ward 7 Councillor,ward,7,no,,,
+ward-8,Ward 8 Councillor,ward,8,,,,
+ward-9,Ward 9 Councillor,ward,9,,,,
+ward-10,Ward 10 Councillor,ward,10,,,,
+scdsb-w1-3,"Public school trustee: Wards 1, 2 and 3",trustee,20,no,Simcoe County District School Board,1;2;3,
+scdsb-w4-6,"Public school trustee: Wards 4, 5 and 6",trustee,21,no,Simcoe County District School Board,4;5;6,
+scdsb-w7-10,"Public school trustee: Wards 7, 8, 9 and 10",trustee,22,no,Simcoe County District School Board,7;8;9;10,
+smcdsb-w1-3-5,"Catholic school trustee: Wards 1, 2, 3 and 5",trustee,23,no,Simcoe Muskoka Catholic District School Board,1;2;3;5,
+smcdsb-w4-6-10,"Catholic school trustee: Wards 4, 6, 7, 8, 9 and 10",trustee,24,no,Simcoe Muskoka Catholic District School Board,4;6;7;8;9;10,
+viamonde,French public school trustee (Conseil scolaire Viamonde),trustee,25,no,Conseil scolaire Viamonde,1;2;3;4;5;6;7;8;9;10,One trustee for all of Barrie. The seat also covers communities outside Barrie.
+monavenir,French Catholic school trustee (Conseil scolaire catholique MonAvenir),trustee,26,no,Conseil scolaire catholique MonAvenir,1;2;3;4;5;6;7;8;9;10,One trustee for all of Barrie. The seat also covers communities outside Barrie.

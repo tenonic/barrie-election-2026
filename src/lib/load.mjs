@@ -37,6 +37,9 @@ export function mergeMock(real, mock) {
 
 export const splitIds = (s) => (s || '').split(';').map((x) => x.trim()).filter(Boolean);
 
+// Trustee races use their own issue list; mayor and ward races share the council list.
+export const issueGroup = (raceType) => (raceType === 'trustee' ? 'trustee' : 'council');
+
 export function checkData(d) {
   const errors = [];
   const ids = {};
@@ -81,9 +84,30 @@ export function checkData(d) {
     checkSources(`${where} (note)`, p.note_source_ids);
   }
 
+  for (const i of d.issues) {
+    if (!['council', 'trustee'].includes(i.applies_to)) errors.push(`issues/${i.issue_id}: applies_to must be "council" or "trustee", got "${i.applies_to}"`);
+  }
+
+  const raceType = new Map(d.races.map((r) => [r.race_id, r.type]));
+  const issueById = new Map(d.issues.map((i) => [i.issue_id, i]));
+  const candidateGroup = new Map(d.candidates.map((c) => [c.candidate_id, issueGroup(raceType.get(c.race_id))]));
+  for (const p of d.positions) {
+    const issue = issueById.get(p.issue_id);
+    const group = candidateGroup.get(p.candidate_id);
+    if (issue && group && issue.applies_to !== group) errors.push(`positions/${p.candidate_id}/${p.issue_id}: ${issue.applies_to} issue on a ${group} candidate`);
+  }
   for (const c of d.candidates) {
-    for (const i of d.issues) {
+    for (const i of d.issues.filter((x) => x.applies_to === candidateGroup.get(c.candidate_id))) {
       if (!seen.has(`${c.candidate_id}|${i.issue_id}`)) errors.push(`positions: ${c.candidate_id} is missing issue "${i.issue_id}"`);
+    }
+  }
+
+  for (const r of d.races) {
+    if (!['mayor', 'ward', 'trustee'].includes(r.type)) errors.push(`races/${r.race_id}: unknown type "${r.type}"`);
+    if (r.type === 'trustee') {
+      if (!r.board) errors.push(`races/${r.race_id}: trustee race needs a board`);
+      for (const w of splitIds(r.area_wards)) if (!ids.races.has(`ward-${w}`)) errors.push(`races/${r.race_id}: unknown ward "${w}" in area_wards`);
+      if (!splitIds(r.area_wards).length) errors.push(`races/${r.race_id}: trustee race needs area_wards`);
     }
   }
 

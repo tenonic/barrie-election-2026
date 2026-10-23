@@ -1,12 +1,19 @@
-issue_id,name,display_order
-taxes,Property taxes and budget,1
-housing,Housing affordability,2
-homelessness,Homelessness and encampments,3
-safety,Public safety and policing,4
-transit,Transit and roads,5
-strong-mayor,Strong-mayor powers,6
-growth,Growth and development,7
-addiction,Addiction and public drug use,8
-jobs,Jobs and economic development,9
-ebikes,E-bikes and e-scooters,10
-transparency,Transparency and council accountability,11
+issue_id,name,display_order,applies_to
+taxes,Property taxes and budget,1,council
+housing,Housing affordability,2,council
+homelessness,Homelessness and encampments,3,council
+safety,Public safety and policing,4,council
+transit,Transit and roads,5,council
+strong-mayor,Strong-mayor powers,6,council
+growth,Growth and development,7,council
+addiction,Addiction and public drug use,8,council
+jobs,Jobs and economic development,9,council
+ebikes,E-bikes and e-scooters,10,council
+transparency,Transparency and council accountability,11,council
+t-funding,School funding and budgets,1,trustee
+t-capacity,School capacity and new schools,2,trustee
+t-special-ed,Special education and student supports,3,trustee
+t-wellbeing,Student safety and mental health,4,trustee
+t-busing,Busing and transportation,5,trustee
+t-learning,"Programs, curriculum and parents’ role",6,trustee
+t-governance,Transparency and board accountability,7,trustee

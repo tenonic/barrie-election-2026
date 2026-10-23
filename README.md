@@ -1,6 +1,6 @@
 # Barrie Voter Guide 2026
 
-A neutral, sourced guide to the candidates for **Mayor** and **Ward Councillor** in Barrie, Ontario's municipal election on **Monday, October 26, 2026**.
+A neutral, sourced guide to the candidates for **Mayor**, **Ward Councillor** and **School Board Trustee** in Barrie, Ontario's municipal election on **Monday, October 26, 2026**.
 
 Not affiliated with the City of Barrie or any candidate or campaign.
 

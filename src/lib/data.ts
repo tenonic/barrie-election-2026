@@ -1,6 +1,6 @@
 // Builds the page-ready data from the CSV tables.
 // Mock data from data-mock/ is merged in only when USE_MOCK=1 (npm run dev:mock).
-import { readDir, mergeMock, checkData, splitIds } from './load.mjs';
+import { readDir, mergeMock, checkData, splitIds, issueGroup } from './load.mjs';
 
 export const USE_MOCK = process.env.USE_MOCK === '1';
 
@@ -21,17 +21,22 @@ export type Candidate = {
   website: string; facebook: string; instagram: string; email: string; sources: Source[];
   positions: Position[]; record: RecordItem[];
 };
-export type Race = { id: string; name: string; type: 'mayor' | 'ward'; acclaimed: boolean; candidates: Candidate[] };
+export type RaceType = 'mayor' | 'ward' | 'trustee';
+export type Race = {
+  id: string; name: string; type: RaceType; acclaimed: boolean; candidates: Candidate[];
+  board: string; wards: string[]; areaNote: string;
+};
 
 export const sources: Source[] = raw.sources;
 const sourceById = new Map(sources.map((s) => [s.source_id, s]));
 const toSources = (ids: string) => splitIds(ids).map((id) => sourceById.get(id)!);
 
 export const issues: Issue[] = [...raw.issues].sort((a, b) => Number(a.display_order) - Number(b.display_order));
+const issuesFor = (type: RaceType) => issues.filter((i: any) => i.applies_to === issueGroup(type));
 
 const lastName = (name: string) => name.trim().split(/\s+/).pop()!.toLowerCase();
 
-function buildCandidate(c: any): Candidate {
+function buildCandidate(c: any, type: RaceType): Candidate {
   return {
     id: c.candidate_id,
     name: c.name,
@@ -43,7 +48,7 @@ function buildCandidate(c: any): Candidate {
     instagram: c.instagram,
     email: c.email,
     sources: toSources(c.source_ids),
-    positions: issues.map((issue) => {
+    positions: issuesFor(type).map((issue) => {
       const p = raw.positions.find((x: any) => x.candidate_id === c.candidate_id && x.issue_id === issue.issue_id);
       return { issue, stated: p.status === 'stated', summary: p.summary, note: p.note, noteSources: toSources(p.note_source_ids), sources: toSources(p.source_ids) };
     }),
@@ -61,9 +66,12 @@ export const races: Race[] = [...raw.races]
     name: r.name,
     type: r.type,
     acclaimed: r.acclaimed === 'yes',
+    board: r.board || '',
+    wards: splitIds(r.area_wards),
+    areaNote: r.area_note || '',
     candidates: raw.candidates
       .filter((c: any) => c.race_id === r.race_id)
-      .map(buildCandidate)
+      .map((c: any) => buildCandidate(c, r.type))
       .sort((a: Candidate, b: Candidate) => lastName(a.name).localeCompare(lastName(b.name)) || a.name.localeCompare(b.name)),
   }));
 
