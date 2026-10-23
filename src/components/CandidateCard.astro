@@ -39,7 +39,7 @@ const prioritiesLabel = raceType === 'ward' ? 'Ward-specific priorities' : 'Othe
     <dt>Contact</dt>
     <dd>
       <ul>
-        {c.website && <li><a href={c.website} rel="noopener">Website</a></li>}
+        {c.website && <li><a href={c.website} target="_blank" rel="noopener">Website</a></li>}
         {c.facebook && <li>Facebook: {c.facebook}</li>}
         {c.instagram && <li>Instagram: {c.instagram}</li>}
         {c.email && <li><a href={`mailto:${c.email}`}>{c.email}</a></li>}

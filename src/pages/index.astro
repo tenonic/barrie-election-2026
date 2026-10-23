@@ -8,6 +8,7 @@ const status = (n: number, acclaimed: boolean) =>
   acclaimed ? 'Acclaimed' : n === 0 ? 'Candidate information coming soon' : `${n} candidates`;
 ---
 <Base title="Home">
+  <h1 class="sr-only">Barrie Voter Guide 2026</h1>
   <p>Compare the candidates for mayor and ward councillor before election day, <strong>Monday, October 26, 2026</strong>. Every position is paraphrased from the candidate’s own words and linked to a source.</p>
 
   <h2>Mayor</h2>
@@ -20,8 +21,8 @@ const status = (n: number, acclaimed: boolean) =>
     <h3 id="find-ward">Find your ward</h3>
     <p>Ward boundaries changed for 2026, so your ward may be different from last election. Look up your address:</p>
     <div class="button-row">
-      <a class="button" href="https://experience.arcgis.com/experience/ba627b0870f941bdafce6f2dc38836cd" rel="noopener">City of Barrie ward map</a>
-      <a class="button button-secondary" href="https://barrievotes.ca/vote/find-your-ward/" rel="noopener">Address lookup (BarrieVotes.ca)</a>
+      <a class="button" href="https://experience.arcgis.com/experience/ba627b0870f941bdafce6f2dc38836cd" target="_blank" rel="noopener">City of Barrie ward map</a>
+      <a class="button button-secondary" href="https://barrievotes.ca/vote/find-your-ward/" target="_blank" rel="noopener">Address lookup (BarrieVotes.ca)</a>
     </div>
     <p class="muted small">The City's map is the official source. The BarrieVotes.ca lookup is an unofficial tool that checks your address against the City's address list.</p>
   </section>

@@ -11,7 +11,7 @@ const { sources, label = 'Source' } = Astro.props;
     {sources.map((s, i) => (
       <>
         {i > 0 && '; '}
-        <a href={s.url} rel="noopener" title={s.title}>{s.outlet}</a>
+        <a href={s.url} target="_blank" rel="noopener" title={s.title}>{s.outlet}</a>
         {' '}<a href={url(`sources/#${s.source_id}`)} aria-label={`Details for source ${s.source_id}`}>[{s.source_id}]</a>
       </>
     ))}

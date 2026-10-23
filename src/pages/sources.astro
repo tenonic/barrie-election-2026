@@ -9,7 +9,7 @@ import { sources } from '../lib/data';
     {sources.map((s) => (
       <li id={s.source_id}>
         <span class="source-id">{s.source_id}</span>
-        <a href={s.url} rel="noopener">{s.title}</a>
+        <a href={s.url} target="_blank" rel="noopener">{s.title}</a>
         <span class="muted"> · {s.outlet} · accessed {s.date_accessed}</span>
         {s.access_note && <div class="muted small">{s.access_note}</div>}
       </li>
