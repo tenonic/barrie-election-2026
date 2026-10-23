@@ -37,7 +37,7 @@ A public, neutral website that helps Barrie voters compare candidates before the
 | 2026-10-22 | Internal notes (`PROJECT_NOTES.md`, `CLAUDE.md`) may be visible in the public repo, but must not appear on the site |
 | 2026-10-22 | Public repo `tenonic/barrie-election-2026`, branch `main`; commits use the GitHub no-reply email |
 | 2026-10-22 | Build the site with a mock-data preview (`data-mock/`, preview mode only) before the ward research; development continues in VS Code with Claude |
-| 2026-10-22 | Git workflow: short-lived branches per piece of work (for example `site-build`), merged into `main` after owner review, then deleted. Small fixes go straight to `main`. After go-live only `main` deploys |
+| 2026-10-22 | Git workflow: short-lived branches per piece of work (for example `site-build`), merged into `main` after owner review, then deleted. After go-live only `main` deploys (superseded 2026-10-23: always ask before pushing to `main`) |
 | 2026-10-22 | Astro 7. The owner turned off Windows Smart App Control, which blocked Astro's native compiler; the WebAssembly workaround was removed |
 | 2026-10-22 | Site palette is neutral (charcoal and muted brown); no colours associated with a political party |
 | 2026-10-22 | Owner requirement: every claim, fact and quote shown on the site links to its source (see `TASKS.md`) |
@@ -49,6 +49,7 @@ A public, neutral website that helps Barrie voters compare candidates before the
 | 2026-10-22 | Left out: a news report that a Ward 10 candidate was assaulted (personal matter, excluded by the public record rules), and a provincial run BarrieVotes attributes to Ben Hughes (identity not confirmed). Asmar Naveed's card notes his website says he has stepped back from campaigning, without health details |
 | 2026-10-23 | New timeline: voting is already open online and by phone, so all work finishes Fri Oct 23 or Sat Oct 24, then the site is frozen except for corrections. Public record pass cut from this election; the site keeps "Not yet reviewed". Add a sourced "How to vote" box to the home page |
 | 2026-10-23 | `sources.csv` gets an `internal_note` column the site never shows. Public notes only say what helps a reader: "Found via BarrieVotes.ca" for sources not yet read directly, "Candidate-submitted profile", and real caveats about a source |
+| 2026-10-23 | Always ask the owner before anything goes live (any push or merge to `main`), including small fixes. Replaces the earlier "small fixes go straight to `main`" rule |
 | 2026-10-22 | Race pages: candidate cards hold the profile (background, priorities, public record, contact); issue positions, sources and fact-check notes are in the comparison table |
 
 ## Data model (CSV)
