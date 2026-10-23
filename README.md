@@ -12,7 +12,7 @@ All content lives in linked CSV tables in [`data/`](data/):
 | --- | --- |
 | `races.csv` | Mayor plus wards 1-10 |
 | `candidates.csv` | One row per candidate: background, links, race |
-| `issues.csv` | The 11 issues every candidate is compared on |
+| `issues.csv` | The issues candidates are compared on: 12 for mayor and council, 7 for trustees |
 | `positions.csv` | One row per candidate per issue, with sources |
 | `public_record.csv` | Verifiable public record items |
 | `sources.csv` | Every source cited, with access date |

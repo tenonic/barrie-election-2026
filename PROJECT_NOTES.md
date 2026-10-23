@@ -52,6 +52,7 @@ A public, neutral website that helps Barrie voters compare candidates before the
 | 2026-10-23 | Always ask the owner before anything goes live (any push or merge to `main`), including small fixes. Replaces the earlier "small fixes go straight to `main`" rule |
 | 2026-10-23 | No feature branches: work directly on `main`, commit locally, show the change in the local preview, and push only after the owner says to publish |
 | 2026-10-23 | Also ask before every commit, not only before pushing |
+| 2026-10-23 | Add a 12th council issue, "Parks, green space and environment". Sources: BarrieToday mayoral roundups, campaign sites, and the Simcoe County Greenbelt Coalition sustainability pledge (sent to all candidates with public emails; signing counts as a stated position, not signing is not shown). The Greater Barrie Chamber mayoral Q&A is video only and was not used |
 | 2026-10-23 | Add school board trustees: separate 7-issue list (`applies_to` column in `issues.csv`), trustee races carry `board`, `area_wards` and `area_note`. Same method as council: BarrieToday profile plus campaign site listed with the City (or found by BarrieVotes.ca). Steeves, Virk and LeGrand have neither, so their entries are empty |
 | 2026-10-23 | Site name "Barrie Voter Guide 2026" (was "Barrie Election 2026"), with a logo: dark tile, brown check mark, name and a "2026" tag. Not similar to BarrieVotes.ca or City of Barrie branding |
 | 2026-10-22 | Race pages: candidate cards hold the profile (background, priorities, public record, contact); issue positions, sources and fact-check notes are in the comparison table |
@@ -69,7 +70,7 @@ A public, neutral website that helps Barrie voters compare candidates before the
 
 The website build converts the CSV files to JSON.
 
-## Issue list (11)
+## Issue list (12 council, 7 trustee)
 
 1. Property taxes and budget
 2. Housing affordability
@@ -82,6 +83,7 @@ The website build converts the CSV files to JSON.
 9. Jobs and economic development
 10. E-bikes and e-scooters
 11. Transparency and council accountability
+12. Parks, green space and environment (added 2026-10-23)
 
 Councillors also get a "Ward-specific priorities" field.
 

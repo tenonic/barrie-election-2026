@@ -4,7 +4,7 @@ import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const OUT = 'data-mock';
-const ISSUES = ['taxes', 'housing', 'homelessness', 'safety', 'transit', 'strong-mayor', 'growth', 'addiction', 'jobs', 'ebikes', 'transparency'];
+const ISSUES = ['taxes', 'housing', 'homelessness', 'safety', 'transit', 'strong-mayor', 'growth', 'addiction', 'jobs', 'ebikes', 'transparency', 'parks'];
 // Candidates per ward. Ward 4 is acclaimed; wards 2, 5 and 9 have 3+ candidates.
 const WARDS = { 1: 2, 2: 3, 3: 2, 4: 1, 5: 4, 6: 2, 8: 2, 9: 3, 10: 2 };
 const LETTERS = 'ABCD';
