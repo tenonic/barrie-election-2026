@@ -58,7 +58,10 @@ BarrieToday asked every candidate for a self-written profile. Collect one for ea
 | Mayor | Tanya Saari | To do |
 | Ward 7 | Gary Harvey | To do |
 | Ward 7 | Michael Lewis | Done 2026-10-22 (S015) |
-| Wards 1-6, 8-10 | Added once those wards are researched | To do |
+| Wards 1-6, 8-10 | 32 candidates | Done 2026-10-23 (verified profiles are marked in the articles table below) |
+| Ward 1 | Christian Cadera | To do (no profile found yet) |
+| Ward 4 | Patrick Harriott-Stewart | To do (no profile found yet) |
+| Ward 8 | Jim Harris | To do (no profile found yet) |
 
 ### BarrieToday articles cited in wards 1-10
 
