@@ -52,16 +52,16 @@ BarrieToday asked every candidate for a self-written profile. Collect one for ea
 
 | Race | Candidate | Status |
 | --- | --- | --- |
-| Mayor | Alex Nuttall | To do |
-| Mayor | Kay Sayer | To do |
-| Mayor | Russell J. Tighe | To do |
-| Mayor | Tanya Saari | To do |
-| Ward 7 | Gary Harvey | To do |
+| Mayor | Alex Nuttall | Done 2026-10-23 (S170) |
+| Mayor | Kay Sayer | Done 2026-10-23 (S172) |
+| Mayor | Russell J. Tighe | Done 2026-10-23 (S173) |
+| Mayor | Tanya Saari | Done 2026-10-23 (S171) |
+| Ward 7 | Gary Harvey | Done 2026-10-23 (S168) |
 | Ward 7 | Michael Lewis | Done 2026-10-22 (S015) |
 | Wards 1-6, 8-10 | 32 candidates | Done 2026-10-23 (verified profiles are marked in the articles table below) |
-| Ward 1 | Christian Cadera | To do (no profile found yet) |
-| Ward 4 | Patrick Harriott-Stewart | To do (no profile found yet) |
-| Ward 8 | Jim Harris | To do (no profile found yet) |
+| Ward 1 | Christian Cadera | None: no profile in BarrieToday election coverage (checked all 143 articles, 2026-10-23) |
+| Ward 4 | Patrick Harriott-Stewart | None: no profile in BarrieToday election coverage (checked all 143 articles, 2026-10-23) |
+| Ward 8 | Jim Harris | Done 2026-10-23 (S169) |
 
 ### BarrieToday articles cited in wards 1-10
 
