@@ -70,10 +70,10 @@ These were cited through BarrieVotes.ca and not opened directly. For each one, c
 | S026 | Ward 1 candidates weigh in on how Barrie should develop 460 hectares of annexed land | All Ward 1 candidates | Done 2026-10-23 |
 | S029 | Ainsworth running on safety, accountability in Ward 1 | Ainsworth | To do |
 | S033 | Ward 1 candidate says communication, listening will guide campaign | Bowser | To do |
-| S037 | Ward 1 candidate believes in 'giving back to the community' (profile) | Rahman | To do |
-| S040 | Absentee landlords, speeding among top issues for Ward 1 hopeful (profile) | Stevenson | To do |
+| S037 | Ward 1 candidate believes in 'giving back to the community' (profile) | Rahman | Done 2026-10-23 |
+| S040 | Absentee landlords, speeding among top issues for Ward 1 hopeful (profile) | Stevenson | Done 2026-10-23 |
 | S046 | Ward 2 candidates cite addiction crisis, downtown Barrie safety as key election issues | Nixon, Noushahi, Strohm | To do |
-| S053 | Ward 2 candidate running on 'show up or hush up' principle (profile) | Casera | To do |
+| S053 | Ward 2 candidate running on 'show up or hush up' principle (profile) | Casera | Done 2026-10-23 |
 | S056 | Ward 2 candidate says affordability among 'defining issues' this election (profile) | Edwards | To do |
 | S062 | 'Incredible' work being done to improve downtown, says Ward 2 incumbent (profile) | Nixon | To do |
 | S064 | Barrie must find ways to generate more revenue, says Ward 2 candidate (profile) | Noushahi | To do |
