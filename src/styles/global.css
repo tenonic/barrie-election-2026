@@ -72,7 +72,7 @@ main { padding-block: 2rem 3rem; }
   background: var(--accent-soft); border-left: 4px solid var(--accent);
   border-radius: var(--radius); padding: 1rem 1.25rem; margin: 1.5rem 0;
 }
-.box h2 { margin-top: 0; font-size: 1.1rem; }
+.box h2, .box h3 { margin-top: 0; font-size: 1.1rem; }
 .box > p:only-child { margin: 0; }
 .box ol, .box ul { margin: .5rem 0 0; padding-left: 1.25rem; }
 
