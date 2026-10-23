@@ -20,6 +20,32 @@ BarrieToday asked every candidate for a self-written profile. Collect one for ea
 | Ward 7 | Michael Lewis | Done 2026-10-22 (S015) |
 | Wards 1-6, 8-10 | Added once those wards are researched | To do |
 
+### BarrieToday articles cited in wards 1-3
+
+These were cited through BarrieVotes.ca and not opened directly. For each one, check that the positions linked to it on the site match the article, then mark the source as verified. "Profile" means a candidate-submitted profile (it also covers the profile table above).
+
+| Source | Article | Used for | Status |
+| --- | --- | --- | --- |
+| S025 | Ward 1 candidate says Barrie residents 'want action' on safety issues | Agostino | To do |
+| S026 | Ward 1 candidates weigh in on how Barrie should develop 460 hectares of annexed land | All Ward 1 candidates | To do |
+| S029 | Ainsworth running on safety, accountability in Ward 1 | Ainsworth | To do |
+| S033 | Ward 1 candidate says communication, listening will guide campaign | Bowser | To do |
+| S037 | Ward 1 candidate believes in 'giving back to the community' (profile) | Rahman | To do |
+| S040 | Absentee landlords, speeding among top issues for Ward 1 hopeful (profile) | Stevenson | To do |
+| S046 | Ward 2 candidates cite addiction crisis, downtown Barrie safety as key election issues | Nixon, Noushahi, Strohm | To do |
+| S053 | Ward 2 candidate running on 'show up or hush up' principle (profile) | Casera | To do |
+| S056 | Ward 2 candidate says affordability among 'defining issues' this election (profile) | Edwards | To do |
+| S062 | 'Incredible' work being done to improve downtown, says Ward 2 incumbent (profile) | Nixon | To do |
+| S064 | Barrie must find ways to generate more revenue, says Ward 2 candidate (profile) | Noushahi | To do |
+| S068 | Change needed to fix downtown Barrie, says Ward 2 candidate (profile) | Strohm | To do |
+| S069 | Election signs easy targets in Barrie campaign | Strohm (self-funding) | To do |
+| S074 | Ward 3 candidate vows to be 'independent voice' on Barrie council (profile) | Courser | To do |
+| S081 | Electrician hopes to bring 'practical, hands-on' approach to Ward 3 (profile) | Hughes | To do |
+| S084 | Ward 3 candidate wants to keep Barrie 'a special city' (profile) | Jones | To do |
+| S089 | Baseball helps shape Ward 3 candidate's attitude toward teamwork (profile) | Rijo | To do |
+
+Each source's link is on the site's Sources page, under its source ID.
+
 ### BarrieToday budget articles (tax fact-check note)
 
 These back the property-tax figures in Alex Nuttall's tax note. Check that each article gives the figure shown. The 2024 figure has no other source yet.
