@@ -377,7 +377,7 @@ norm-costello,taxes,stated,"Be more fiscally responsible: examine how money is s
 norm-costello,housing,stated,Says he focuses on innovative housing solutions.,,,S144
 norm-costello,homelessness,stated,Calls homelessness and drug use the city's biggest issue; wants a coordinated plan across all levels of government.,,,S142;S143
 norm-costello,safety,stated,"Supports community policing; calls Canada ""underpoliced"" and wants traffic enforcement instead of speed bumps and bollards.",,,S141;S143
-norm-costello,transit,stated,"Fix poor street conditions, review bus sizes and routes, and improve traffic-light timing at many intersections.",,,S141;S139
+norm-costello,transit,stated,"Fix poor street conditions, review bus sizes and routes, and improve traffic-light timing at many intersections. Wants windrow plow attachments so snow isn't left across driveways.",,,S141;S139;S142
 norm-costello,strong-mayor,none_found,,,,
 norm-costello,growth,stated,Wants road and utility upgrades in the Hewitt's secondary plan area before congestion becomes unmanageable.,,,S141
 norm-costello,addiction,stated,Says there is a gap in care for people with mental health and drug issues; wants stronger legal tools to remove drug-impaired people from the street.,,,S141;S143
@@ -401,7 +401,7 @@ asmar-naveed,homelessness,none_found,,,,
 asmar-naveed,safety,stated,"Supports measures that make neighbourhoods safer, cleaner and more livable.",,,S149
 asmar-naveed,transit,stated,"Street lighting, pedestrian crossings, sidewalks, speeding and transit connections; a shared multi-use path on Dean Avenue.",,,S150;S151
 asmar-naveed,strong-mayor,none_found,,,,
-asmar-naveed,growth,stated,"Development should be matched by infrastructure, roads, services, parks and responsible planning.",,,S152
+asmar-naveed,growth,stated,"Development should be matched by infrastructure, roads, services, parks and responsible planning.",,,S152;S153
 asmar-naveed,addiction,none_found,,,,
 asmar-naveed,jobs,none_found,,,,
 asmar-naveed,ebikes,none_found,,,,

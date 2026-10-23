@@ -94,10 +94,10 @@ These were cited through BarrieVotes.ca and not opened directly. For each one, c
 | S125 | Traffic, transit, school zones among Ward 6 candidate's concerns | Pena | Done 2026-10-23 (profile) |
 | S130 | Ward 8 candidate's career shaped by law, public policy and judicial work | Alim | Done 2026-10-23 (profile) |
 | S133 | 'Harder questions' must be asked about Barrie's growth, says Ward 8 newcomer | Fellows | Done 2026-10-23 (profile) |
-| S142 | Rising taxes, declining core services among top election issues, says Costello | Costello | To do |
-| S144 | Ward 9 candidate hosting meet-and-greet Wednesday evening | Costello (housing) | To do |
-| S147 | Ward 9 incumbent says local parks have seen 'historical investments' | Morales | To do |
-| S153 | Ward 9 candidate wants 'meaningful' community consultation | Naveed | To do |
+| S142 | Rising taxes, declining core services among top election issues, says Costello | Costello | Done 2026-10-23 (profile) |
+| S144 | Ward 9 candidate hosting meet-and-greet Wednesday evening | Costello (housing) | Done 2026-10-23 |
+| S147 | Ward 9 incumbent says local parks have seen 'historical investments' | Morales | Done 2026-10-23 (profile) |
+| S153 | Ward 9 candidate wants 'meaningful' community consultation | Naveed | Done 2026-10-23 (profile) |
 | S156 | Councillors have power to keep Barrie affordable, says Ward 9 candidate | Weingarten | To do |
 | S159 | Military vet wants 'every resident's voice' to be heard in Ward 10 | Cadeau (only source for his positions) | Done 2026-10-23 (profile) |
 | S162 | 'Smarter growth, safer neighbourhoods' among priorities for Ward 10 incumbent | Hamilton | To do |
