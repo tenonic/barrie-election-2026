@@ -50,6 +50,7 @@ A public, neutral website that helps Barrie voters compare candidates before the
 | 2026-10-23 | New timeline: voting is already open online and by phone, so all work finishes Fri Oct 23 or Sat Oct 24, then the site is frozen except for corrections. Public record pass cut from this election; the site keeps "Not yet reviewed". Add a sourced "How to vote" box to the home page |
 | 2026-10-23 | `sources.csv` gets an `internal_note` column the site never shows. Public notes only say what helps a reader: "Found via BarrieVotes.ca" for sources not yet read directly, "Candidate-submitted profile", and real caveats about a source |
 | 2026-10-23 | Always ask the owner before anything goes live (any push or merge to `main`), including small fixes. Replaces the earlier "small fixes go straight to `main`" rule |
+| 2026-10-23 | No feature branches: work directly on `main`, commit locally, show the change in the local preview, and push only after the owner says to publish |
 | 2026-10-22 | Race pages: candidate cards hold the profile (background, priorities, public record, contact); issue positions, sources and fact-check notes are in the comparison table |
 
 ## Data model (CSV)
