@@ -20,7 +20,7 @@ BarrieToday asked every candidate for a self-written profile. Collect one for ea
 | Ward 7 | Michael Lewis | Done 2026-10-22 (S015) |
 | Wards 1-6, 8-10 | Added once those wards are researched | To do |
 
-### BarrieToday articles cited in wards 1-6
+### BarrieToday articles cited in wards 1-10
 
 These were cited through BarrieVotes.ca and not opened directly. For each one, check that the positions linked to it on the site match the article, then mark the source as verified. "Profile" means a candidate-submitted profile (it also covers the profile table above).
 
@@ -52,6 +52,16 @@ These were cited through BarrieVotes.ca and not opened directly. For each one, c
 | S116 | Ward 6 candidate hopes to 'bring residents together' in Barrie | Nader (only source for his positions) | To do |
 | S120 | Ward 6 incumbent says approach rests on 'finding practical solutions' (profile) | Nigussie | To do |
 | S125 | Traffic, transit, school zones among Ward 6 candidate's concerns | Pena | To do |
+| S130 | Ward 8 candidate's career shaped by law, public policy and judicial work | Alim | To do |
+| S133 | 'Harder questions' must be asked about Barrie's growth, says Ward 8 newcomer | Fellows | To do |
+| S142 | Rising taxes, declining core services among top election issues, says Costello | Costello | To do |
+| S144 | Ward 9 candidate hosting meet-and-greet Wednesday evening | Costello (housing) | To do |
+| S147 | Ward 9 incumbent says local parks have seen 'historical investments' | Morales | To do |
+| S153 | Ward 9 candidate wants 'meaningful' community consultation | Naveed | To do |
+| S156 | Councillors have power to keep Barrie affordable, says Ward 9 candidate | Weingarten | To do |
+| S159 | Military vet wants 'every resident's voice' to be heard in Ward 10 | Cadeau (only source for his positions) | To do |
+| S162 | 'Smarter growth, safer neighbourhoods' among priorities for Ward 10 incumbent | Hamilton | To do |
+| S166 | Ward 10 candidate wants more thought put into Barrie's rapid growth | Kapustin | To do |
 
 Each source's link is on the site's Sources page, under its source ID.
 

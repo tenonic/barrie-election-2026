@@ -44,6 +44,8 @@ A public, neutral website that helps Barrie voters compare candidates before the
 | 2026-10-22 | "Incumbent" tag only for a councillor running in the ward they hold now (under the previous boundaries). A sitting councillor running in another ward has that role stated in their background instead |
 | 2026-10-22 | Recorded council votes are left for the public record pass, so positions only reflect what candidates say |
 | 2026-10-22 | Every candidate who cites "0% operating budget increases" (Nuttall, Harvey, Thomson, Nigussie) gets the same sourced context note on total tax increases |
+| 2026-10-22 | The same rule applies to the "779 affordable units approved" claim (Harvey, Hamilton): both get the same sourced housing note |
+| 2026-10-22 | Left out: a news report that a Ward 10 candidate was assaulted (personal matter, excluded by the public record rules), and a provincial run BarrieVotes attributes to Ben Hughes (identity not confirmed). Asmar Naveed's card notes his website says he has stepped back from campaigning, without health details |
 | 2026-10-22 | Race pages: candidate cards hold the profile (background, priorities, public record, contact); issue positions, sources and fact-check notes are in the comparison table |
 
 ## Data model (CSV)
@@ -104,7 +106,7 @@ Councillors also get a "Ward-specific priorities" field.
 | # | Step | Status |
 | --- | --- | --- |
 | 1 | Repo setup, data structure, migrate the mayor and Ward 7 research | Done 2026-10-22: https://github.com/tenonic/barrie-election-2026 |
-| 2 | Research wards 1-6 and 8-10 | In progress on branch `ward-research`: wards 1-6 done 2026-10-22 (25 candidates), awaiting owner review; wards 8-10 next |
+| 2 | Research wards 1-6 and 8-10 | Done 2026-10-22 on branch `ward-research` (35 candidates); awaiting owner review before merging to `main` |
 | 3 | Build the Astro site, with a mock-data preview first | Built 2026-10-22 and merged into `main`; owner review of layout ongoing |
 | 4 | Owner reviews, then the site goes live on GitHub Pages | Live early at the owner's request 2026-10-22: https://tenonic.github.io/barrie-election-2026/ (mayor and Ward 7 only; other wards "coming soon"). Every push to `main` redeploys |
 
