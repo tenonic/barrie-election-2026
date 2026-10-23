@@ -88,12 +88,12 @@ These were cited through BarrieVotes.ca and not opened directly. For each one, c
 | S099 | Listening, problem-solving 'second nature' to Ward 4 candidate | Galeazza | Done 2026-10-23 (profile) |
 | S103 | Former councillor eyes return to city hall in Ward 4 | Khan | Done 2026-10-23 (profile) |
 | S109 | Ward 5 hopeful looks to bring 'new era of politics' to council (profile) | Da Silva | Done 2026-10-23 |
-| S113 | Thomson looks to draw on experience in re-election bid | Thomson | To do |
+| S113 | Thomson looks to draw on experience in re-election bid | Thomson | Done 2026-10-23 (profile) |
 | S116 | Ward 6 candidate hopes to 'bring residents together' in Barrie | Nader (only source for his positions) | Done 2026-10-23 (profile) |
 | S120 | Ward 6 incumbent says approach rests on 'finding practical solutions' (profile) | Nigussie | Done 2026-10-23 |
-| S125 | Traffic, transit, school zones among Ward 6 candidate's concerns | Pena | To do |
-| S130 | Ward 8 candidate's career shaped by law, public policy and judicial work | Alim | To do |
-| S133 | 'Harder questions' must be asked about Barrie's growth, says Ward 8 newcomer | Fellows | To do |
+| S125 | Traffic, transit, school zones among Ward 6 candidate's concerns | Pena | Done 2026-10-23 (profile) |
+| S130 | Ward 8 candidate's career shaped by law, public policy and judicial work | Alim | Done 2026-10-23 (profile) |
+| S133 | 'Harder questions' must be asked about Barrie's growth, says Ward 8 newcomer | Fellows | Done 2026-10-23 (profile) |
 | S142 | Rising taxes, declining core services among top election issues, says Costello | Costello | To do |
 | S144 | Ward 9 candidate hosting meet-and-greet Wednesday evening | Costello (housing) | To do |
 | S147 | Ward 9 incumbent says local parks have seen 'historical investments' | Morales | To do |
