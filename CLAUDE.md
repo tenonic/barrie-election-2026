@@ -4,7 +4,7 @@ Read `PROJECT_NOTES.md` before doing any work. It holds the goal, decisions, dat
 
 - Follow the fairness standards and public record rules in `PROJECT_NOTES.md` for all research and content.
 - Ask the owner before starting heavy work (research rounds, builds, publishing).
-- **Always ask before making anything live.** Every push to `main` deploys the site. Work on `main` locally (no feature branches), commit, show the change in the local preview, then ask before pushing. No exceptions for small fixes; approval to make a change is not approval to publish it.
+- **Ask before every commit and every push.** Every push to `main` deploys the site. Work on `main` (no feature branches), show the change in the local preview, then ask before committing and before pushing. No exceptions for small fixes or internal notes; approval to make a change is not approval to commit or publish it.
 - After each decision or completed step, update the Decisions and Steps tables in `PROJECT_NOTES.md`.
 - Track open owner tasks (such as pages the owner must open manually) in `TASKS.md`.
 - `PROJECT_NOTES.md`, `TASKS.md` and this file are internal and must never appear on the published site.
