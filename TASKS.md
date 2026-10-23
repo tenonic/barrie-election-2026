@@ -111,9 +111,9 @@ These back the property-tax figures in Alex Nuttall's tax note. Check that each 
 
 | Source | Figure to check | Status |
 | --- | --- | --- |
-| S020 | 4.82% total increase, 2024 | To do |
-| S021 | 4.31% total increase, 2025 | To do |
-| S022 | 3.95% total increase, 2026 | To do |
+| S020 | 4.82% total increase, 2024 | Done 2026-10-23 |
+| S021 | 4.31% total increase, 2025 | Done 2026-10-23 |
+| S022 | 3.95% total increase, 2026 | Done 2026-10-23 |
 
 ## Claude
 
