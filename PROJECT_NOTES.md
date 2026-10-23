@@ -106,7 +106,7 @@ Councillors also get a "Ward-specific priorities" field.
 | # | Step | Status |
 | --- | --- | --- |
 | 1 | Repo setup, data structure, migrate the mayor and Ward 7 research | Done 2026-10-22: https://github.com/tenonic/barrie-election-2026 |
-| 2 | Research wards 1-6 and 8-10 | Done 2026-10-22 on branch `ward-research` (35 candidates); awaiting owner review before merging to `main` |
+| 2 | Research wards 1-6 and 8-10 | Done 2026-10-22 (35 candidates); merged and live 2026-10-23 |
 | 3 | Build the Astro site, with a mock-data preview first | Built 2026-10-22 and merged into `main`; owner review of layout ongoing |
 | 4 | Owner reviews, then the site goes live on GitHub Pages | Live early at the owner's request 2026-10-22: https://tenonic.github.io/barrie-election-2026/ (mayor and Ward 7 only; other wards "coming soon"). Every push to `main` redeploys |
 
