@@ -35,6 +35,13 @@ Items are written in a factual tone, with a date and a source.
 - Preferred sources: official City of Barrie records, candidates' own websites and statements, and established local news outlets.
 - Each source is recorded with its title, outlet, URL and the date it was accessed.
 - Where we found a source through BarrieVotes.ca and have not yet read it ourselves, the Sources page marks it "Found via BarrieVotes.ca".
+- Candidates' social media counts only from official campaign pages listed with the City of Barrie. Posts by other people, comments and shared content are not used.
+
+## Candidates who want something added
+
+Any candidate can point us to a statement they have published on an official channel: their campaign website or a campaign page listed with the City. We read the original, cite it directly and apply the same rules as for every other source. A message to us is not itself a source; the published statement is. Every candidate has the same opportunity.
+
+To send a link, or to report an error anywhere in the guide, email [tenonic@gmail.com](mailto:tenonic@gmail.com).
 
 ## Data entry
 

@@ -122,7 +122,7 @@ Councillors also get a "Ward-specific priorities" field.
 
 ## Open questions
 
-- **Corrections channel:** probably email plus a GitHub issue; not decided yet
+- **Corrections channel:** decided 2026-10-24: email tenonic@gmail.com, shown on the Standards page. A public Corrections page with the waiting entries is still to do
 - **Public record:** not researched yet. It needs one dedicated pass applied equally to all candidates (fairness rule 1).
 - **Uneven depth:** the Michael Lewis entry relies on one BarrieToday article (S015). The owner verified its full text on 2026-10-22 and the entry was updated from it. Still worth looking for a second source.
 - **Candidate profiles:** BarrieToday is publishing a candidate-submitted profile for each candidate. These are a consistent source for every race, but the owner has to paste them in because the site blocks automated access.

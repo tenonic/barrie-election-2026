@@ -13,7 +13,7 @@ Voting is already open: online and by phone, 24/7, from October 16 until 8pm on 
     - Voter Assistance Centres for in-person help with the digital platform, the voters list or a replacement PIN (bring ID): Allandale Recreation Centre, City Hall, East Bayfield Community Centre, Parkview Centre, Peggy Hill Team Community Centre, Surface Water Treatment Plant. Open Oct 22-23 10am-8pm, Oct 24 10am-6pm, closed Oct 25, Oct 26 10am-8pm. (The City page lists six centres; one FAQ says five.)
     - Ward 10: the first voter letters had the wrong ward; those PINs are deactivated. Use the yellow "Updated Voter Information" letter.
     - Also update home-page wording that assumes voting only happens on October 26.
-2. [ ] **Corrections channel** (owner decides), then a Corrections page with the two waiting entries (Claude, about 30 minutes).
+2. [ ] **Corrections channel** decided (email tenonic@gmail.com, on the Standards page, 2026-10-24); still to do: a Corrections page with the two waiting entries (Claude, about 30 minutes).
 3. [ ] **Finish the sourcing** (Claude, about 1 hour): see "Every claim sourced" below.
 4. [ ] **Owner: BarrieToday checks, single-source entries first:** S116 (Nader) and S159 (Cadeau), then the candidate profiles.
 
