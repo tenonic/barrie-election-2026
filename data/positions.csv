@@ -436,18 +436,18 @@ bryn-hamilton,transit,stated,Did not support the full closure of Mapleview Drive
 bryn-hamilton,strong-mayor,none_found,,,,
 bryn-hamilton,growth,stated,"Growth must produce safe, functional neighbourhoods, with roads, parks, schools and infrastructure, while standing up for existing neighbourhoods.",,,S162;S161
 bryn-hamilton,addiction,none_found,,,,
-bryn-hamilton,jobs,none_found,,,,
+bryn-hamilton,jobs,stated,"Cites the Lakehead University STEM hub and a professional soccer team, Toronto FC II, moving to Barrie in 2028.",,,S161
 bryn-hamilton,ebikes,none_found,,,,
 bryn-hamilton,transparency,stated,"Lists accessible leadership as a priority: responding to residents, showing up in neighbourhoods, asking difficult questions and following issues through.",,,S162
 georgy-kapustin,taxes,none_found,,,,
-georgy-kapustin,housing,stated,"Needs new housing, but growth shouldn't just meet development numbers; proposes rental licensing to hold landlords accountable.",,,S166;S164
-georgy-kapustin,homelessness,stated,Review how concentrating homelessness and crisis services downtown affects safety; publicly funded programs should show measurable results.,,,S164;S166
-georgy-kapustin,safety,stated,Supports a stronger visible police presence and active road-safety enforcement.,,,S166
-georgy-kapustin,transit,stated,"Says Barrie needs about 35 more buses; proposes direct rapid routes, better connections between neighbourhoods, employment areas and GO stations, a second exit at Barrie South GO and more turn lanes.",,,S165;S164;S166
+georgy-kapustin,housing,stated,"Needs new housing, but growth shouldn't just meet development numbers; proposes rental licensing to hold landlords accountable and limit disruptive temporary rentals. Says transportation costs are part of housing affordability.",,,S166;S164;S213
+georgy-kapustin,homelessness,stated,"Review how concentrating homelessness and crisis services downtown affects safety, and plan better-managed service hubs; publicly funded programs should show measurable results. Encourage city suppliers and contractors to hire people from shelters.",,,S164;S166
+georgy-kapustin,safety,stated,"Supports a stronger visible police presence, more officers patrolling and ticketing in residential areas, and active enforcement at intersections with repeated collisions; wants road designs reviewed so they discourage speeding.",,,S166;S164;S212
+georgy-kapustin,transit,stated,"Says Barrie needs about 35 more buses and three rapid bus lines with direct routes; better connections between neighbourhoods, employment areas and GO stations; a second exit at Barrie South GO; more turn lanes at major intersections; road work at off-peak hours; and a review of parallel streets for one-way conversions. Would seek a multi-year funding partnership with Ontario and the federal government for the expansion, with costs made public through a feasibility study.",,,S165;S164;S166;S212
 georgy-kapustin,strong-mayor,none_found,,,,
-georgy-kapustin,growth,stated,"Look at the full impact of development before deciding, and match approvals to service capacity.",,,S166;S164;S167
+georgy-kapustin,growth,stated,"Look at the full impact of development before deciding, and match approvals to service capacity. Proposes a 700-metre walking test to groceries, transit and parks for medium- and high-density developments, measured along the real walking route; ground-floor commercial space in new buildings; and judging the combined traffic effect of all developments on a corridor, citing the 750 and 790 Mapleview Drive East proposals (about 310 homes).",,,S166;S164;S167;S212;S213
 georgy-kapustin,addiction,stated,"People in crisis need real pathways into shelter, treatment, recovery, employment and stability.",,,S164
-georgy-kapustin,jobs,stated,Support small businesses and designated employment areas so people can build careers closer to home.,,,S166;S164
+georgy-kapustin,jobs,stated,"Support small businesses and designated employment areas so people can build careers closer to home, attracting work in technology, finance, engineering, health and the trades.",,,S166;S164
 georgy-kapustin,ebikes,none_found,,,,
 georgy-kapustin,transparency,stated,Require transparency on long-term infrastructure costs.,,,S164
 wes-ayranto,t-funding,none_found,,,,
@@ -622,5 +622,5 @@ sergio-morales,parks,stated,"Cites what he calls historic investment in Ward 9 p
 asmar-naveed,parks,stated,Invest in parks and public spaces; wants a shared multi-use path on Dean Avenue.,,,S153;S151
 dave-weingarten,parks,none_found,,,,
 william-cadeau,parks,none_found,,,,
-bryn-hamilton,parks,stated,"Growth must bring adequate parks along with roads, parking and snow storage.",,,S162
-georgy-kapustin,parks,stated,"Parks must be considered before development is approved; residents need safe, usable streets, parks and public spaces.",,,S164
+bryn-hamilton,parks,stated,"Growth must bring adequate parks along with roads, parking and snow storage. Cites a new Nottingham park, park lighting and bike racks, clean-up and tree-planting days, and creating a Conservation Trust to protect natural spaces.",,,S162;S161
+georgy-kapustin,parks,stated,"Parks must be considered before development is approved; residents need safe, usable streets, parks and public spaces. Wants outdoor play areas and green space between buildings in new developments.",,,S164;S212
