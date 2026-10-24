@@ -28,6 +28,18 @@ const nav = [
     <link rel="icon" href={url('favicon.svg')} type="image/svg+xml" />
     <meta name="description" content={description} />
     {USE_MOCK && <meta name="robots" content="noindex" />}
+    {/* Google Analytics: published site only, never in local or mock previews. */}
+    {import.meta.env.PROD && !USE_MOCK && (
+      <>
+        <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-V1QH2QKZPW"></script>
+        <script is:inline>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-V1QH2QKZPW');
+        </script>
+      </>
+    )}
   </head>
   <body>
     {USE_MOCK && (
